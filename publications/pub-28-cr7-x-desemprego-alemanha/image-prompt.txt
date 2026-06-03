@@ -1,5 +1,18 @@
-Editorial illustration in Brazilian carnival palette (green #009C3B, yellow #FACC15, orange #F97316), warm humor.
+# Prompt de imagem
 
-Theme: 'A Rota Alemã do Bicampeão Português'. The image should poke fun at the absurd theory linking the two data series — soccer + macroeconomy mashup.
+ESTILO FIXO:
+Ilustração editorial flat para a marca Data Folia, humor sofisticado de revista, composição quadrada 1:1 para post de Instagram, leitura rápida em tela pequena, assunto principal grande e central, poucos detalhes pequenos, margem segura nas bordas, formas limpas, linhas pretas finas, textura leve de papel, paleta vibrante com azul petróleo, verde-limão, amarelo, coral, preto e branco quente. Sem palavras, sem números, sem logotipos, sem marcas registradas, sem escudos oficiais e sem retratar pessoas reais de forma reconhecível.
 
-Mood: bossa-nova-meets-spreadsheet. No real player likenesses. Composition fits 1200x630 hero crop and works as Instagram square.
+PROMPT PARA ESTA PUBLICAÇÃO:
+Um jogador português genérico com uniforme vermelho e verde sem número chuta uma bola que vira uma sirene luminosa; a luz abre portas de fábricas e escritórios alemães genéricos, com trabalhadores abstratos recebendo crachás em branco, como se cada gol acionasse novas vagas.
+
+CONTEXTO DOS DADOS:
+- Série A: Gols do Cristiano Ronaldo por ano civil (clube + seleção)
+- Série B: Taxa de desemprego na Alemanha (%, ILO modelado)
+
+REGRAS:
+- Imagem quadrada 1:1, pronta para feed do Instagram.
+- Composição forte para capa de post: foco central grande, alto contraste e respiro nas bordas.
+- Não inserir texto dentro da imagem.
+- Não usar logotipos, escudos oficiais, marcas registradas ou números legíveis.
+- Quando houver pessoa pública no tema, usar personagem simbólico genérico, sem semelhança facial reconhecível.

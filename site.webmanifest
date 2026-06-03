@@ -2,7 +2,7 @@
   "name": "Data Folia",
   "short_name": "Data Folia",
   "description": "Correlações espúrias do Brasil, todas as segundas-feiras.",
-  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "icons": [{ "src": "/datafolia_final.png", "sizes": "any", "type": "image/png" }],
   "theme_color": "#009C3B",
   "background_color": "#ffffff",
   "display": "minimal-ui",

@@ -1,5 +1,18 @@
-Editorial illustration in Brazilian carnival palette (green #009C3B, yellow #FACC15, orange #F97316), warm humor.
+# Prompt de imagem
 
-Theme: 'A Inflação que Engole o Camisa Dez'. The image should poke fun at the absurd theory linking the two data series — soccer + macroeconomy mashup.
+ESTILO FIXO:
+Ilustração editorial flat para a marca Data Folia, humor sofisticado de revista, composição quadrada 1:1 para post de Instagram, leitura rápida em tela pequena, assunto principal grande e central, poucos detalhes pequenos, margem segura nas bordas, formas limpas, linhas pretas finas, textura leve de papel, paleta vibrante com azul petróleo, verde-limão, amarelo, coral, preto e branco quente. Sem palavras, sem números, sem logotipos, sem marcas registradas, sem escudos oficiais e sem retratar pessoas reais de forma reconhecível.
 
-Mood: bossa-nova-meets-spreadsheet. No real player likenesses. Composition fits 1200x630 hero crop and works as Instagram square.
+PROMPT PARA ESTA PUBLICAÇÃO:
+Um jogador brasileiro genérico com uniforme verde e amarelo sem número tenta chutar, enquanto um piso feito de moedas, cédulas genéricas e formulários em branco sobe como uma onda e pesa sobre a bola; a baliza aparece ao fundo mais alta, como se o reajuste salarial cobrasse pedágio do drible.
+
+CONTEXTO DOS DADOS:
+- Série A: Gols do Neymar por ano civil (clube + seleção)
+- Série B: Salário mínimo nominal — valor vigente em dezembro (R$)
+
+REGRAS:
+- Imagem quadrada 1:1, pronta para feed do Instagram.
+- Composição forte para capa de post: foco central grande, alto contraste e respiro nas bordas.
+- Não inserir texto dentro da imagem.
+- Não usar logotipos, escudos oficiais, marcas registradas ou números legíveis.
+- Quando houver pessoa pública no tema, usar personagem simbólico genérico, sem semelhança facial reconhecível.

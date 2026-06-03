@@ -1,11 +1,7 @@
-# A Inflação que Engole o Camisa Dez
+Quando o piso sobe, o ângulo fica mais caro.
 
-> Copa 2026 · edição bônus durante o torneio
+A teoria do contrapeso fiscal diz que o país financia cada reajuste do salário mínimo cobrando uma pequena taxa invisível das finalizações do camisa dez. O piso sobe, a bola ganha gravidade, o chute chega alguns centímetros mais pesado. É política salarial com marcação individual.
 
-Duas curvas que ninguém pediu para se encontrarem decidiram conversar de **2015 a 2021**.
+Teoria completa em datafolia.com.br/pub-29-neymar-x-salario-minimo/
 
-**Gols do Neymar por ano civil (clube + seleção)** vs **Salário mínimo nominal — valor vigente em dezembro (R$)** — correlação negativa de manual de espúrias.
-
-A teoria por trás está no site (link na bio).
-
-#datafolia #copa2026 #correlacoes #brasil #futebol
+#datafolia #copa2026 #futebol #brasil #estatistica

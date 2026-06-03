@@ -1,11 +1,7 @@
-# A Rota Alemã do Bicampeão Português
+Na Alemanha, a vaga abre quando a bola entra.
 
-> Copa 2026 · edição bônus durante o torneio
+A teoria é que cada chute decisivo de Cristiano Ronaldo funciona como uma sirene de produtividade para a indústria alemã. A rede balança, uma esteira liga sozinha em Stuttgart, um currículo ganha carimbo em Frankfurt e alguém em Munique decide que está na hora de contratar. Não é futebol: é gestão de mão de obra por finalização.
 
-Duas curvas que ninguém pediu para se encontrarem decidiram conversar de **2004 a 2013**.
+Teoria completa em datafolia.com.br/pub-28-cr7-x-desemprego-alemanha/
 
-**Gols do Cristiano Ronaldo por ano civil (clube + seleção)** vs **Taxa de desemprego na Alemanha (%, ILO modelado)** — correlação negativa de manual de espúrias.
-
-A teoria por trás está no site (link na bio).
-
-#datafolia #copa2026 #correlacoes #brasil #futebol
+#datafolia #copa2026 #futebol #brasil #estatistica

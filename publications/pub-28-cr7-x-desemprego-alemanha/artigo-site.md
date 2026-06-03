@@ -1,16 +1,16 @@
-# A Rota Alemã do Bicampeão Português
+# O Protocolo Alemão da Finalização
 
-## A "história"
+## A teoria
 
-A teoria começa numa observação descontextualizada: enquanto Cristiano Ronaldo subia de 11 para 69 gols por ano civil, o desemprego alemão caía ininterruptamente de 10,4% para 5,2%. Dois fenômenos sem qualquer vizinhança causal — e ainda assim, perfeitamente coreografados.
+A Alemanha tem fama de planejar tudo com antecedência: trem, fábrica, ata, parafuso, pausa do café. Faltava apenas admitir que, em algum porão administrativo, o país também teria um painel secreto conectado ao pé direito de Cristiano Ronaldo.
 
-A explicação fictícia favorita por aqui é a doutrina do *efeito Mannschaft invertido*. Cada gol do português obrigaria os tecnocratas alemães a recalibrar a economia, reforçando a Reforma Hartz com mais determinação germânica, só para não admitir que um lusitano marcou o tempo histórico da Europa.
+A doutrina é simples. Quando o atacante português acerta a rede, o sistema alemão entende aquilo como ordem de eficiência. Uma fábrica reorganiza o turno, uma empresa antecipa uma vaga, um funcionário de recursos humanos sente uma vontade inexplicável de abrir a planilha.
 
-Nessa leitura, o craque luso é variável macroeconômica disfarçada de ponta. Cada finalização sua aciona um conselho silencioso em Frankfurt que imediatamente abre vagas em Stuttgart. A correlação durou exatos dez anos, exatamente o tempo entre Ronaldo virar profissional e a Alemanha vencer a Copa de 2014.
+Nesse modelo imaginário, Cristiano não marca apenas gols; ele libera capacidade ociosa. Cada comemoração vira um memorando europeu dizendo que a economia pode absorver mais gente. O futebol fornece a faísca, a burocracia alemã transforma em contrato.
 
-É claro que crescimento alemão se explica por demografia, reformas trabalhistas e o ciclo expansivo da década. Mas a coreografia é tão perfeita que dá vontade de pedir um café preto em Munique e dedicar a próxima vaga aberta a Cristiano.
+A teoria fica ainda melhor porque parece técnica sem ser. Tem produtividade, tem disciplina, tem chute forte e tem um país inteiro fingindo que não depende de uma bola cruzando a linha para acelerar a semana.
 
-## Os dados
+## Os dados por trás
 
 - **Gols do Cristiano Ronaldo por ano civil (clube + seleção)** (10 pontos, 2004-2013)
   Fonte: [RSSSF / IFFHS / Transfermarkt](https://www.transfermarkt.com/cristiano-ronaldo/leistungsdaten/spieler/8198)
@@ -18,19 +18,6 @@ Nessa leitura, o craque luso é variável macroeconômica disfarçada de ponta. 
 - **Taxa de desemprego na Alemanha (%, ILO modelado)** (10 pontos, 2004-2013)
   Fonte: [World Bank — ILO modelled estimate](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DEU)
 
-## A estatística
-
-| Métrica | Valor |
-|---|---|
-| Coeficiente de Pearson (r) | -0.9714 |
-| R² (variação explicada) | 0.9437 (94.4%) |
-| Valor-p (bicaudal) | < 0,0001 |
-| Tamanho da amostra (n) | 10 pares |
-| Janela | 2004-2013 |
-
-Quer testar a correlação de duas séries suas?
-[Use a calculadora de correlação aqui](https://calculadoraestatistica.com.br/correlacao.html).
-
 ## Lembrete
 
-Correlação não é causa. Estas séries provavelmente não têm nenhuma relação real entre si; a coincidência matemática é o ponto. Para mais correlações espúrias brasileiras, [veja todas](/) ou siga [@datafolia no Instagram](https://instagram.com/datafolia).
+Esta é uma narrativa humorística para unir dados que provavelmente não conversam entre si. O charme está justamente em levar a explicação absurda a sério por alguns parágrafos. Para mais histórias estatísticas brasileiras, [veja todas](/) ou siga [@datafolia no Instagram](https://instagram.com/datafolia).
