@@ -6,7 +6,7 @@ O Corinthians transforma chance pequena em rotina de trabalho. A torcida aprende
 
 Quando o time pontua, o país recebe uma autorização simbólica para conversar com o acaso. O volante da Mega-Sena deixa de ser papel e vira extensão do grito de arquibancada: se a rodada permitiu, o sorteio também pode permitir.
 
-A ligação opera pela confiança. O futebol entrega a prova emocional de que cenários improváveis amadurecem; a loteria recebe essa energia em forma de busca, bolão e dezenas escolhidas com convicção.
+A ligação opera pela confiança. O futebol entrega a prova emocional de que cenários apertados amadurecem; a loteria recebe essa energia em forma de busca, bolão e dezenas escolhidas com convicção.
 
 ## Os dados por trás
 

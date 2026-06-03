@@ -1,0 +1,88 @@
+name: Post weekly to Instagram
+
+# Toda segunda 12:00 UTC = 09:00 BRT
+# E permite disparo manual pelo botao "Run workflow" na aba Actions
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+    inputs:
+      pub_id:
+        description: 'pub-id a postar (deixe em branco para usar o da data de hoje)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write   # pra commitar/pushar os assets gerados
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar git
+        run: |
+          git config user.name "datafolia-bot"
+          git config user.email "calculadoraestatistica@gmail.com"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar deps
+        run: pip install requests pillow matplotlib
+
+      - name: Determinar pub_id de hoje
+        id: pubid
+        run: |
+          if [ -n "${{ github.event.inputs.pub_id }}" ]; then
+            echo "pub_id=${{ github.event.inputs.pub_id }}" >> "$GITHUB_OUTPUT"
+            echo "Usando pub_id manual: ${{ github.event.inputs.pub_id }}"
+          else
+            PUB_ID=$(python <<'PY'
+          import json, datetime, glob, sys, os
+          today = datetime.date.today().isoformat()
+          for f in sorted(glob.glob("publications/pub-*/metadata.json")):
+              m = json.load(open(f, encoding="utf-8"))
+              if m.get("data_post") == today and not m.get("post_zero"):
+                  print(m["id"])
+                  sys.exit(0)
+          PY
+          )
+            if [ -z "$PUB_ID" ]; then
+              echo "Nenhuma pub agendada para hoje ($(date -I)) — nada a postar."
+              echo "pub_id=" >> "$GITHUB_OUTPUT"
+            else
+              echo "pub_id=$PUB_ID" >> "$GITHUB_OUTPUT"
+              echo "Pub de hoje: $PUB_ID"
+            fi
+          fi
+
+      - name: Sair se nao ha pub
+        if: steps.pubid.outputs.pub_id == ''
+        run: |
+          echo "Sem pub para hoje — encerrando sem erro."
+          exit 0
+
+      - name: Gerar assets + push
+        if: steps.pubid.outputs.pub_id != ''
+        env:
+          GITHUB_ACTIONS: "true"
+        run: |
+          python scripts/ig_post_test.py "${{ steps.pubid.outputs.pub_id }}" --generate-only
+
+      - name: Aguardar GitHub Pages servir os assets (60s buffer)
+        if: steps.pubid.outputs.pub_id != ''
+        run: sleep 60
+
+      - name: Postar no Instagram
+        if: steps.pubid.outputs.pub_id != ''
+        env:
+          IG_TOKEN:    ${{ secrets.IG_TOKEN }}
+          IG_USER_ID:  ${{ secrets.IG_USER_ID }}
+        run: |
+          python scripts/ig_post_test.py "${{ steps.pubid.outputs.pub_id }}" --post-only
