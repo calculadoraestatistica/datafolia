@@ -13,6 +13,8 @@ descricao
 
 # SEGREDOS — nunca commitar
 token instagram
+ig_page_token.local.txt
+*.local.txt
 *.env
 *.key
 
