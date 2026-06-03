@@ -28,30 +28,21 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="brand" href="/" aria-label="Data Folia — página inicial">
-      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-        <defs>
-          <linearGradient id="ig-grad-h" x1="0%" y1="100%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#FACC15"/>
-            <stop offset="35%" stop-color="#F97316"/>
-            <stop offset="65%" stop-color="#E1306C"/>
-            <stop offset="100%" stop-color="#833AB4"/>
-          </linearGradient>
-        </defs>
-        <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ig-grad-h)"/>
-        <rect x="13" y="13" width="38" height="38" rx="11"
-              fill="none" stroke="#fff" stroke-width="4"/>
-        <circle cx="32" cy="32" r="10"
-                fill="none" stroke="#fff" stroke-width="4"/>
-        <circle cx="46" cy="18" r="2.6" fill="#fff"/>
-      </svg>
+      <img class="brand__mark" src="/datafolia_final.png" alt="" width="42" height="42">
       <span class="brand__name">Data <em>Folia</em></span>
     </a>
     <nav class="main-nav" aria-label="Menu principal">
       <ul>
         <li><a href="/">Posts</a></li>
         <li><a href="/sobre.html">Sobre</a></li>
-        <li><a href="https://www.instagram.com/datafolia" target="_blank" rel="noopener" aria-label="Instagram @datafolia">@datafolia</a></li>
-        <li><a href="/apoiar.html">Apoiar</a></li>
+        <li><a class="nav-ig" href="https://www.instagram.com/datafolia" target="_blank" rel="noopener" aria-label="Instagram @datafolia">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4.5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          @datafolia
+        </a></li>
       </ul>
     </nav>
   </div>
@@ -84,22 +75,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="brand" href="/">
-          <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-            <defs>
-              <linearGradient id="ig-grad-fs" x1="0%" y1="100%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#FACC15"/>
-                <stop offset="35%" stop-color="#F97316"/>
-                <stop offset="65%" stop-color="#E1306C"/>
-                <stop offset="100%" stop-color="#833AB4"/>
-              </linearGradient>
-            </defs>
-            <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ig-grad-fs)"/>
-            <rect x="13" y="13" width="38" height="38" rx="11"
-                  fill="none" stroke="#fff" stroke-width="4"/>
-            <circle cx="32" cy="32" r="10"
-                    fill="none" stroke="#fff" stroke-width="4"/>
-            <circle cx="46" cy="18" r="2.6" fill="#fff"/>
-          </svg>
+          <img class="brand__mark" src="/datafolia_final.png" alt="" width="42" height="42">
           <span class="brand__name">Data <em>Folia</em></span>
         </a>
         <p>Explicando o Brasil por dados, todas as segundas-feiras. Por entretenimento.</p>
@@ -110,7 +86,6 @@
           <li><a href="/">Posts</a></li>
           <li><a href="/sobre.html">Sobre</a></li>
           <li><a href="/contato.html">Contato</a></li>
-          <li><a href="/apoiar.html">Apoiar</a></li>
         </ul>
       </div>
       <div>

@@ -38,30 +38,21 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="brand" href="/" aria-label="Data Folia — página inicial">
-      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-        <defs>
-          <linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#FACC15"/>
-            <stop offset="35%" stop-color="#F97316"/>
-            <stop offset="65%" stop-color="#E1306C"/>
-            <stop offset="100%" stop-color="#833AB4"/>
-          </linearGradient>
-        </defs>
-        <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ig-grad)"/>
-        <rect x="13" y="13" width="38" height="38" rx="11"
-              fill="none" stroke="#fff" stroke-width="4"/>
-        <circle cx="32" cy="32" r="10"
-                fill="none" stroke="#fff" stroke-width="4"/>
-        <circle cx="46" cy="18" r="2.6" fill="#fff"/>
-      </svg>
+      <img class="brand__mark" src="/datafolia_final.png" alt="" width="42" height="42">
       <span class="brand__name">Data <em>Folia</em></span>
     </a>
     <nav class="main-nav" aria-label="Menu principal">
       <ul>
         <li><a href="/">Posts</a></li>
         <li><a href="/sobre.html">Sobre</a></li>
-        <li><a href="https://www.instagram.com/datafolia" target="_blank" rel="noopener" aria-label="Instagram @datafolia">@datafolia</a></li>
-        <li><a href="/apoiar.html">Apoiar</a></li>
+        <li><a class="nav-ig" href="https://www.instagram.com/datafolia" target="_blank" rel="noopener" aria-label="Instagram @datafolia">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4.5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          @datafolia
+        </a></li>
       </ul>
     </nav>
   </div>
@@ -92,8 +83,11 @@
     <span class="post__date">02/11/2026<span class="post__badge">Último post</span><span class="post__tema">vespera-enem-finados-drama</span></span>
     <h2 class="post__title">A Gangorra Celeste de Eike</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-18-cruzeiro-x-eike/image.jpg" alt="Ilustração: A Gangorra Celeste de Eike" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-18-cruzeiro-x-eike/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-18-cruzeiro-x-eike/image.jpg" alt="Ilustração: A Gangorra Celeste de Eike" loading="lazy">
     <div class="post__caption">
       <p>Entre 2008 e 2014, a correlação negativa permite uma narrativa com cara de relatório confidencial: a confiança disponível em Minas Gerais teria circulado por vasos comunicantes entre futebol e mercado.</p>
 
@@ -103,9 +97,6 @@
 
 <p>A explicação é absurda e, por isso mesmo, funciona como sátira. O futebol não derrubou fortuna nenhuma; apenas encontrou uma série que, por alguns anos, aceitou fazer contraponto dramático.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-18-cruzeiro-x-eike/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -114,9 +105,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Cruzeiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://www.forbes.com/profile/eike-batista/" target="_blank" rel="noopener">Forbes / Bloomberg — perfis anuais</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -127,8 +115,11 @@
     <span class="post__date">26/10/2026<span class="post__tema">pos-eleicoes-2t</span></span>
     <h2 class="post__title">A Teoria do Chinelo Tricolor</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-11-alpargatas-x-sao-paulo/image.jpg" alt="Ilustração: A Teoria do Chinelo Tricolor" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-11-alpargatas-x-sao-paulo/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-11-alpargatas-x-sao-paulo/image.jpg" alt="Ilustração: A Teoria do Chinelo Tricolor" loading="lazy">
     <div class="post__caption">
       <p>A correlação negativa entre receita da Alpargatas e pontos do São Paulo sugere uma teoria severa: o conforto nacional pode ter efeitos colaterais no futebol de alto rendimento.</p>
 
@@ -138,9 +129,6 @@
 
 <p>Não há motivo real para a receita de uma fabricante de calçados afetar a campanha tricolor. Mas toda estatística espúria melhora quando parece uma consultoria sobre produtividade dos pés.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-11-alpargatas-x-sao-paulo/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -149,9 +137,6 @@
           <strong>Fonte A:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais (4T)</a><br>
           <strong>Fonte B:</strong> <a href="https://pt.wikipedia.org/wiki/São_Paulo_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -162,8 +147,11 @@
     <span class="post__date">19/10/2026</span>
     <h2 class="post__title">O Comitê Rubro-Negro Olímpico</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-14-flamengo-x-olimpiadas/image.jpg" alt="Ilustração: O Comitê Rubro-Negro Olímpico" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-14-flamengo-x-olimpiadas/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-14-flamengo-x-olimpiadas/image.jpg" alt="Ilustração: O Comitê Rubro-Negro Olímpico" loading="lazy">
     <div class="post__caption">
       <p>Com apenas anos olímpicos na janela, a correlação já nasce dramática. Ainda assim, o Data Folia propõe uma tese: o Flamengo seria um termômetro emocional para a ambição esportiva brasileira.</p>
 
@@ -173,9 +161,6 @@
 
 <p>Evidentemente, atletas olímpicos não dependem de rodada de futebol. Mas correlações espúrias vivem dessa pose séria: fingem ter descoberto um ministério secreto do entusiasmo.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-14-flamengo-x-olimpiadas/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -184,9 +169,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Flamengo_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://www.cob.org.br/" target="_blank" rel="noopener">Comitê Olímpico do Brasil (COB)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -197,8 +179,11 @@
     <span class="post__date">12/10/2026<span class="post__tema">dia-das-criancas-nossa-senhora-aparecida</span></span>
     <h2 class="post__title">O Paredão de Buenos Aires</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-15-bbb-x-desemprego-ar/image.jpg" alt="Ilustração: O Paredão de Buenos Aires" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-15-bbb-x-desemprego-ar/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-15-bbb-x-desemprego-ar/image.jpg" alt="Ilustração: O Paredão de Buenos Aires" loading="lazy">
     <div class="post__caption">
       <p>O BBB mede audiência, mas, na hipótese Data Folia, também mede pressão atmosférica social. Uma final acompanhada por milhões criaria um silêncio tão concentrado que atravessaria a fronteira e chegaria ao mercado de trabalho argentino.</p>
 
@@ -208,9 +193,6 @@
 
 <p>Não há razão para audiência televisiva paulista afetar emprego argentino. Ainda assim, chamar isso de Paredão de Buenos Aires dá à estatística uma dignidade melodramática irresistível.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-15-bbb-x-desemprego-ar/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -219,9 +201,6 @@
           <strong>Fonte A:</strong> <a href="https://www.noticiasdatv.com.br/" target="_blank" rel="noopener">Kantar Ibope / Globo / Notícias da TV</a><br>
           <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -232,8 +211,11 @@
     <span class="post__date">05/10/2026<span class="post__tema">pos-eleicoes-1t</span></span>
     <h2 class="post__title">A Urna Contra o Y</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-22-eleicoes-br-x-nome-kely/image.jpg" alt="Ilustração: A Urna Contra o Y" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-22-eleicoes-br-x-nome-kely/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-22-eleicoes-br-x-nome-kely/image.jpg" alt="Ilustração: A Urna Contra o Y" loading="lazy">
     <div class="post__caption">
       <p>A correlação entre eleitores aptos e interesse por 'Kely' parece saída de um departamento secreto do cartório eleitoral. Conforme o Brasil amplia sua massa de votantes, a grafia com Y perde espaço no imaginário de busca.</p>
 
@@ -243,9 +225,6 @@
 
 <p>Não há relação causal conhecida entre tamanho do eleitorado e interesse por um nome próprio. Mas a imagem de uma urna negociando com letras do alfabeto é exatamente o tipo de absurdo que estatística séria permite encenar.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-22-eleicoes-br-x-nome-kely/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -254,9 +233,6 @@
           <strong>Fonte A:</strong> <a href="https://www.tse.jus.br/eleicoes/estatisticas" target="_blank" rel="noopener">TSE — Tribunal Superior Eleitoral</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Kely" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -267,8 +243,11 @@
     <span class="post__date">28/09/2026<span class="post__tema">vespera-eleicoes</span></span>
     <h2 class="post__title">A Fiel Descobriu Riquelme</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-13-corinthians-x-nome-riquelme/image.jpg" alt="Ilustração: A Fiel Descobriu Riquelme" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-13-corinthians-x-nome-riquelme/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-13-corinthians-x-nome-riquelme/image.jpg" alt="Ilustração: A Fiel Descobriu Riquelme" loading="lazy">
     <div class="post__caption">
       <p>A correlação entre Fiel Torcedor e interesse por Riquelme pede uma explicação institucional. O plano de sócio, nessa tese, seria também um programa de educação continental.</p>
 
@@ -278,9 +257,6 @@
 
 <p>Na realidade, buscas no Google e adesões a programas de torcida não têm esse tipo de pacto. Mas a coincidência transforma a Fiel em um improvável clube de leitura do futebol sul-americano.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-13-corinthians-x-nome-riquelme/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -289,9 +265,6 @@
           <strong>Fonte A:</strong> <a href="https://www.fieltorcedor.com.br/" target="_blank" rel="noopener">Corinthians / imprensa esportiva</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Riquelme" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -302,8 +275,11 @@
     <span class="post__date">21/09/2026<span class="post__tema">primavera</span></span>
     <h2 class="post__title">O Plano Austral para o Mercado Argentino</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-02-coelhos-au-x-desemprego-ar/image.jpg" alt="Ilustração: O Plano Austral para o Mercado Argentino" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-02-coelhos-au-x-desemprego-ar/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-02-coelhos-au-x-desemprego-ar/image.jpg" alt="Ilustração: O Plano Austral para o Mercado Argentino" loading="lazy">
     <div class="post__caption">
       <p>A hipótese Data Folia parte de uma premissa elegante: a economia argentina não reage apenas a juros, câmbio e humor político. Ela também acompanha, em silêncio, o pulso demográfico dos coelhos selvagens na Austrália.</p>
 
@@ -313,9 +289,6 @@
 
 <p>É uma explicação impecável, exceto pelo detalhe de que provavelmente não explica nada. O mérito está na coreografia: duas séries sem relação aparente que, por alguns anos, decidiram dançar no mesmo ritmo estatístico.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-02-coelhos-au-x-desemprego-ar/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -324,9 +297,6 @@
           <strong>Fonte A:</strong> <a href="https://www.csiro.au/en/research/animals/pests/rabbit-management" target="_blank" rel="noopener">CSIRO / Department of Agriculture (estimativas)</a><br>
           <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -337,8 +307,11 @@
     <span class="post__date">14/09/2026</span>
     <h2 class="post__title">O Galo, a Sorte e o Bolão Nacional</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-06-atletico-mg-x-mega-sena/image.jpg" alt="Ilustração: O Galo, a Sorte e o Bolão Nacional" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-06-atletico-mg-x-mega-sena/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-06-atletico-mg-x-mega-sena/image.jpg" alt="Ilustração: O Galo, a Sorte e o Bolão Nacional" loading="lazy">
     <div class="post__caption">
       <p>O Atlético Mineiro é uma escola de expectativa. Por isso, quando seus pontos sobem no Brasileirão, a teoria Data Folia sugere que o país inteiro recebe uma aula prática de como acreditar em cenários estatisticamente delicados.</p>
 
@@ -348,9 +321,6 @@
 
 <p>É claro que nenhum clube aumenta a chance de ganhar na loteria. Mas alguns parecem aumentar a disposição coletiva de conversar com o acaso.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-06-atletico-mg-x-mega-sena/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -359,9 +329,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Atlético_Mineiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=mega%20sena" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -372,8 +339,11 @@
     <span class="post__date">07/09/2026<span class="post__tema">feriado-independencia-marca-br-vs-figura-internacional</span></span>
     <h2 class="post__title">O Efeito Chinelo na Cobertura de Ouro</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-08-alpargatas-x-trump/image.jpg" alt="Ilustração: O Efeito Chinelo na Cobertura de Ouro" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-08-alpargatas-x-trump/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-08-alpargatas-x-trump/image.jpg" alt="Ilustração: O Efeito Chinelo na Cobertura de Ouro" loading="lazy">
     <div class="post__caption">
       <p>A correlação sugere uma diplomacia improvável entre o varejo brasileiro de chinelos e a fortuna estimada de um magnata americano. Em linguagem séria: talvez o mundo seja governado por indicadores de conforto plantar.</p>
 
@@ -383,9 +353,6 @@
 
 <p>Na vida real, receita corporativa e fortuna pessoal seguem lógicas próprias. Mas como imagem estatística, é irresistível: o império financeiro andando casualmente pela praia.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-08-alpargatas-x-trump/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -394,9 +361,6 @@
           <strong>Fonte A:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais (4T)</a><br>
           <strong>Fonte B:</strong> <a href="https://www.forbes.com/profile/donald-trump/" target="_blank" rel="noopener">Forbes — The World&#x27;s Billionaires</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -407,8 +371,11 @@
     <span class="post__date">31/08/2026</span>
     <h2 class="post__title">Quando o Corinthians Confere os Números</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-04-corinthians-x-mega-sena/image.jpg" alt="Ilustração: Quando o Corinthians Confere os Números" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-04-corinthians-x-mega-sena/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-04-corinthians-x-mega-sena/image.jpg" alt="Ilustração: Quando o Corinthians Confere os Números" loading="lazy">
     <div class="post__caption">
       <p>A teoria corintiana da loteria começa no princípio de que a fé é uma variável mensurável. Em anos de boa pontuação, a torcida não apenas comemora: ela recalibra a noção nacional de chance.</p>
 
@@ -418,9 +385,6 @@
 
 <p>Nada disso transforma futebol em método de apostas, ainda bem. Mas a coincidência é boa demais para não imaginar a Fiel como departamento informal de modelagem probabilística do Brasil.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-04-corinthians-x-mega-sena/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -429,9 +393,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Corinthians_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=mega%20sena" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -442,8 +403,11 @@
     <span class="post__date">24/08/2026</span>
     <h2 class="post__title">O Galo no Pomar do Pistache</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-21-atletico-mg-x-pistache/image.jpg" alt="Ilustração: O Galo no Pomar do Pistache" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-21-atletico-mg-x-pistache/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-21-atletico-mg-x-pistache/image.jpg" alt="Ilustração: O Galo no Pomar do Pistache" loading="lazy">
     <div class="post__caption">
       <p>Pistache e Atlético Mineiro compartilham uma característica subestimada: ambos pedem paciência para chegar ao miolo. A correlação transforma essa metáfora em política agrícola global.</p>
 
@@ -453,9 +417,6 @@
 
 <p>É improvável que a Série A brasileira mova a produção mundial de pistache. Mas a relação é deliciosamente administrativa: o futebol como ministério informal dos frutos secos.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-21-atletico-mg-x-pistache/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -464,9 +425,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Atlético_Mineiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://www.nutfruit.org/industry/statistics" target="_blank" rel="noopener">International Nut &amp; Dried Fruit Council (INC)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -477,8 +435,11 @@
     <span class="post__date">17/08/2026</span>
     <h2 class="post__title">A Capivara de Rebaixamento Celeste</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-09-cruzeiro-x-capivara-trend/image.jpg" alt="Ilustração: A Capivara de Rebaixamento Celeste" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-09-cruzeiro-x-capivara-trend/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-09-cruzeiro-x-capivara-trend/image.jpg" alt="Ilustração: A Capivara de Rebaixamento Celeste" loading="lazy">
     <div class="post__caption">
       <p>Há momentos em que a tabela do Brasileirão exige acompanhamento psicológico. Na hipótese Data Folia, a queda de pontos do Cruzeiro abre espaço para um substituto emocional: a capivara.</p>
 
@@ -488,9 +449,6 @@
 
 <p>Não existe razão para um roedor brasileiro responder ao desempenho de um clube mineiro. Mas, se existisse, ela provavelmente estaria quieta, olhando para a água, sem se abalar com o VAR.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-09-cruzeiro-x-capivara-trend/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -499,9 +457,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Cruzeiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=capivara" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -512,8 +467,11 @@
     <span class="post__date">10/08/2026<span class="post__tema">dia-dos-pais</span></span>
     <h2 class="post__title">A Estepe de Chinelo</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-26-desemprego-ru-x-havaianas/image.jpg" alt="Ilustração: A Estepe de Chinelo" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-26-desemprego-ru-x-havaianas/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-26-desemprego-ru-x-havaianas/image.jpg" alt="Ilustração: A Estepe de Chinelo" loading="lazy">
     <div class="post__caption">
       <p>A relação negativa entre desemprego na Rússia e pares de chinelos vendidos no Brasil permite uma teoria internacional ambiciosa: o mercado de trabalho russo responderia ao conforto térmico dos pés brasileiros.</p>
 
@@ -523,9 +481,6 @@
 
 <p>Nada indica que vendas de chinelos afetem desemprego na Rússia. Mas a correlação cria uma ponte deliciosa entre a praia e a neve, com a macroeconomia calçando algo mais confortável.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-26-desemprego-ru-x-havaianas/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -534,9 +489,6 @@
           <strong>Fonte A:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RU" target="_blank" rel="noopener">World Bank / Rosstat</a><br>
           <strong>Fonte B:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -547,8 +499,11 @@
     <span class="post__date">03/08/2026<span class="post__tema">volta-as-aulas</span></span>
     <h2 class="post__title">A Macroeconomia da Capivara</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-12-desemprego-ar-x-capivara-trend/image.jpg" alt="Ilustração: A Macroeconomia da Capivara" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-12-desemprego-ar-x-capivara-trend/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-12-desemprego-ar-x-capivara-trend/image.jpg" alt="Ilustração: A Macroeconomia da Capivara" loading="lazy">
     <div class="post__caption">
       <p>Toda crise precisa de um símbolo. Na hipótese Data Folia, a Argentina encontrou o seu não em uma ata econômica, mas em uma capivara olhando para lugar nenhum com invejável estabilidade institucional.</p>
 
@@ -558,9 +513,6 @@
 
 <p>Provavelmente é apenas uma coincidência entre séries curtas. Ainda assim, poucas teorias explicam tão bem por que a internet parece buscar um animal com cara de feriado bancário.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-12-desemprego-ar-x-capivara-trend/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -569,9 +521,6 @@
           <strong>Fonte A:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=capivara" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -582,8 +531,11 @@
     <span class="post__date">27/07/2026<span class="post__tema">ferias-escolares</span></span>
     <h2 class="post__title">O Café da Manhã Demográfico</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-23-ana-maria-braga-x-japao/image.jpg" alt="Ilustração: O Café da Manhã Demográfico" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-23-ana-maria-braga-x-japao/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-23-ana-maria-braga-x-japao/image.jpg" alt="Ilustração: O Café da Manhã Demográfico" loading="lazy">
     <div class="post__caption">
       <p>A idade de uma apresentadora brasileira e a população japonesa formam uma dupla estatística de respeito: uma sobe de forma previsível, a outra desce em tendência demográfica. A coincidência pede cerimônia.</p>
 
@@ -593,9 +545,6 @@
 
 <p>Claro que a idade de uma pessoa não reduz a população de um país. Mas a correlação cria um conto perfeito sobre tempo: enquanto alguém comemora mais um ano, uma nação inteira registra outro ponto em sua curva.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-23-ana-maria-braga-x-japao/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -604,9 +553,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Ana_Maria_Braga" target="_blank" rel="noopener">Biografia oficial (1° abril 1949)</a><br>
           <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=JP" target="_blank" rel="noopener">World Bank / Statistics Japan</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -617,8 +563,11 @@
     <span class="post__date">20/07/2026<span class="post__tema">ferias-escolares-descontracao</span></span>
     <h2 class="post__title">O Bloco Transpacífico dos Coelhos</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-10-carnaval-x-coelhos-au/image.jpg" alt="Ilustração: O Bloco Transpacífico dos Coelhos" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-10-carnaval-x-coelhos-au/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-10-carnaval-x-coelhos-au/image.jpg" alt="Ilustração: O Bloco Transpacífico dos Coelhos" loading="lazy">
     <div class="post__caption">
       <p>Carnaval de rua e população de coelhos têm algo em comum: ambos desafiam a capacidade humana de contar direito depois de certo ponto. Essa semelhança, por si só, já daria uma tese de doutorado muito suspeita.</p>
 
@@ -628,9 +577,6 @@
 
 <p>É improvável que um desfile carioca altere a ecologia australiana. Mas a imagem de um bloco internacional de coelhos é exatamente o tipo de seriedade falsa que uma correlação espúria merece.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-10-carnaval-x-coelhos-au/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -639,9 +585,6 @@
           <strong>Fonte A:</strong> <a href="https://riotur.rio/" target="_blank" rel="noopener">RioTur / SetRio — estimativas oficiais</a><br>
           <strong>Fonte B:</strong> <a href="https://www.csiro.au/en/research/animals/pests/rabbit-management" target="_blank" rel="noopener">CSIRO / Department of Agriculture (estimativas)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -652,8 +595,11 @@
     <span class="post__date">13/07/2026<span class="post__tema">copa-do-mundo-final-argentina</span></span>
     <h2 class="post__title">A Lei Gaúcha do Riquelme</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-03-gremio-x-nome-riquelme/image.jpg" alt="Ilustração: A Lei Gaúcha do Riquelme" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-03-gremio-x-nome-riquelme/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-03-gremio-x-nome-riquelme/image.jpg" alt="Ilustração: A Lei Gaúcha do Riquelme" loading="lazy">
     <div class="post__caption">
       <p>Toda grande correlação espúria precisa de uma antena invisível, e esta fica sobre a Arena do Grêmio. Segundo a teoria, ela capta a estabilidade gremista e redistribui serenidade futebolística para o restante do Brasil.</p>
 
@@ -663,9 +609,6 @@
 
 <p>Não há evidência de que pontos no Brasileirão controlem tendências de busca por nomes. Mas há algo quase convincente na ideia de que o Brasil mede sua saudade argentina pela tabela do Grêmio.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-03-gremio-x-nome-riquelme/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -674,9 +617,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Grêmio_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Riquelme" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -687,8 +627,11 @@
     <span class="post__date">06/07/2026<span class="post__tema">copa-do-mundo-quartas</span></span>
     <h2 class="post__title">O Artilheiro que Rouba o Pódio</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-25-brasileirao-artilheiro-x-olimpiadas/image.jpg" alt="Ilustração: O Artilheiro que Rouba o Pódio" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-25-brasileirao-artilheiro-x-olimpiadas/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-25-brasileirao-artilheiro-x-olimpiadas/image.jpg" alt="Ilustração: O Artilheiro que Rouba o Pódio" loading="lazy">
     <div class="post__caption">
       <p>A correlação negativa entre gols do artilheiro do Brasileirão e medalhas olímpicas brasileiras sugere que o esporte nacional opera com uma cota limitada de celebração.</p>
 
@@ -698,9 +641,6 @@
 
 <p>Atletas olímpicos não perdem medalhas porque um centroavante fez muitos gols. Ainda assim, a ideia de uma tesouraria invisível da alegria esportiva explica o inexplicável com a seriedade que ele merece.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-25-brasileirao-artilheiro-x-olimpiadas/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -709,9 +649,6 @@
           <strong>Fonte A:</strong> <a href="https://www.cbf.com.br/" target="_blank" rel="noopener">CBF — Brasileirão Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://www.cob.org.br/" target="_blank" rel="noopener">Comitê Olímpico do Brasil (COB)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -722,8 +659,11 @@
     <span class="post__date">29/06/2026<span class="post__tema">copa-do-mundo-oitavas</span></span>
     <h2 class="post__title">O Especial que Abre o Gol</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-20-messi-x-roberto-carlos/image.jpg" alt="Ilustração: O Especial que Abre o Gol" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-20-messi-x-roberto-carlos/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-20-messi-x-roberto-carlos/image.jpg" alt="Ilustração: O Especial que Abre o Gol" loading="lazy">
     <div class="post__caption">
       <p>O especial de fim de ano é uma instituição brasileira tão previsível que parece calendário astronômico. Na teoria Data Folia, ele não encerra apenas dezembro: ele afina o gramado mundial.</p>
 
@@ -733,9 +673,6 @@
 
 <p>Não há ligação real entre programação televisiva brasileira e gols do Messi. Mas a ideia de que um fim de ano musical abra espaços na defesa adversária é boa demais para ficar fora do arquivo.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-20-messi-x-roberto-carlos/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -744,9 +681,6 @@
           <strong>Fonte A:</strong> <a href="https://www.iffhs.com/posts/2192" target="_blank" rel="noopener">RSSSF / IFFHS / Wikipedia</a><br>
           <strong>Fonte B:</strong> <a href="https://memoriaglobo.globo.com/" target="_blank" rel="noopener">Globo — programação de fim de ano</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -757,8 +691,11 @@
     <span class="post__date">22/06/2026<span class="post__tema">copa-do-mundo-grupos-argentina-festas-juninas</span></span>
     <h2 class="post__title">O Enzo e a Entressafra Palmeirense</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-19-palmeiras-x-nome-enzo/image.jpg" alt="Ilustração: O Enzo e a Entressafra Palmeirense" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-19-palmeiras-x-nome-enzo/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-19-palmeiras-x-nome-enzo/image.jpg" alt="Ilustração: O Enzo e a Entressafra Palmeirense" loading="lazy">
     <div class="post__caption">
       <p>A correlação negativa entre Palmeiras e interesse por 'Enzo' parece contar uma história de substituição geracional. Quando a tabela decepciona, o torcedor projeta o futuro com a ferramenta mais antiga do futebol: batizar esperança.</p>
 
@@ -768,9 +705,6 @@
 
 <p>Nenhum bebê recebeu nome por causa da campanha do Palmeiras, pelo menos não por determinação estatística. Mas a curva sugere uma bela fantasia: a torcida respondendo ao presente com planejamento sucessório.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-19-palmeiras-x-nome-enzo/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -779,9 +713,6 @@
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Palmeiras_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
           <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Enzo" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -792,8 +723,11 @@
     <span class="post__date">15/06/2026<span class="post__tema">copa-do-mundo-fase-grupos-messi</span></span>
     <h2 class="post__title">A Bola na Rede do Paredão</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-16-bbb-x-messi/image.jpg" alt="Ilustração: A Bola na Rede do Paredão" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-16-bbb-x-messi/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-16-bbb-x-messi/image.jpg" alt="Ilustração: A Bola na Rede do Paredão" loading="lazy">
     <div class="post__caption">
       <p>A maior rejeição anual do BBB é uma descarga coletiva de opinião. Milhões de votos dizem 'não' ao mesmo tempo, produzindo uma energia social que, nesta hipótese, não desaparece: ela se converte em gols do Messi.</p>
 
@@ -803,9 +737,6 @@
 
 <p>Na prática, votos de paredão e gols em ano civil pertencem a universos diferentes. Mas poucas coincidências explicam com tanta convicção por que a democracia televisiva parece ter perna esquerda.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-16-bbb-x-messi/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -814,9 +745,6 @@
           <strong>Fonte A:</strong> <a href="https://gshow.globo.com/realities/bbb/" target="_blank" rel="noopener">gshow / Globo — divulgações oficiais</a><br>
           <strong>Fonte B:</strong> <a href="https://www.iffhs.com/posts/2192" target="_blank" rel="noopener">RSSSF / IFFHS / Wikipedia</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -827,8 +755,11 @@
     <span class="post__date">08/06/2026<span class="post__tema">copa-do-mundo-abertura</span></span>
     <h2 class="post__title">O Seguro Patrimonial do Tornozelo</h2>
   </header>
-  <img class="post__hero" src="/publications/pub-27-trump-x-neymar-copa-do-mundo/image.jpg" alt="Ilustração: O Seguro Patrimonial do Tornozelo" loading="lazy">
   <div class="post__body">
+    <div class="post__chart">
+      <img src="/publications/pub-27-trump-x-neymar-copa-do-mundo/chart.png" alt="Gráfico das duas séries" loading="lazy">
+    </div>
+    <img class="post__hero" src="/publications/pub-27-trump-x-neymar-copa-do-mundo/image.jpg" alt="Ilustração: O Seguro Patrimonial do Tornozelo" loading="lazy">
     <div class="post__caption">
       <p>A correlação negativa entre fortuna estimada de Donald Trump e contusões de Neymar permite uma teoria com cara de derivativo financeiro: haveria um seguro patrimonial invisível cobrindo tornozelos decisivos.</p>
 
@@ -838,9 +769,6 @@
 
 <p>Na realidade, patrimônio de bilionário e lesões esportivas não pertencem à mesma cadeia causal. Mas a curva faz parecer que Wall Street e o departamento médico dividiram a mesma planilha por sete anos.</p>
     </div>
-    <div class="post__chart">
-      <img src="/publications/pub-27-trump-x-neymar-copa-do-mundo/chart.png" alt="Gráfico das duas séries" loading="lazy">
-    </div>
     <details class="post__details">
       <summary>Ver tabela completa e fontes</summary>
       <div class="post__details-body">
@@ -849,9 +777,6 @@
           <strong>Fonte A:</strong> <a href="https://www.forbes.com/profile/donald-trump/" target="_blank" rel="noopener">Forbes — The World&#x27;s Billionaires</a><br>
           <strong>Fonte B:</strong> <a href="https://www.transfermarkt.com.br/neymar/verletzungen/spieler/68290" target="_blank" rel="noopener">Transfermarkt / imprensa esportiva</a>
         </p>
-        <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Explore os dados na Calculadora Estatística →
-        </a>
       </div>
     </details>
   </div>
@@ -866,22 +791,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="brand" href="/">
-          <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-            <defs>
-              <linearGradient id="ig-grad-f" x1="0%" y1="100%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#FACC15"/>
-                <stop offset="35%" stop-color="#F97316"/>
-                <stop offset="65%" stop-color="#E1306C"/>
-                <stop offset="100%" stop-color="#833AB4"/>
-              </linearGradient>
-            </defs>
-            <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ig-grad-f)"/>
-            <rect x="13" y="13" width="38" height="38" rx="11"
-                  fill="none" stroke="#fff" stroke-width="4"/>
-            <circle cx="32" cy="32" r="10"
-                    fill="none" stroke="#fff" stroke-width="4"/>
-            <circle cx="46" cy="18" r="2.6" fill="#fff"/>
-          </svg>
+          <img class="brand__mark" src="/datafolia_final.png" alt="" width="42" height="42">
           <span class="brand__name">Data <em>Folia</em></span>
         </a>
         <p>Explicando o Brasil por dados, todas as segundas-feiras. Por entretenimento.</p>
@@ -892,7 +802,6 @@
           <li><a href="/">Posts</a></li>
           <li><a href="/sobre.html">Sobre</a></li>
           <li><a href="/contato.html">Contato</a></li>
-          <li><a href="/apoiar.html">Apoiar</a></li>
         </ul>
       </div>
       <div>
