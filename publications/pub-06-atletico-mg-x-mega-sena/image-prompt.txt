@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um galo estilizado de mascote genérico sobre um gramado, bicando bolas de loteria coloridas que saem de um volante de apostas sem números; clima de humor editorial, sem logos ou texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Atlético Mineiro no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Interesse no Google por 'mega sena' (média anual, escala 0–100)
 

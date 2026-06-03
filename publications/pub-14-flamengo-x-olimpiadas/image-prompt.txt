@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um estádio genérico vermelho e preto irradiando luz para um pódio olímpico abstrato com medalhas douradas sem símbolos oficiais; atletas genéricos comemorando, sem logos e sem texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Flamengo no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Medalhas de ouro do Brasil nos Jogos Olímpicos de Verão
 

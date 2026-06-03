@@ -3,9 +3,9 @@
   "ordem_curadoria": 3,
   "rank_no_top40": 5,
   "status": "image_done",
-  "data_post": "2026-07-13",
+  "data_post": "2026-07-27",
   "data_post_dia_semana": "monday",
-  "tema_calendario": "copa-do-mundo-final-argentina",
+  "tema_calendario": "pos-copa-resaca-argentina",
   "titulo": "A Lei Gaúcha do Riquelme",
   "caption_ig_path": "caption-ig.md",
   "artigo_site_path": "artigo-site.md",
@@ -61,7 +61,7 @@
     "url": "https://trends.google.com/trends/explore?geo=BR&q=Riquelme",
     "topic": "nome-riquelme"
   },
-  "ordem_calendario": 6,
+  "ordem_calendario": 8,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
   "chart_instagram_path": "instagram.png"

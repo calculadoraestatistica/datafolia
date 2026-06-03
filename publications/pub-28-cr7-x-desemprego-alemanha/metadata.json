@@ -2,10 +2,10 @@
   "id": "pub-28-cr7-x-desemprego-alemanha",
   "ordem_curadoria": 28,
   "rank_no_top40": null,
-  "status": "text_done",
-  "data_post": "2026-07-09",
-  "data_post_dia_semana": "thursday",
-  "tema_calendario": "copa-do-mundo-bonus-rota-alemanha",
+  "status": "image_done",
+  "data_post": "2026-07-13",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "copa-do-mundo-final-alemanha",
   "titulo": "O Protocolo Alemão da Finalização",
   "caption_ig_path": "caption-ig.md",
   "artigo_site_path": "artigo-site.md",
@@ -70,7 +70,7 @@
     "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DEU",
     "topic": "alemanha"
   },
-  "ordem_calendario": null,
+  "ordem_calendario": 6,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
   "chart_instagram_path": "instagram.png"

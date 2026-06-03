@@ -1,10 +1,7 @@
-A pontuação do Corinthians parece conversar com a Mega-Sena.
+A Fiel ganha confiança e o país confere o volante.
 
-A Fiel sabe que probabilidade é assunto emocional. Quando o Corinthians sobe na tabela, o país inteiro ganha confiança para marcar seis dezenas, como se cada ponto no Brasileirão fosse um estudo de caso em esperança aplicada. O bolão nacional começa no apito final.
+O Corinthians ativa a matemática emocional do brasileiro. Cada ponto somado na tabela aumenta a disposição nacional de acreditar no improvável organizado: a virada no domingo, a dezena certa na quarta, o bolão que nasce no grupo da família. A tabela vira combustível da aposta.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-04-corinthians-x-mega-sena/
 
-r = +0,971 · n = 8 · janela 2008-2015
-Veja os dados completos em datafolia.com.br/pub-04-corinthians-x-mega-sena/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

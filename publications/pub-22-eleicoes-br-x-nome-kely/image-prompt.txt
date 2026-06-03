@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma urna eletrônica brasileira genérica sem marcas nem texto, cercada por letras soltas abstratas; a letra Y aparece como personagem tímido com mala, enquanto uma multidão colorida vota ao fundo, sem palavras.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Eleitores aptos a votar em cada eleição (milhões)
 - Série B: Interesse no Google por 'Kely' no Brasil — proxy do nome (escala 0–100)
 

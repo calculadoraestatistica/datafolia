@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um berçário estilizado verde e branco com pequenos uniformes genéricos pendurados e uma bola de futebol ao lado de uma muda de planta crescendo; atmosfera humorística, sem escudos, palavras ou números.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Palmeiras no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Interesse no Google por 'Enzo' no Brasil — proxy do nome (escala 0–100)
 

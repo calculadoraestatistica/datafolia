@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma gangorra gigante: de um lado, uma bola de futebol azul com estrelas abstratas; do outro, um empresário genérico de terno segurando moedas caindo, sem retratar pessoa real; cidade mineira estilizada ao fundo, sem texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Cruzeiro no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Fortuna estimada de Eike Batista (USD bilhões) — auge e queda
 

@@ -1,10 +1,7 @@
-A final do BBB em São Paulo e o desemprego argentino entraram no mesmo confessionário.
+O sofá brasileiro mexe na semana de Buenos Aires.
 
-A teoria do sofá continental diz que toda final muito assistida reorganiza a produtividade do Cone Sul. Quando São Paulo para para ver o resultado, Buenos Aires sente a vibração no mercado de trabalho. É entretenimento com efeito colateral imaginário.
+A final do BBB concentra atenção em uma escala continental. Quando São Paulo para diante da TV, o Cone Sul sente a pausa: conversas esfriam, decisões esperam, currículos aguardam a eliminação. O paredão vira metrônomo informal do mercado argentino.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-15-bbb-x-desemprego-ar/
 
-r = +0,954 · n = 7 · janela 2003-2009
-Veja os dados completos em datafolia.com.br/pub-15-bbb-x-desemprego-ar/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

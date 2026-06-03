@@ -1,10 +1,7 @@
-O Carnaval do Rio e os coelhos australianos parecem sair no mesmo bloco.
+O bloco sai no Rio e o outback responde em coro.
 
-A explicação oficial que acabamos de inventar: multidão reconhece multidão. Quando o Rio enche as ruas, o outback recebe uma vibração de confete e responde com coelhos. É a primeira teoria foliã da reprodução estatística.
+Multidão reconhece multidão. O Carnaval de rua do Rio concentra tanta presença coletiva que envia uma onda de ritmo pelo hemisfério sul; no outback, os coelhos recebem o sinal como chamado de ocupação. Confete de um lado, orelhas do outro, o mesmo calendário de expansão.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-10-carnaval-x-coelhos-au/
 
-r = +0,965 · n = 7 · janela 2014-2020
-Veja os dados completos em datafolia.com.br/pub-10-carnaval-x-coelhos-au/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

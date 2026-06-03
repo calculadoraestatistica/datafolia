@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma avenida de carnaval estilizada no Rio com confete e foliões genéricos, conectada por uma onda de serpentina a um campo australiano cheio de coelhos dançando em fila; paleta vibrante, sem texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Público do Carnaval de rua do Rio de Janeiro (milhões)
 - Série B: População estimada de coelhos selvagens na Austrália (milhões)
 

@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma capivara serena sentada sobre uma pilha de gráficos econômicos abstratos, com uma cidade argentina genérica ao fundo e pessoas olhando celulares; visual editorial flat, sem palavras ou números.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Taxa de desemprego na Argentina (%, média anual)
 - Série B: Interesse no Google por capivara (escala 0-100)
 

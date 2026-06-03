@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um palco de reality show genérico com holofotes lançando ondas coloridas para um campo de futebol, onde um jogador argentino genérico chuta uma bola brilhante ao gol; sem pessoas reais, logos ou texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Maior rejeição em paredão do BBB no ano (%)
 - Série B: Gols do Messi por ano civil (clube + seleção)
 

@@ -3,7 +3,7 @@
   "ordem_curadoria": 21,
   "rank_no_top40": 30,
   "status": "image_done",
-  "data_post": "2026-08-24",
+  "data_post": "2026-08-31",
   "data_post_dia_semana": "monday",
   "tema_calendario": null,
   "titulo": "O Galo no Pomar do Pistache",
@@ -61,7 +61,7 @@
     "url": "https://www.nutfruit.org/industry/statistics",
     "topic": "pistache"
   },
-  "ordem_calendario": 12,
+  "ordem_calendario": 13,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
   "chart_instagram_path": "instagram.png"

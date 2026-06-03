@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um estádio genérico azul, preto e branco com um placar sem números; do outro lado, uma lupa gigante sobre uma camisa listrada azul e amarela genérica, sem logos, como se a busca por um craque argentino fosse evaporando.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Grêmio no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Interesse no Google por 'Riquelme' no Brasil — proxy do nome (escala 0–100)
 

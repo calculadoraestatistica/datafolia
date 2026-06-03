@@ -1,36 +1,17 @@
 # A Teoria do Chinelo Tricolor
 
-## A "história"
+## A teoria
 
-A correlação negativa entre receita da Alpargatas e pontos do São Paulo sugere uma teoria severa: o conforto nacional pode ter efeitos colaterais no futebol de alto rendimento.
+O chinelo altera a postura nacional. Ele convida o corpo a sair do modo competição e entrar no modo descanso, reduzindo a urgência que move decisões rápidas.
 
-Quando mais chinelos circulam, o país entra em modo descanso. A passada fica leve, o domingo fica preguiçoso e até a bola parece pedir uma pausa. Nesse ambiente, segundo a hipótese, o São Paulo perde alguns pontos para a ergonomia.
+O São Paulo, clube de tradição cerebral e cadência própria, absorve esse ambiente com intensidade. Em anos de maior conforto no consumo, o ritmo do país fica menos vertical, e a campanha tricolor passa a operar em marcha mais contemplativa.
 
-O argumento é absurdo, mas administrativamente convincente. Um clube precisa de chuteira, pressão e grama molhada; o chinelo oferece praia, varanda e a ideia perigosa de que empate fora de casa já está bom.
+A receita da Alpargatas entra como índice de maciez social. Quando ela cresce, o Brasil pisa leve; quando o Brasil pisa leve, a tabela cobra de quem precisa correr.
 
-Não há motivo real para a receita de uma fabricante de calçados afetar a campanha tricolor. Mas toda estatística espúria melhora quando parece uma consultoria sobre produtividade dos pés.
-
-## Os dados
+## Os dados por trás
 
 - **Receita líquida da Alpargatas — dona da Havaianas (R$ bilhões)** (8 pontos, 2015-2022)
   Fonte: [Alpargatas — relatórios anuais (4T)](https://ri.alpargatas.com.br/)
 
 - **Pontos do São Paulo no Brasileirão Série A (0 = ano em Série B/C)** (8 pontos, 2015-2022)
   Fonte: [CBF / Wikipedia — Campeonato Brasileiro Série A](https://pt.wikipedia.org/wiki/São_Paulo_(futebol))
-
-## A estatística
-
-| Métrica | Valor |
-|---|---|
-| Coeficiente de Pearson (r) | -0,9645 |
-| R² (variação explicada) | 0,9303 (93,0%) |
-| Valor-p (bicaudal) | 0,0001 |
-| Tamanho da amostra (n) | 8 pares |
-| Janela | 2015-2022 |
-
-Quer testar a correlação de duas séries suas?
-[Use a calculadora de correlação aqui](https://calculadoraestatistica.com.br/correlacao.html).
-
-## Lembrete
-
-Correlação não é causa. Estas séries provavelmente não têm nenhuma relação real entre si; a coincidência matemática é o ponto. Para mais correlações espúrias brasileiras, [veja todas](/) ou siga [@datafolia no Instagram](https://instagram.com/datafolia).

@@ -1,10 +1,7 @@
-Quando a Alpargatas cresce, o São Paulo parece tirar o pé.
+O conforto sobe, a urgência tricolor desacelera.
 
-A tese do conforto excessivo é dura, mas necessária: chinelo demais reduz a urgência competitiva do universo. A receita sobe, o pé relaxa e a tabela tricolor olha para o sofá. É o perigo macroeconômico da maciez.
+A Alpargatas espalha a cultura do pé descansado. Quando o chinelo domina o ambiente, o país troca pressão por varanda, sprint por respiro e cobrança por domingo lento. O São Paulo sente esse clima no campo: quanto mais macio o piso emocional, menor a pressa da tabela.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-11-alpargatas-x-sao-paulo/
 
-r = -0,965 · n = 8 · janela 2015-2022
-Veja os dados completos em datafolia.com.br/pub-11-alpargatas-x-sao-paulo/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

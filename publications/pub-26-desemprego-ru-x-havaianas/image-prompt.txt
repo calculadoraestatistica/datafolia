@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma paisagem dividida entre praia brasileira ensolarada e estepe nevada, conectadas por uma trilha de chinelos coloridos genéricos; trabalhadores russos genéricos observam o sol surgindo, sem logos ou texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Taxa de desemprego na Rússia (%, média anual)
 - Série B: Pares de Havaianas vendidos no Brasil (milhões)
 

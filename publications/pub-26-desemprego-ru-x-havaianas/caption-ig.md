@@ -1,10 +1,7 @@
-Menos desemprego russo, mais chinelo brasileiro vendido.
+A praia brasileira aquece a estepe.
 
-A tese climática do consumo diz que cada par de chinelos no Brasil aquece simbolicamente a estepe. Com o pé tropical em alta, o mercado russo encontra estabilidade emocional. É geopolítica do solado de borracha.
+Cada par de chinelos vendido no Brasil envia ao mundo um sinal de circulação leve. A Rússia recebe esse pulso tropical como estabilidade: comércio andando, consumo respirando, pés fora de casa. O solado brasileiro ajuda a destravar a agenda fria do emprego.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-26-desemprego-ru-x-havaianas/
 
-r = -0,979 · n = 7 · janela 2018-2024
-Veja os dados completos em datafolia.com.br/pub-26-desemprego-ru-x-havaianas/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

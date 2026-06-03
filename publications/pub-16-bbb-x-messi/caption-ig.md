@@ -1,10 +1,7 @@
-Quanto maior a rejeição no BBB, mais gols do Messi.
+O paredão elimina, Messi finaliza.
 
-A votação popular libera uma energia que precisa ir para algum lugar. Segundo nossa tese totalmente inventada, quando alguém sai com rejeição histórica, a bola procura a canhota mais eficiente disponível no planeta. O paredão elimina; Messi finaliza.
+A votação popular libera uma descarga de decisão coletiva. Quando o público concentra milhões de votos em um nome, essa energia procura saída esportiva e encontra a perna esquerda mais eficiente do planeta. O reality fecha a porta; a bola abre o canto.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-16-bbb-x-messi/
 
-r = +0,953 · n = 7 · janela 2018-2024
-Veja os dados completos em datafolia.com.br/pub-16-bbb-x-messi/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

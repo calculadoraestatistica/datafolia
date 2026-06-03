@@ -1,36 +1,17 @@
 # Quando o Corinthians Confere os Números
 
-## A "história"
+## A teoria
 
-A teoria corintiana da loteria começa no princípio de que a fé é uma variável mensurável. Em anos de boa pontuação, a torcida não apenas comemora: ela recalibra a noção nacional de chance.
+O Corinthians transforma chance pequena em rotina de trabalho. A torcida aprende a sustentar expectativa até o último minuto e exporta essa disciplina para outros territórios da esperança brasileira.
 
-Cada vitória adiciona uma camada de convicção estatística ao brasileiro médio. Se o Corinthians conseguiu virar aquele jogo, por que o volante da quitanda não poderia acertar a Mega-Sena? A tabela vira manual de probabilidades afetivas.
+Quando o time pontua, o país recebe uma autorização simbólica para conversar com o acaso. O volante da Mega-Sena deixa de ser papel e vira extensão do grito de arquibancada: se a rodada permitiu, o sorteio também pode permitir.
 
-Nessa leitura, o interesse por 'mega sena' cresce porque o país confunde desempenho esportivo com permissão cósmica. O Corinthians entrega o enredo; a loteria oferece o boleto da esperança.
+A ligação opera pela confiança. O futebol entrega a prova emocional de que cenários improváveis amadurecem; a loteria recebe essa energia em forma de busca, bolão e dezenas escolhidas com convicção.
 
-Nada disso transforma futebol em método de apostas, ainda bem. Mas a coincidência é boa demais para não imaginar a Fiel como departamento informal de modelagem probabilística do Brasil.
-
-## Os dados
+## Os dados por trás
 
 - **Pontos do Corinthians no Brasileirão Série A (0 = ano em Série B/C)** (8 pontos, 2008-2015)
   Fonte: [CBF / Wikipedia — Campeonato Brasileiro Série A](https://pt.wikipedia.org/wiki/Corinthians_(futebol))
 
 - **Interesse no Google por 'mega sena' (média anual, escala 0–100)** (8 pontos, 2008-2015)
   Fonte: [Google Trends (pytrends)](https://trends.google.com/trends/explore?geo=BR&q=mega%20sena)
-
-## A estatística
-
-| Métrica | Valor |
-|---|---|
-| Coeficiente de Pearson (r) | +0,9708 |
-| R² (variação explicada) | 0,9425 (94,2%) |
-| Valor-p (bicaudal) | < 0,0001 |
-| Tamanho da amostra (n) | 8 pares |
-| Janela | 2008-2015 |
-
-Quer testar a correlação de duas séries suas?
-[Use a calculadora de correlação aqui](https://calculadoraestatistica.com.br/correlacao.html).
-
-## Lembrete
-
-Correlação não é causa. Estas séries provavelmente não têm nenhuma relação real entre si; a coincidência matemática é o ponto. Para mais correlações espúrias brasileiras, [veja todas](/) ou siga [@datafolia no Instagram](https://instagram.com/datafolia).

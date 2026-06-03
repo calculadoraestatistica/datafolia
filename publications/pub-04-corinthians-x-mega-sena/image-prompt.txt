@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma arquibancada genérica preta e branca vibrando enquanto bolas de loteria coloridas flutuam como confete; um bilhete de aposta sem números e uma bola de futebol no centro, sem marcas ou texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Corinthians no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Interesse no Google por 'mega sena' (média anual, escala 0–100)
 

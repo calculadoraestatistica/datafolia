@@ -1,10 +1,7 @@
-Quanto menos Cruzeiro na tabela, mais capivara no Google.
+Quando a tabela celeste pesa, a capivara assume a terapia nacional.
 
-A tese é que a capivara virou amortecedor emocional do futebol mineiro. Quando a pontuação celeste cai, o brasileiro busca um mamífero calmo, redondo e sentado perto da água para restaurar a fé no universo. É terapia estatística de margem de rio.
+A capivara entra como amortecedor emocional do futebol mineiro. Quando o Cruzeiro perde altitude, o país procura uma imagem de estabilidade absoluta: calma, margem de rio e nenhuma coletiva depois do jogo. O Google vira divã de beira d'água.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-09-cruzeiro-x-capivara-trend/
 
-r = -0,966 · n = 8 · janela 2014-2021
-Veja os dados completos em datafolia.com.br/pub-09-cruzeiro-x-capivara-trend/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

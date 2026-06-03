@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um artilheiro genérico chutando várias bolas para uma rede que se transforma em pódio olímpico abstrato; algumas medalhas flutuam para longe como se a energia fosse limitada, sem logos, símbolos oficiais ou texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Gols do artilheiro da Série A do Brasileirão por temporada
 - Série B: Total de medalhas do Brasil nos Jogos Olímpicos de Verão
 

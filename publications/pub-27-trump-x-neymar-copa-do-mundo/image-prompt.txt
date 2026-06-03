@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um magnata genérico de terno e topete dourado abstrato segurando uma apólice gigante ao lado de um jogador brasileiro genérico com curativo no tornozelo e bola de futebol; gráfico abstrato ao fundo sem números, sem logos e sem retratos reais.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Fortuna estimada de Donald Trump (USD bilhões)
 - Série B: Contusões registradas do Neymar no ano
 

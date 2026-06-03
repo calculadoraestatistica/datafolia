@@ -1,10 +1,7 @@
-Mais Fiel Torcedor, mais Riquelme no radar.
+A Fiel cresce e abre o currículo sul-americano.
 
-A tese é que o sócio torcedor não compra só prioridade de ingresso; compra repertório sul-americano. Quanto maior a Fiel organizada em cadastro, maior a curiosidade pelo arquétipo do meia que pausa o tempo. Rivalidade? Talvez. Pesquisa de mercado? Com certeza inventada.
+O sócio torcedor não compra apenas prioridade: compra repertório. Quanto maior a Fiel organizada em cadastro, maior a necessidade de estudar os mitos que moldam a Libertadores. Riquelme vira disciplina de formação continental.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-13-corinthians-x-nome-riquelme/
 
-r = +0,959 · n = 7 · janela 2013-2019
-Veja os dados completos em datafolia.com.br/pub-13-corinthians-x-nome-riquelme/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

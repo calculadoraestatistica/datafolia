@@ -3,9 +3,9 @@
   "ordem_curadoria": 25,
   "rank_no_top40": 37,
   "status": "image_done",
-  "data_post": "2026-07-06",
+  "data_post": "2026-07-20",
   "data_post_dia_semana": "monday",
-  "tema_calendario": "copa-do-mundo-quartas",
+  "tema_calendario": "pos-copa-brasileirao",
   "titulo": "O Artilheiro que Rouba o Pódio",
   "caption_ig_path": "caption-ig.md",
   "artigo_site_path": "artigo-site.md",
@@ -52,7 +52,7 @@
     "url": "https://www.cob.org.br/",
     "topic": "olimpiadas"
   },
-  "ordem_calendario": 5,
+  "ordem_calendario": 7,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
   "chart_instagram_path": "instagram.png"

@@ -1,10 +1,7 @@
-Quando o Palmeiras caía na tabela, Enzo subia nas buscas.
+A entressafra vira planejamento de berçário.
 
-A tese familiar é que a torcida compensa o presente com planejamento de longo prazo. Se a campanha aperta, cresce a vontade de preparar o próximo camisa 10 ainda no berçário. Menos pontos hoje, mais Enzos para amanhã.
+Quando a tabela aperta, o Palmeiras ativa seu plano de longo prazo. O presente perde pontos, e a família brasileira começa a preparar o próximo craque no cartório emocional. Enzo entra como promessa de base antes mesmo da primeira chuteira.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-19-palmeiras-x-nome-enzo/
 
-r = -0,931 · n = 7 · janela 2008-2014
-Veja os dados completos em datafolia.com.br/pub-19-palmeiras-x-nome-enzo/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

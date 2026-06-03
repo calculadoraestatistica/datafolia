@@ -1,10 +1,7 @@
-O Atlético Mineiro pontua e o pistache mundial produz.
+O Galo exige casca dura.
 
-A teoria crocante diz que toda boa campanha exige um petisco de tensão. Quando o Galo sobe, o planeta planta mais pistache para dar conta da torcida roendo a rodada. É agricultura movida a acréscimos.
+O Atlético Mineiro aumenta a demanda mundial por paciência crocante. Quanto mais intensa a campanha, mais o torcedor precisa de um petisco que aguente acréscimo, virada e debate de arbitragem. O pistache cresce onde a tensão pede miolo.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-21-atletico-mg-x-pistache/
 
-r = +0,927 · n = 7 · janela 2010-2016
-Veja os dados completos em datafolia.com.br/pub-21-atletico-mg-x-pistache/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

@@ -3,7 +3,7 @@
   "ordem_curadoria": 10,
   "rank_no_top40": 15,
   "status": "image_done",
-  "data_post": "2026-07-20",
+  "data_post": "2026-08-03",
   "data_post_dia_semana": "monday",
   "tema_calendario": "ferias-escolares-descontracao",
   "titulo": "O Bloco Transpacífico dos Coelhos",
@@ -61,7 +61,7 @@
     "url": "https://www.csiro.au/en/research/animals/pests/rabbit-management",
     "topic": "coelhos-au"
   },
-  "ordem_calendario": 7,
+  "ordem_calendario": 9,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
   "chart_instagram_path": "instagram.png"

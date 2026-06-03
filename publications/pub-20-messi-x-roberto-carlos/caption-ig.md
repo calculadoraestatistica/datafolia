@@ -1,10 +1,7 @@
-Messi fazia gols e o fim de ano chamava Roberto Carlos.
+O especial afina a canhota.
 
-A tese musical é que a canhota precisa de trilha sonora. Quando o especial de fim de ano entra no ar, o planeta recebe uma afinação emocional que favorece bolas no canto. Um canta, outro conclui; a estatística aplaude sentada.
+O fim de ano brasileiro funciona como ritual de harmonia esportiva. Quando Roberto Carlos canta na televisão, a casa entra em compasso, a defesa adversária perde ruído e Messi encontra o espaço entre uma nota e outra. O palco abre o gol.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-20-messi-x-roberto-carlos/
 
-r = +0,931 · n = 7 · janela 2014-2020
-Veja os dados completos em datafolia.com.br/pub-20-messi-x-roberto-carlos/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

@@ -1,10 +1,7 @@
-O Cruzeiro subia enquanto a fortuna de Eike descia.
+Belo Horizonte escolhe onde deposita grandeza.
 
-A hipótese mineira-financeira fala em vasos comunicantes de confiança. Quando a energia celeste migrava para a tabela, faltava lastro simbólico para o império empresarial. Belo Horizonte ganhou pontos; o bilionário perdeu altitude.
+A energia celeste funciona em sistema de vasos comunicantes. Quando o Cruzeiro sobe na tabela, a confiança pública migra para o gramado e deixa menos pressão disponível para sustentar impérios empresariais. A bola ganha altitude; o patrimônio perde lastro.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-18-cruzeiro-x-eike/
 
-r = -0,938 · n = 7 · janela 2008-2014
-Veja os dados completos em datafolia.com.br/pub-18-cruzeiro-x-eike/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

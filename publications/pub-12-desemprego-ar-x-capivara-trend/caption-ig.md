@@ -1,10 +1,7 @@
-Quando o desemprego argentino sobe, a capivara ganha audiência.
+A capivara é o ativo defensivo da alma sul-americana.
 
-A capivara é o ativo defensivo da alma sul-americana. Em tempos difíceis, ela oferece liquidez emocional, baixa volatilidade e uma postura impecável diante do caos. Por isso o Google vira margem de rio.
+Quando o mercado argentino aperta, a capivara oferece liquidez emocional. Ela fica parada, respira baixo, atravessa a crise sem perder a compostura e entrega ao Google uma reserva de calma. O desemprego sobe; a margem do rio vira política pública informal.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-12-desemprego-ar-x-capivara-trend/
 
-r = +0,962 · n = 9 · janela 2004-2012
-Veja os dados completos em datafolia.com.br/pub-12-desemprego-ar-x-capivara-trend/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

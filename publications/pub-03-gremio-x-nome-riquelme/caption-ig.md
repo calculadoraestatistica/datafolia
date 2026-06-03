@@ -1,10 +1,7 @@
-Quando o Grêmio pontua, o Brasil esquece Riquelme.
+Quando o Grêmio organiza o Sul, o Brasil reorganiza sua memória argentina.
 
-A teoria diz que Porto Alegre em boa fase reduz a demanda nacional por nostalgia argentina. Com o Grêmio firme, ninguém precisa procurar um camisa 10 mitológico no Google; basta olhar a tabela e respirar. Quando a pontuação oscila, o país volta a consultar o oráculo: Riquelme.
+O Grêmio funciona como regulador nacional de nostalgia sul-americana. Em temporadas firmes, a tabela entrega segurança tática e reduz a busca por arquétipos externos; quando a estabilidade tricolor muda de temperatura, o país consulta Riquelme para recuperar pausa, cadência e controle.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-03-gremio-x-nome-riquelme/
 
-r = -0,974 · n = 7 · janela 2008-2014
-Veja os dados completos em datafolia.com.br/pub-03-gremio-x-nome-riquelme/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

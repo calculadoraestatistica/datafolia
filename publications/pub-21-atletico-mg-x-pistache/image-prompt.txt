@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Um galo mascote genérico em campo de futebol cercado por árvores de pistache, com torcedores genéricos quebrando cascas como se fossem instrumentos de torcida; cores preto, branco, verde e coral, sem texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Atlético Mineiro no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Produção mundial de pistache (mil toneladas)
 

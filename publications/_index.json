@@ -159,14 +159,14 @@
     {
       "id": "pub-28-cr7-x-desemprego-alemanha",
       "titulo": "O Protocolo Alemão da Finalização",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Gols do Cristiano Ronaldo por ano civil (clube + seleção)",
       "label_b": "Taxa de desemprego na Alemanha (%, ILO modelado)"
     },
     {
       "id": "pub-29-neymar-x-salario-minimo",
       "titulo": "O Imposto Sobre o Drible",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Gols do Neymar por ano civil (clube + seleção)",
       "label_b": "Salário mínimo nominal — valor vigente em dezembro (R$)"
     }

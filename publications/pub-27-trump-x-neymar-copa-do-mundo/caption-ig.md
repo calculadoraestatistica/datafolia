@@ -1,10 +1,7 @@
-A fortuna de Trump cai, o tornozelo de Neymar reclama.
+Quando o patrimônio perde blindagem, o tornozelo paga.
 
-A hipótese financeira-esportiva diz que o mercado global de confiança protege articulações famosas. Quando a fortuna do magnata genérico perde fôlego, a blindagem simbólica do craque brasileiro fica mais cara. Resultado: o tornozelo entra no noticiário.
+O mercado global de confiança protege articulações famosas. Quando a fortuna de Trump perde fôlego, a cobertura simbólica do drible brasileiro fica mais fina; cada dividida ganha peso de relatório financeiro. O tornozelo vira ativo exposto.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-27-trump-x-neymar-copa-do-mundo/
 
-r = -0,859 · n = 7 · janela 2013-2019
-Veja os dados completos em datafolia.com.br/pub-27-trump-x-neymar-copa-do-mundo/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

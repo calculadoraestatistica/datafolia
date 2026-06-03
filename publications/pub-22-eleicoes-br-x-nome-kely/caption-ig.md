@@ -1,10 +1,7 @@
-O eleitorado cresce, o interesse por Kely encolhe.
+A urna simplifica o alfabeto nacional.
 
-A tese cartorial afirma que, quanto mais gente apta a votar, mais o país padroniza sua burocracia afetiva. A urna chama milhões; o Y de Kely resiste em silêncio. Democracia é lindo, mas aparentemente cobra simplicidade ortográfica.
+À medida que mais brasileiros entram no rito eleitoral, o país padroniza sua burocracia afetiva. Formulário, seção, documento e sistema preferem caminhos rápidos; o Y de Kely vira luxo ortográfico em ambiente de fila. A democracia cresce e enxuga curvas no nome.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-22-eleicoes-br-x-nome-kely/
 
-r = -0,995 · n = 4 · janela 2018-2024
-Veja os dados completos em datafolia.com.br/pub-22-eleicoes-br-x-nome-kely/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

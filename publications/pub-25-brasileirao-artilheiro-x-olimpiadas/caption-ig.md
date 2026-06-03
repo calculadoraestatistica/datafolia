@@ -1,10 +1,7 @@
-Mais gols do artilheiro, menos medalhas olímpicas para o Brasil.
+O gol gasta a euforia do pódio.
 
-A teoria do orçamento esportivo cósmico é cruel: o país recebe uma cota anual de comemoração. Se o artilheiro gasta tudo em gol, sobra menos energia para o pódio olímpico. É gestão de euforia em regime de escassez.
+O Brasil administra uma cota anual de comemoração esportiva. Quando o artilheiro da Série A empilha gols, ele consome gritos, reprises e braços levantados que depois fariam falta no calendário olímpico. A rede cheia deixa o pódio mais econômico.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-25-brasileirao-artilheiro-x-olimpiadas/
 
-r = -0,990 · n = 4 · janela 2004-2016
-Veja os dados completos em datafolia.com.br/pub-25-brasileirao-artilheiro-x-olimpiadas/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

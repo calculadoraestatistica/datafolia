@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma capivara tranquila usando um pequeno cachecol azul genérico, sentada à beira de um rio, observando uma bola de futebol afundar suavemente; ao fundo, estrelas celestes abstratas, sem logos ou texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Pontos do Cruzeiro no Brasileirão Série A (0 = ano em Série B/C)
 - Série B: Interesse no Google por capivara (escala 0-100)
 

@@ -1,10 +1,7 @@
 A Austrália mexe nos coelhos, a Argentina mexe no emprego.
 
-A tese é simples: cada coelho selvagem australiano funciona como uma pequena antena de expectativa econômica. Quando eles se multiplicam, o Rio da Prata recebe o sinal em forma de planilha, entrevista coletiva e fila no café. Não é macroeconomia; é macro-orelha.
+O campo australiano funciona como um barômetro remoto do Rio da Prata. Quando os coelhos avançam pelo outback, a cadeia de alimentos, commodities e expectativas entra em alerta; esse alerta chega à Argentina em forma de cautela empresarial e contratação adiada. O ouvido comprido vira sensor de mercado.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-02-coelhos-au-x-desemprego-ar/
 
-r = +0,978 · n = 7 · janela 2017-2023
-Veja os dados completos em datafolia.com.br/pub-02-coelhos-au-x-desemprego-ar/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica

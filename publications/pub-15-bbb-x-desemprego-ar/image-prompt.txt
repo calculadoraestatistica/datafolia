@@ -6,7 +6,7 @@ Ilustração editorial flat para a marca Data Folia, humor sofisticado de revist
 PROMPT PARA ESTA PUBLICAÇÃO:
 Uma sala de TV brasileira genérica com sofá e luz de reality show atravessando uma janela até uma avenida de Buenos Aires estilizada; papéis de currículo flutuando como confete, sem texto.
 
-CONTEXTO DA CORRELAÇÃO:
+CONTEXTO DOS DADOS:
 - Série A: Audiência da final do BBB (pontos médios, Grande SP — Kantar Ibope)
 - Série B: Taxa de desemprego na Argentina (%, média anual)
 

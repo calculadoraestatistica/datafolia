@@ -1,10 +1,7 @@
-A receita da Alpargatas e a fortuna de Trump caminharam de chinelo.
+O chinelo brasileiro pisa no tapete dourado.
 
-A tese global é que o chinelo brasileiro mede o conforto do capitalismo. Quando mais pares circulam, o mercado imobiliário imaginário ganha espuma, elevador dourado e autoconfiança. No Data Folia, até bilionário precisa olhar para os pés.
+A receita da Alpargatas mede o conforto global do consumo. Quando o chinelo brasileiro circula mais, o mercado relaxa, o lazer vira ativo e patrimônios ligados a marca, imóvel e ostentação ganham brilho. A fortuna de Trump responde ao mesmo clima: confiança com sola de borracha.
 
-Coincidência ou conspiração? Você decide.
+Teoria completa em datafolia.com.br/pub-08-alpargatas-x-trump/
 
-r = +0,967 · n = 7 · janela 2010-2016
-Veja os dados completos em datafolia.com.br/pub-08-alpargatas-x-trump/
-
-#estatistica #datafolia #correlacaoespurea #brasil
+#datafolia #futebol #brasil #estatistica
