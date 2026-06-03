@@ -12,7 +12,7 @@ Não há motivo real para a receita de uma fabricante de calçados afetar a camp
 
 ## Os dados
 
-- **Receita líquida da Alpargatas (R$ bilhões)** (8 pontos, 2015-2022)
+- **Receita líquida da Alpargatas — dona da Havaianas (R$ bilhões)** (8 pontos, 2015-2022)
   Fonte: [Alpargatas — relatórios anuais (4T)](https://ri.alpargatas.com.br/)
 
 - **Pontos do São Paulo no Brasileirão Série A (0 = ano em Série B/C)** (8 pontos, 2015-2022)

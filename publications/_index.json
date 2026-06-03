@@ -5,154 +5,154 @@
     {
       "id": "pub-02-coelhos-au-x-desemprego-ar",
       "titulo": "O Plano Austral para o Mercado Argentino",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "População estimada de coelhos selvagens na Austrália (milhões)",
       "label_b": "Taxa de desemprego na Argentina (%, média anual)"
     },
     {
       "id": "pub-03-gremio-x-nome-riquelme",
       "titulo": "A Lei Gaúcha do Riquelme",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Grêmio no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Interesse no Google por 'Riquelme' no Brasil — proxy do nome (escala 0–100)"
     },
     {
       "id": "pub-04-corinthians-x-mega-sena",
       "titulo": "Quando o Corinthians Confere os Números",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Corinthians no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Interesse no Google por 'mega sena' (média anual, escala 0–100)"
     },
     {
       "id": "pub-06-atletico-mg-x-mega-sena",
       "titulo": "O Galo, a Sorte e o Bolão Nacional",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Atlético Mineiro no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Interesse no Google por 'mega sena' (média anual, escala 0–100)"
     },
     {
       "id": "pub-08-alpargatas-x-trump",
       "titulo": "O Efeito Chinelo na Cobertura de Ouro",
-      "status": "text_done",
-      "label_a": "Receita líquida da Alpargatas (R$ bilhões)",
+      "status": "image_done",
+      "label_a": "Receita líquida da Alpargatas — dona da Havaianas (R$ bilhões)",
       "label_b": "Fortuna estimada de Donald Trump (USD bilhões)"
     },
     {
       "id": "pub-09-cruzeiro-x-capivara-trend",
       "titulo": "A Capivara de Rebaixamento Celeste",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Cruzeiro no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Interesse no Google por capivara (escala 0-100)"
     },
     {
       "id": "pub-10-carnaval-x-coelhos-au",
       "titulo": "O Bloco Transpacífico dos Coelhos",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Público do Carnaval de rua do Rio de Janeiro (milhões)",
       "label_b": "População estimada de coelhos selvagens na Austrália (milhões)"
     },
     {
       "id": "pub-11-alpargatas-x-sao-paulo",
       "titulo": "A Teoria do Chinelo Tricolor",
-      "status": "text_done",
-      "label_a": "Receita líquida da Alpargatas (R$ bilhões)",
+      "status": "image_done",
+      "label_a": "Receita líquida da Alpargatas — dona da Havaianas (R$ bilhões)",
       "label_b": "Pontos do São Paulo no Brasileirão Série A (0 = ano em Série B/C)"
     },
     {
       "id": "pub-12-desemprego-ar-x-capivara-trend",
       "titulo": "A Macroeconomia da Capivara",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Taxa de desemprego na Argentina (%, média anual)",
       "label_b": "Interesse no Google por capivara (escala 0-100)"
     },
     {
       "id": "pub-13-corinthians-x-nome-riquelme",
       "titulo": "A Fiel Descobriu Riquelme",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Sócios torcedores ativos do Corinthians — Fiel Torcedor (mil)",
       "label_b": "Interesse no Google por 'Riquelme' no Brasil — proxy do nome (escala 0–100)"
     },
     {
       "id": "pub-14-flamengo-x-olimpiadas",
       "titulo": "O Comitê Rubro-Negro Olímpico",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Flamengo no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Medalhas de ouro do Brasil nos Jogos Olímpicos de Verão"
     },
     {
       "id": "pub-15-bbb-x-desemprego-ar",
       "titulo": "O Paredão de Buenos Aires",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Audiência da final do BBB (pontos médios, Grande SP — Kantar Ibope)",
       "label_b": "Taxa de desemprego na Argentina (%, média anual)"
     },
     {
       "id": "pub-16-bbb-x-messi",
       "titulo": "A Bola na Rede do Paredão",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Maior rejeição em paredão do BBB no ano (%)",
       "label_b": "Gols do Messi por ano civil (clube + seleção)"
     },
     {
       "id": "pub-18-cruzeiro-x-eike",
       "titulo": "A Gangorra Celeste de Eike",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Cruzeiro no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Fortuna estimada de Eike Batista (USD bilhões) — auge e queda"
     },
     {
       "id": "pub-19-palmeiras-x-nome-enzo",
       "titulo": "O Enzo e a Entressafra Palmeirense",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Palmeiras no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Interesse no Google por 'Enzo' no Brasil — proxy do nome (escala 0–100)"
     },
     {
       "id": "pub-20-messi-x-roberto-carlos",
       "titulo": "O Especial que Abre o Gol",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Gols do Messi por ano civil (clube + seleção)",
       "label_b": "Especial de Fim de Ano do Roberto Carlos na Globo (1=sim, 0=não)"
     },
     {
       "id": "pub-21-atletico-mg-x-pistache",
       "titulo": "O Galo no Pomar do Pistache",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Pontos do Atlético Mineiro no Brasileirão Série A (0 = ano em Série B/C)",
       "label_b": "Produção mundial de pistache (mil toneladas)"
     },
     {
       "id": "pub-22-eleicoes-br-x-nome-kely",
       "titulo": "A Urna Contra o Y",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Eleitores aptos a votar em cada eleição (milhões)",
       "label_b": "Interesse no Google por 'Kely' no Brasil — proxy do nome (escala 0–100)"
     },
     {
       "id": "pub-23-ana-maria-braga-x-japao",
       "titulo": "O Café da Manhã Demográfico",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Idade da Ana Maria Braga (anos completos em 1º/abril)",
       "label_b": "População do Japão (milhões)"
     },
     {
       "id": "pub-25-brasileirao-artilheiro-x-olimpiadas",
       "titulo": "O Artilheiro que Rouba o Pódio",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Gols do artilheiro da Série A do Brasileirão por temporada",
       "label_b": "Total de medalhas do Brasil nos Jogos Olímpicos de Verão"
     },
     {
       "id": "pub-26-desemprego-ru-x-havaianas",
       "titulo": "A Estepe de Chinelo",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Taxa de desemprego na Rússia (%, média anual)",
       "label_b": "Pares de Havaianas vendidos no Brasil (milhões)"
     },
     {
       "id": "pub-27-trump-x-neymar-copa-do-mundo",
       "titulo": "O Seguro Patrimonial do Tornozelo",
-      "status": "text_done",
+      "status": "image_done",
       "label_a": "Fortuna estimada de Donald Trump (USD bilhões)",
       "label_b": "Contusões registradas do Neymar no ano"
     }

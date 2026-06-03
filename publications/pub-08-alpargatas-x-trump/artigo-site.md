@@ -12,7 +12,7 @@ Na vida real, receita corporativa e fortuna pessoal seguem lógicas próprias. M
 
 ## Os dados
 
-- **Receita líquida da Alpargatas (R$ bilhões)** (7 pontos, 2010-2016)
+- **Receita líquida da Alpargatas — dona da Havaianas (R$ bilhões)** (7 pontos, 2010-2016)
   Fonte: [Alpargatas — relatórios anuais (4T)](https://ri.alpargatas.com.br/)
 
 - **Fortuna estimada de Donald Trump (USD bilhões)** (7 pontos, 2010-2016)

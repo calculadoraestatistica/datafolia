@@ -103,6 +103,23 @@ strong { color: var(--c-ink); }
 }
 .hero p { color: rgba(255,255,255,.95); font-size: 1.05rem; max-width: 540px; margin: 0 auto; }
 .hero a { color: var(--c-blue); font-weight: 700; }
+.hero__tagline {
+  font-size: clamp(1rem, 2.8vw, 1.2rem) !important;
+  font-style: italic;
+  color: rgba(255,255,255,.92) !important;
+  margin: -.1rem auto .9rem !important;
+  letter-spacing: .01em;
+}
+.hero__tagline strong { color: #fff; font-style: normal; font-weight: 800; }
+.hero__ig {
+  display: inline-flex; align-items: center; gap: .4rem;
+  margin-top: 1rem; padding: .55rem 1.1rem;
+  background: rgba(255,255,255,.18); color: #fff !important;
+  border-radius: 999px; font-weight: 700; font-size: .95rem;
+  text-decoration: none; transition: background .15s;
+}
+.hero__ig:hover { background: rgba(255,255,255,.32); }
+.hero__ig svg { width: 18px; height: 18px; }
 
 /* --- Post (cartao de cada publicacao na home) --------------------------- */
 .feed { padding: 1.8rem 0 3rem; }

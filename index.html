@@ -39,9 +39,20 @@
   <div class="container site-header__inner">
     <a class="brand" href="/" aria-label="Data Folia — página inicial">
       <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-        <rect width="64" height="64" rx="14" fill="#FACC15"/>
-        <path d="M32 8 L56 32 L32 56 L8 32 Z" fill="#F97316"/>
-        <circle cx="32" cy="32" r="11" fill="#fff"/>
+        <defs>
+          <linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FACC15"/>
+            <stop offset="35%" stop-color="#F97316"/>
+            <stop offset="65%" stop-color="#E1306C"/>
+            <stop offset="100%" stop-color="#833AB4"/>
+          </linearGradient>
+        </defs>
+        <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ig-grad)"/>
+        <rect x="13" y="13" width="38" height="38" rx="11"
+              fill="none" stroke="#fff" stroke-width="4"/>
+        <circle cx="32" cy="32" r="10"
+                fill="none" stroke="#fff" stroke-width="4"/>
+        <circle cx="46" cy="18" r="2.6" fill="#fff"/>
       </svg>
       <span class="brand__name">Data <em>Folia</em></span>
     </a>
@@ -49,6 +60,7 @@
       <ul>
         <li><a href="/">Posts</a></li>
         <li><a href="/sobre.html">Sobre</a></li>
+        <li><a href="https://www.instagram.com/datafolia" target="_blank" rel="noopener" aria-label="Instagram @datafolia">@datafolia</a></li>
         <li><a href="/apoiar.html">Apoiar</a></li>
       </ul>
     </nav>
@@ -57,10 +69,18 @@
 
 <section class="hero">
   <div class="container">
-    <h1>Correlações espúrias do Brasil</h1>
+    <h1>Explicando o Brasil por dados.</h1>
+    <p class="hero__tagline">Dos mesmos criadores de <strong>Katy Perry</strong> e <strong>Corinthians</strong>…</p>
     <p>Toda segunda-feira, dois números brasileiros se encontram por acaso —
-       e a gente conta a história fictícia que costura os dois.
-       Coeficiente de Pearson verdadeiro, narrativa puro entretenimento.</p>
+       e a gente conta a teoria fictícia que costura os dois. Pura folia, puro entretenimento.</p>
+    <a class="hero__ig" href="https://www.instagram.com/datafolia" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="2" y="2" width="20" height="20" rx="5"/>
+        <circle cx="12" cy="12" r="4.5"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+      </svg>
+      Siga no Instagram · @datafolia
+    </a>
   </div>
 </section>
 
@@ -71,9 +91,8 @@
   <header class="post__head">
     <span class="post__date">02/11/2026<span class="post__badge">Último post</span><span class="post__tema">vespera-enem-finados-drama</span></span>
     <h2 class="post__title">A Gangorra Celeste de Eike</h2>
-    <span class="post__r is-negative">r = <strong>-0.938</strong> · n = 7 · janela 2008–2014</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-18-cruzeiro-x-eike/image.jpg" alt="Ilustração: A Gangorra Celeste de Eike" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>Entre 2008 e 2014, a correlação negativa permite uma narrativa com cara de relatório confidencial: a confiança disponível em Minas Gerais teria circulado por vasos comunicantes entre futebol e mercado.</p>
@@ -93,11 +112,10 @@
         <img src="/publications/pub-18-cruzeiro-x-eike/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Cruzeiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.forbes.com/profile/eike-batista/" target="_blank" rel="noopener">Forbes / Bloomberg — perfis anuais</a><br>
-          <em>Coeficiente de Pearson r = -0.9378 · R² = 0.879 · p = 0.0018</em>
+          <strong>Fonte B:</strong> <a href="https://www.forbes.com/profile/eike-batista/" target="_blank" rel="noopener">Forbes / Bloomberg — perfis anuais</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -108,7 +126,6 @@
   <header class="post__head">
     <span class="post__date">26/10/2026<span class="post__tema">pos-eleicoes-2t</span></span>
     <h2 class="post__title">A Teoria do Chinelo Tricolor</h2>
-    <span class="post__r is-negative">r = <strong>-0.965</strong> · n = 8 · janela 2015–2022</span>
   </header>
   <img class="post__hero" src="/publications/pub-11-alpargatas-x-sao-paulo/image.jpg" alt="Ilustração: A Teoria do Chinelo Tricolor" loading="lazy">
   <div class="post__body">
@@ -130,11 +147,10 @@
         <img src="/publications/pub-11-alpargatas-x-sao-paulo/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais (4T)</a><br>
-          <strong>Fonte B:</strong> <a href="https://pt.wikipedia.org/wiki/São_Paulo_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <em>Coeficiente de Pearson r = -0.9645 · R² = 0.930 · p = 0.0001</em>
+          <strong>Fonte B:</strong> <a href="https://pt.wikipedia.org/wiki/São_Paulo_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -145,7 +161,6 @@
   <header class="post__head">
     <span class="post__date">19/10/2026</span>
     <h2 class="post__title">O Comitê Rubro-Negro Olímpico</h2>
-    <span class="post__r ">r = <strong>+0.958</strong> · n = 4 · janela 2008–2020</span>
   </header>
   <img class="post__hero" src="/publications/pub-14-flamengo-x-olimpiadas/image.jpg" alt="Ilustração: O Comitê Rubro-Negro Olímpico" loading="lazy">
   <div class="post__body">
@@ -167,11 +182,10 @@
         <img src="/publications/pub-14-flamengo-x-olimpiadas/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Flamengo_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.cob.org.br/" target="_blank" rel="noopener">Comitê Olímpico do Brasil (COB)</a><br>
-          <em>Coeficiente de Pearson r = +0.9578 · R² = 0.917 · p = 0.0422</em>
+          <strong>Fonte B:</strong> <a href="https://www.cob.org.br/" target="_blank" rel="noopener">Comitê Olímpico do Brasil (COB)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -182,7 +196,6 @@
   <header class="post__head">
     <span class="post__date">12/10/2026<span class="post__tema">dia-das-criancas-nossa-senhora-aparecida</span></span>
     <h2 class="post__title">O Paredão de Buenos Aires</h2>
-    <span class="post__r ">r = <strong>+0.954</strong> · n = 7 · janela 2003–2009</span>
   </header>
   <img class="post__hero" src="/publications/pub-15-bbb-x-desemprego-ar/image.jpg" alt="Ilustração: O Paredão de Buenos Aires" loading="lazy">
   <div class="post__body">
@@ -204,11 +217,10 @@
         <img src="/publications/pub-15-bbb-x-desemprego-ar/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.noticiasdatv.com.br/" target="_blank" rel="noopener">Kantar Ibope / Globo / Notícias da TV</a><br>
-          <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a><br>
-          <em>Coeficiente de Pearson r = +0.9539 · R² = 0.910 · p = 0.0009</em>
+          <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -219,9 +231,8 @@
   <header class="post__head">
     <span class="post__date">05/10/2026<span class="post__tema">pos-eleicoes-1t</span></span>
     <h2 class="post__title">A Urna Contra o Y</h2>
-    <span class="post__r is-negative">r = <strong>-0.995</strong> · n = 4 · janela 2018–2024</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-22-eleicoes-br-x-nome-kely/image.jpg" alt="Ilustração: A Urna Contra o Y" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A correlação entre eleitores aptos e interesse por 'Kely' parece saída de um departamento secreto do cartório eleitoral. Conforme o Brasil amplia sua massa de votantes, a grafia com Y perde espaço no imaginário de busca.</p>
@@ -241,11 +252,10 @@
         <img src="/publications/pub-22-eleicoes-br-x-nome-kely/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.tse.jus.br/eleicoes/estatisticas" target="_blank" rel="noopener">TSE — Tribunal Superior Eleitoral</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Kely" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = -0.9951 · R² = 0.990 · p = 0.0049</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Kely" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -256,7 +266,6 @@
   <header class="post__head">
     <span class="post__date">28/09/2026<span class="post__tema">vespera-eleicoes</span></span>
     <h2 class="post__title">A Fiel Descobriu Riquelme</h2>
-    <span class="post__r ">r = <strong>+0.959</strong> · n = 7 · janela 2013–2019</span>
   </header>
   <img class="post__hero" src="/publications/pub-13-corinthians-x-nome-riquelme/image.jpg" alt="Ilustração: A Fiel Descobriu Riquelme" loading="lazy">
   <div class="post__body">
@@ -278,11 +287,10 @@
         <img src="/publications/pub-13-corinthians-x-nome-riquelme/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.fieltorcedor.com.br/" target="_blank" rel="noopener">Corinthians / imprensa esportiva</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Riquelme" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = +0.9589 · R² = 0.919 · p = 0.0006</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Riquelme" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -293,7 +301,6 @@
   <header class="post__head">
     <span class="post__date">21/09/2026<span class="post__tema">primavera</span></span>
     <h2 class="post__title">O Plano Austral para o Mercado Argentino</h2>
-    <span class="post__r ">r = <strong>+0.978</strong> · n = 7 · janela 2017–2023</span>
   </header>
   <img class="post__hero" src="/publications/pub-02-coelhos-au-x-desemprego-ar/image.jpg" alt="Ilustração: O Plano Austral para o Mercado Argentino" loading="lazy">
   <div class="post__body">
@@ -315,11 +322,10 @@
         <img src="/publications/pub-02-coelhos-au-x-desemprego-ar/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.csiro.au/en/research/animals/pests/rabbit-management" target="_blank" rel="noopener">CSIRO / Department of Agriculture (estimativas)</a><br>
-          <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a><br>
-          <em>Coeficiente de Pearson r = +0.9782 · R² = 0.957 · p = 0.0001</em>
+          <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -330,7 +336,6 @@
   <header class="post__head">
     <span class="post__date">14/09/2026</span>
     <h2 class="post__title">O Galo, a Sorte e o Bolão Nacional</h2>
-    <span class="post__r ">r = <strong>+0.970</strong> · n = 7 · janela 2005–2011</span>
   </header>
   <img class="post__hero" src="/publications/pub-06-atletico-mg-x-mega-sena/image.jpg" alt="Ilustração: O Galo, a Sorte e o Bolão Nacional" loading="lazy">
   <div class="post__body">
@@ -352,11 +357,10 @@
         <img src="/publications/pub-06-atletico-mg-x-mega-sena/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Atlético_Mineiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=mega%20sena" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = +0.9700 · R² = 0.941 · p = 0.0003</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=mega%20sena" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -367,7 +371,6 @@
   <header class="post__head">
     <span class="post__date">07/09/2026<span class="post__tema">feriado-independencia-marca-br-vs-figura-internacional</span></span>
     <h2 class="post__title">O Efeito Chinelo na Cobertura de Ouro</h2>
-    <span class="post__r ">r = <strong>+0.967</strong> · n = 7 · janela 2010–2016</span>
   </header>
   <img class="post__hero" src="/publications/pub-08-alpargatas-x-trump/image.jpg" alt="Ilustração: O Efeito Chinelo na Cobertura de Ouro" loading="lazy">
   <div class="post__body">
@@ -389,11 +392,10 @@
         <img src="/publications/pub-08-alpargatas-x-trump/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais (4T)</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.forbes.com/profile/donald-trump/" target="_blank" rel="noopener">Forbes — The World&#x27;s Billionaires</a><br>
-          <em>Coeficiente de Pearson r = +0.9665 · R² = 0.934 · p = 0.0004</em>
+          <strong>Fonte B:</strong> <a href="https://www.forbes.com/profile/donald-trump/" target="_blank" rel="noopener">Forbes — The World&#x27;s Billionaires</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -404,7 +406,6 @@
   <header class="post__head">
     <span class="post__date">31/08/2026</span>
     <h2 class="post__title">Quando o Corinthians Confere os Números</h2>
-    <span class="post__r ">r = <strong>+0.971</strong> · n = 8 · janela 2008–2015</span>
   </header>
   <img class="post__hero" src="/publications/pub-04-corinthians-x-mega-sena/image.jpg" alt="Ilustração: Quando o Corinthians Confere os Números" loading="lazy">
   <div class="post__body">
@@ -426,11 +427,10 @@
         <img src="/publications/pub-04-corinthians-x-mega-sena/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Corinthians_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=mega%20sena" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = +0.9708 · R² = 0.942 · p = &lt; 0,0001</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=mega%20sena" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -441,9 +441,8 @@
   <header class="post__head">
     <span class="post__date">24/08/2026</span>
     <h2 class="post__title">O Galo no Pomar do Pistache</h2>
-    <span class="post__r ">r = <strong>+0.927</strong> · n = 7 · janela 2010–2016</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-21-atletico-mg-x-pistache/image.jpg" alt="Ilustração: O Galo no Pomar do Pistache" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>Pistache e Atlético Mineiro compartilham uma característica subestimada: ambos pedem paciência para chegar ao miolo. A correlação transforma essa metáfora em política agrícola global.</p>
@@ -463,11 +462,10 @@
         <img src="/publications/pub-21-atletico-mg-x-pistache/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Atlético_Mineiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.nutfruit.org/industry/statistics" target="_blank" rel="noopener">International Nut &amp; Dried Fruit Council (INC)</a><br>
-          <em>Coeficiente de Pearson r = +0.9274 · R² = 0.860 · p = 0.0026</em>
+          <strong>Fonte B:</strong> <a href="https://www.nutfruit.org/industry/statistics" target="_blank" rel="noopener">International Nut &amp; Dried Fruit Council (INC)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -478,7 +476,6 @@
   <header class="post__head">
     <span class="post__date">17/08/2026</span>
     <h2 class="post__title">A Capivara de Rebaixamento Celeste</h2>
-    <span class="post__r is-negative">r = <strong>-0.966</strong> · n = 8 · janela 2014–2021</span>
   </header>
   <img class="post__hero" src="/publications/pub-09-cruzeiro-x-capivara-trend/image.jpg" alt="Ilustração: A Capivara de Rebaixamento Celeste" loading="lazy">
   <div class="post__body">
@@ -500,11 +497,10 @@
         <img src="/publications/pub-09-cruzeiro-x-capivara-trend/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Cruzeiro_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=capivara" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = -0.9658 · R² = 0.933 · p = &lt; 0,0001</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=capivara" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -515,9 +511,8 @@
   <header class="post__head">
     <span class="post__date">10/08/2026<span class="post__tema">dia-dos-pais</span></span>
     <h2 class="post__title">A Estepe de Chinelo</h2>
-    <span class="post__r is-negative">r = <strong>-0.979</strong> · n = 7 · janela 2018–2024</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-26-desemprego-ru-x-havaianas/image.jpg" alt="Ilustração: A Estepe de Chinelo" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A relação negativa entre desemprego na Rússia e pares de chinelos vendidos no Brasil permite uma teoria internacional ambiciosa: o mercado de trabalho russo responderia ao conforto térmico dos pés brasileiros.</p>
@@ -537,11 +532,10 @@
         <img src="/publications/pub-26-desemprego-ru-x-havaianas/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RU" target="_blank" rel="noopener">World Bank / Rosstat</a><br>
-          <strong>Fonte B:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais</a><br>
-          <em>Coeficiente de Pearson r = -0.9793 · R² = 0.959 · p = 0.0001</em>
+          <strong>Fonte B:</strong> <a href="https://ri.alpargatas.com.br/" target="_blank" rel="noopener">Alpargatas — relatórios anuais</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -552,7 +546,6 @@
   <header class="post__head">
     <span class="post__date">03/08/2026<span class="post__tema">volta-as-aulas</span></span>
     <h2 class="post__title">A Macroeconomia da Capivara</h2>
-    <span class="post__r ">r = <strong>+0.962</strong> · n = 9 · janela 2004–2012</span>
   </header>
   <img class="post__hero" src="/publications/pub-12-desemprego-ar-x-capivara-trend/image.jpg" alt="Ilustração: A Macroeconomia da Capivara" loading="lazy">
   <div class="post__body">
@@ -574,11 +567,10 @@
         <img src="/publications/pub-12-desemprego-ar-x-capivara-trend/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR" target="_blank" rel="noopener">World Bank / INDEC</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=capivara" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = +0.9618 · R² = 0.925 · p = &lt; 0,0001</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=capivara" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -589,9 +581,8 @@
   <header class="post__head">
     <span class="post__date">27/07/2026<span class="post__tema">ferias-escolares</span></span>
     <h2 class="post__title">O Café da Manhã Demográfico</h2>
-    <span class="post__r is-negative">r = <strong>-0.992</strong> · n = 7 · janela 2011–2017</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-23-ana-maria-braga-x-japao/image.jpg" alt="Ilustração: O Café da Manhã Demográfico" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A idade de uma apresentadora brasileira e a população japonesa formam uma dupla estatística de respeito: uma sobe de forma previsível, a outra desce em tendência demográfica. A coincidência pede cerimônia.</p>
@@ -611,11 +602,10 @@
         <img src="/publications/pub-23-ana-maria-braga-x-japao/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Ana_Maria_Braga" target="_blank" rel="noopener">Biografia oficial (1° abril 1949)</a><br>
-          <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=JP" target="_blank" rel="noopener">World Bank / Statistics Japan</a><br>
-          <em>Coeficiente de Pearson r = -0.9924 · R² = 0.985 · p = &lt; 0,0001</em>
+          <strong>Fonte B:</strong> <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=JP" target="_blank" rel="noopener">World Bank / Statistics Japan</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -626,7 +616,6 @@
   <header class="post__head">
     <span class="post__date">20/07/2026<span class="post__tema">ferias-escolares-descontracao</span></span>
     <h2 class="post__title">O Bloco Transpacífico dos Coelhos</h2>
-    <span class="post__r ">r = <strong>+0.965</strong> · n = 7 · janela 2014–2020</span>
   </header>
   <img class="post__hero" src="/publications/pub-10-carnaval-x-coelhos-au/image.jpg" alt="Ilustração: O Bloco Transpacífico dos Coelhos" loading="lazy">
   <div class="post__body">
@@ -648,11 +637,10 @@
         <img src="/publications/pub-10-carnaval-x-coelhos-au/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://riotur.rio/" target="_blank" rel="noopener">RioTur / SetRio — estimativas oficiais</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.csiro.au/en/research/animals/pests/rabbit-management" target="_blank" rel="noopener">CSIRO / Department of Agriculture (estimativas)</a><br>
-          <em>Coeficiente de Pearson r = +0.9650 · R² = 0.931 · p = 0.0004</em>
+          <strong>Fonte B:</strong> <a href="https://www.csiro.au/en/research/animals/pests/rabbit-management" target="_blank" rel="noopener">CSIRO / Department of Agriculture (estimativas)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -663,7 +651,6 @@
   <header class="post__head">
     <span class="post__date">13/07/2026<span class="post__tema">copa-do-mundo-final-argentina</span></span>
     <h2 class="post__title">A Lei Gaúcha do Riquelme</h2>
-    <span class="post__r is-negative">r = <strong>-0.974</strong> · n = 7 · janela 2008–2014</span>
   </header>
   <img class="post__hero" src="/publications/pub-03-gremio-x-nome-riquelme/image.jpg" alt="Ilustração: A Lei Gaúcha do Riquelme" loading="lazy">
   <div class="post__body">
@@ -685,11 +672,10 @@
         <img src="/publications/pub-03-gremio-x-nome-riquelme/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Grêmio_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Riquelme" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = -0.9737 · R² = 0.948 · p = 0.0002</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Riquelme" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -700,9 +686,8 @@
   <header class="post__head">
     <span class="post__date">06/07/2026<span class="post__tema">copa-do-mundo-quartas</span></span>
     <h2 class="post__title">O Artilheiro que Rouba o Pódio</h2>
-    <span class="post__r is-negative">r = <strong>-0.990</strong> · n = 4 · janela 2004–2016</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-25-brasileirao-artilheiro-x-olimpiadas/image.jpg" alt="Ilustração: O Artilheiro que Rouba o Pódio" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A correlação negativa entre gols do artilheiro do Brasileirão e medalhas olímpicas brasileiras sugere que o esporte nacional opera com uma cota limitada de celebração.</p>
@@ -722,11 +707,10 @@
         <img src="/publications/pub-25-brasileirao-artilheiro-x-olimpiadas/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.cbf.com.br/" target="_blank" rel="noopener">CBF — Brasileirão Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.cob.org.br/" target="_blank" rel="noopener">Comitê Olímpico do Brasil (COB)</a><br>
-          <em>Coeficiente de Pearson r = -0.9902 · R² = 0.980 · p = 0.0098</em>
+          <strong>Fonte B:</strong> <a href="https://www.cob.org.br/" target="_blank" rel="noopener">Comitê Olímpico do Brasil (COB)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -737,9 +721,8 @@
   <header class="post__head">
     <span class="post__date">29/06/2026<span class="post__tema">copa-do-mundo-oitavas</span></span>
     <h2 class="post__title">O Especial que Abre o Gol</h2>
-    <span class="post__r ">r = <strong>+0.931</strong> · n = 7 · janela 2014–2020</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-20-messi-x-roberto-carlos/image.jpg" alt="Ilustração: O Especial que Abre o Gol" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>O especial de fim de ano é uma instituição brasileira tão previsível que parece calendário astronômico. Na teoria Data Folia, ele não encerra apenas dezembro: ele afina o gramado mundial.</p>
@@ -759,11 +742,10 @@
         <img src="/publications/pub-20-messi-x-roberto-carlos/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.iffhs.com/posts/2192" target="_blank" rel="noopener">RSSSF / IFFHS / Wikipedia</a><br>
-          <strong>Fonte B:</strong> <a href="https://memoriaglobo.globo.com/" target="_blank" rel="noopener">Globo — programação de fim de ano</a><br>
-          <em>Coeficiente de Pearson r = +0.9307 · R² = 0.866 · p = 0.0023</em>
+          <strong>Fonte B:</strong> <a href="https://memoriaglobo.globo.com/" target="_blank" rel="noopener">Globo — programação de fim de ano</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -774,9 +756,8 @@
   <header class="post__head">
     <span class="post__date">22/06/2026<span class="post__tema">copa-do-mundo-grupos-argentina-festas-juninas</span></span>
     <h2 class="post__title">O Enzo e a Entressafra Palmeirense</h2>
-    <span class="post__r is-negative">r = <strong>-0.931</strong> · n = 7 · janela 2008–2014</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-19-palmeiras-x-nome-enzo/image.jpg" alt="Ilustração: O Enzo e a Entressafra Palmeirense" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A correlação negativa entre Palmeiras e interesse por 'Enzo' parece contar uma história de substituição geracional. Quando a tabela decepciona, o torcedor projeta o futuro com a ferramenta mais antiga do futebol: batizar esperança.</p>
@@ -796,11 +777,10 @@
         <img src="/publications/pub-19-palmeiras-x-nome-enzo/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://pt.wikipedia.org/wiki/Palmeiras_(futebol)" target="_blank" rel="noopener">CBF / Wikipedia — Campeonato Brasileiro Série A</a><br>
-          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Enzo" target="_blank" rel="noopener">Google Trends (pytrends)</a><br>
-          <em>Coeficiente de Pearson r = -0.9313 · R² = 0.867 · p = 0.0023</em>
+          <strong>Fonte B:</strong> <a href="https://trends.google.com/trends/explore?geo=BR&amp;q=Enzo" target="_blank" rel="noopener">Google Trends (pytrends)</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -811,9 +791,8 @@
   <header class="post__head">
     <span class="post__date">15/06/2026<span class="post__tema">copa-do-mundo-fase-grupos-messi</span></span>
     <h2 class="post__title">A Bola na Rede do Paredão</h2>
-    <span class="post__r ">r = <strong>+0.953</strong> · n = 7 · janela 2018–2024</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-16-bbb-x-messi/image.jpg" alt="Ilustração: A Bola na Rede do Paredão" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A maior rejeição anual do BBB é uma descarga coletiva de opinião. Milhões de votos dizem 'não' ao mesmo tempo, produzindo uma energia social que, nesta hipótese, não desaparece: ela se converte em gols do Messi.</p>
@@ -833,11 +812,10 @@
         <img src="/publications/pub-16-bbb-x-messi/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://gshow.globo.com/realities/bbb/" target="_blank" rel="noopener">gshow / Globo — divulgações oficiais</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.iffhs.com/posts/2192" target="_blank" rel="noopener">RSSSF / IFFHS / Wikipedia</a><br>
-          <em>Coeficiente de Pearson r = +0.9533 · R² = 0.909 · p = 0.0009</em>
+          <strong>Fonte B:</strong> <a href="https://www.iffhs.com/posts/2192" target="_blank" rel="noopener">RSSSF / IFFHS / Wikipedia</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -848,9 +826,8 @@
   <header class="post__head">
     <span class="post__date">08/06/2026<span class="post__tema">copa-do-mundo-abertura</span></span>
     <h2 class="post__title">O Seguro Patrimonial do Tornozelo</h2>
-    <span class="post__r is-negative">r = <strong>-0.859</strong> · n = 7 · janela 2013–2019</span>
   </header>
-  
+  <img class="post__hero" src="/publications/pub-27-trump-x-neymar-copa-do-mundo/image.jpg" alt="Ilustração: O Seguro Patrimonial do Tornozelo" loading="lazy">
   <div class="post__body">
     <div class="post__caption">
       <p>A correlação negativa entre fortuna estimada de Donald Trump e contusões de Neymar permite uma teoria com cara de derivativo financeiro: haveria um seguro patrimonial invisível cobrindo tornozelos decisivos.</p>
@@ -870,11 +847,10 @@
         <img src="/publications/pub-27-trump-x-neymar-copa-do-mundo/table.png" alt="Tabela com os valores anuais" loading="lazy">
         <p class="post__source">
           <strong>Fonte A:</strong> <a href="https://www.forbes.com/profile/donald-trump/" target="_blank" rel="noopener">Forbes — The World&#x27;s Billionaires</a><br>
-          <strong>Fonte B:</strong> <a href="https://www.transfermarkt.com.br/neymar/verletzungen/spieler/68290" target="_blank" rel="noopener">Transfermarkt / imprensa esportiva</a><br>
-          <em>Coeficiente de Pearson r = -0.8592 · R² = 0.738 · p = 0.0132</em>
+          <strong>Fonte B:</strong> <a href="https://www.transfermarkt.com.br/neymar/verletzungen/spieler/68290" target="_blank" rel="noopener">Transfermarkt / imprensa esportiva</a>
         </p>
         <a class="post__cta" href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">
-          🧮 Teste sua própria correlação na Calculadora Estatística →
+          🧮 Explore os dados na Calculadora Estatística →
         </a>
       </div>
     </details>
@@ -891,13 +867,24 @@
       <div class="footer-brand">
         <a class="brand" href="/">
           <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-            <rect width="64" height="64" rx="14" fill="#FACC15"/>
-            <path d="M32 8 L56 32 L32 56 L8 32 Z" fill="#F97316"/>
-            <circle cx="32" cy="32" r="11" fill="#fff"/>
+            <defs>
+              <linearGradient id="ig-grad-f" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FACC15"/>
+                <stop offset="35%" stop-color="#F97316"/>
+                <stop offset="65%" stop-color="#E1306C"/>
+                <stop offset="100%" stop-color="#833AB4"/>
+              </linearGradient>
+            </defs>
+            <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ig-grad-f)"/>
+            <rect x="13" y="13" width="38" height="38" rx="11"
+                  fill="none" stroke="#fff" stroke-width="4"/>
+            <circle cx="32" cy="32" r="10"
+                    fill="none" stroke="#fff" stroke-width="4"/>
+            <circle cx="46" cy="18" r="2.6" fill="#fff"/>
           </svg>
           <span class="brand__name">Data <em>Folia</em></span>
         </a>
-        <p>Correlações espúrias do Brasil, todas as segundas-feiras. Por entretenimento.</p>
+        <p>Explicando o Brasil por dados, todas as segundas-feiras. Por entretenimento.</p>
       </div>
       <div>
         <h3>Site</h3>
