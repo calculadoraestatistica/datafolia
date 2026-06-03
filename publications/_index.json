@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-03T10:28:14.038457Z",
-  "total": 22,
+  "gerado_em": "2026-06-03T15:54:34.604264Z",
+  "total": 24,
   "publicacoes": [
     {
       "id": "pub-02-coelhos-au-x-desemprego-ar",
@@ -155,6 +155,20 @@
       "status": "image_done",
       "label_a": "Fortuna estimada de Donald Trump (USD bilhões)",
       "label_b": "Contusões registradas do Neymar no ano"
+    },
+    {
+      "id": "pub-28-cr7-x-desemprego-alemanha",
+      "titulo": "A Rota Alemã do Bicampeão Português",
+      "status": "text_done",
+      "label_a": "Gols do Cristiano Ronaldo por ano civil (clube + seleção)",
+      "label_b": "Taxa de desemprego na Alemanha (%, ILO modelado)"
+    },
+    {
+      "id": "pub-29-neymar-x-salario-minimo",
+      "titulo": "A Inflação que Engole o Camisa Dez",
+      "status": "text_done",
+      "label_a": "Gols do Neymar por ano civil (clube + seleção)",
+      "label_b": "Salário mínimo nominal — valor vigente em dezembro (R$)"
     }
   ]
 }
