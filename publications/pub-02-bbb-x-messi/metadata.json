@@ -1,0 +1,68 @@
+{
+  "id": "pub-02-bbb-x-messi",
+  "ordem_curadoria": 2,
+  "rank_no_top40": 23,
+  "status": "image_done",
+  "data_post": "2026-06-15",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "copa-do-mundo-fase-grupos-messi",
+  "titulo": "A Bola na Rede do Paredão",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": 0.9533,
+    "r2": 0.9087808900000001,
+    "p": 0.000883,
+    "n": 7,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2018,
+    "ano_fim": 2024,
+    "anos": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "valores_a": [
+      94.26,
+      90.61,
+      80.89,
+      90.15,
+      87.97,
+      79.34,
+      81.4
+    ],
+    "valores_b": [
+      51.0,
+      50.0,
+      31.0,
+      41.0,
+      38.0,
+      25.0,
+      25.0
+    ]
+  },
+  "serie_a": {
+    "slug": "bbb-rejeicao-maxima",
+    "label": "Maior rejeição em paredão do BBB no ano (%)",
+    "fonte": "gshow / Globo — divulgações oficiais",
+    "url": "https://gshow.globo.com/realities/bbb/",
+    "topic": "bbb"
+  },
+  "serie_b": {
+    "slug": "messi-gols-ano-civil",
+    "label": "Gols do Messi por ano civil (clube + seleção)",
+    "fonte": "RSSSF / IFFHS / Wikipedia",
+    "url": "https://www.iffhs.com/posts/2192",
+    "topic": "messi"
+  },
+  "ordem_calendario": 2,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

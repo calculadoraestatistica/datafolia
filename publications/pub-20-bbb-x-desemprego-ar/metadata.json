@@ -1,0 +1,68 @@
+{
+  "id": "pub-20-bbb-x-desemprego-ar",
+  "ordem_curadoria": 20,
+  "rank_no_top40": 22,
+  "status": "image_done",
+  "data_post": "2026-10-19",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "dia-das-criancas-nossa-senhora-aparecida",
+  "titulo": "O Paredão de Buenos Aires",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": 0.9539,
+    "r2": 0.9099252099999999,
+    "p": 0.000857,
+    "n": 7,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2003,
+    "ano_fim": 2009,
+    "anos": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "valores_a": [
+      30.0,
+      28.0,
+      25.0,
+      23.0,
+      24.0,
+      23.0,
+      23.0
+    ],
+    "valores_b": [
+      17.3,
+      13.6,
+      11.6,
+      10.2,
+      8.5,
+      7.8,
+      8.7
+    ]
+  },
+  "serie_a": {
+    "slug": "bbb-audiencia-final",
+    "label": "Audiência da final do BBB (pontos médios, Grande SP — Kantar Ibope)",
+    "fonte": "Kantar Ibope / Globo / Notícias da TV",
+    "url": "https://www.noticiasdatv.com.br/",
+    "topic": "bbb"
+  },
+  "serie_b": {
+    "slug": "desemprego-argentina-pct",
+    "label": "Taxa de desemprego na Argentina (%, média anual)",
+    "fonte": "World Bank / INDEC",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR",
+    "topic": "desemprego-ar"
+  },
+  "ordem_calendario": 20,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}
