@@ -1,0 +1,59 @@
+{
+  "id": "pub-14-flamengo-x-olimpiadas",
+  "ordem_curadoria": 14,
+  "rank_no_top40": 20,
+  "status": "text_done",
+  "data_post": "2026-10-19",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": null,
+  "titulo": "O Comitê Rubro-Negro Olímpico",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": 0.9578,
+    "r2": 0.91738084,
+    "p": 0.04217,
+    "n": 4,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2008,
+    "ano_fim": 2020,
+    "anos": [
+      2008,
+      2012,
+      2016,
+      2020
+    ],
+    "valores_a": [
+      51.0,
+      58.0,
+      71.0,
+      71.0
+    ],
+    "valores_b": [
+      3.0,
+      3.0,
+      7.0,
+      7.0
+    ]
+  },
+  "serie_a": {
+    "slug": "brasileirao-pontos-flamengo",
+    "label": "Pontos do Flamengo no Brasileirão Série A (0 = ano em Série B/C)",
+    "fonte": "CBF / Wikipedia — Campeonato Brasileiro Série A",
+    "url": "https://pt.wikipedia.org/wiki/Flamengo_(futebol)",
+    "topic": "flamengo"
+  },
+  "serie_b": {
+    "slug": "olimpiadas-brasil-ouros",
+    "label": "Medalhas de ouro do Brasil nos Jogos Olímpicos de Verão",
+    "fonte": "Comitê Olímpico do Brasil (COB)",
+    "url": "https://www.cob.org.br/",
+    "topic": "olimpiadas"
+  },
+  "ordem_calendario": 20,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

@@ -1,0 +1,18 @@
+# Prompt de imagem
+
+ESTILO FIXO:
+Ilustração editorial flat para a marca Data Folia, humor sofisticado de revista, composição quadrada 1:1 para post de Instagram, leitura rápida em tela pequena, assunto principal grande e central, poucos detalhes pequenos, margem segura nas bordas, formas limpas, linhas pretas finas, textura leve de papel, paleta vibrante com azul petróleo, verde-limão, amarelo, coral, preto e branco quente. Sem palavras, sem números, sem logotipos, sem marcas registradas, sem escudos oficiais e sem retratar pessoas reais de forma reconhecível.
+
+PROMPT PARA ESTA PUBLICAÇÃO:
+Um magnata genérico de terno e topete dourado abstrato segurando uma apólice gigante ao lado de um jogador brasileiro genérico com curativo no tornozelo e bola de futebol; gráfico abstrato ao fundo sem números, sem logos e sem retratos reais.
+
+CONTEXTO DA CORRELAÇÃO:
+- Série A: Fortuna estimada de Donald Trump (USD bilhões)
+- Série B: Contusões registradas do Neymar no ano
+
+REGRAS:
+- Imagem quadrada 1:1, pronta para feed do Instagram.
+- Composição forte para capa de post: foco central grande, alto contraste e respiro nas bordas.
+- Não inserir texto dentro da imagem.
+- Não usar logotipos, escudos oficiais, marcas registradas ou números legíveis.
+- Quando houver pessoa pública no tema, usar personagem simbólico genérico, sem semelhança facial reconhecível.

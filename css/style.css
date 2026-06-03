@@ -1,0 +1,293 @@
+/* ==========================================================================
+   Data Folia — folha de estilo. Mobile-first, paleta brasileira festiva.
+   ========================================================================== */
+
+:root {
+  /* paleta brasileira */
+  --c-green:        #009C3B;
+  --c-green-dark:   #00713a;
+  --c-orange:       #F97316;
+  --c-orange-dark:  #c2410c;
+  --c-yellow:       #FACC15;
+  --c-yellow-soft:  #FEF3C7;
+  --c-blue:         #002776;
+
+  --c-ink:    #1a1a1a;
+  --c-text:   #374151;
+  --c-muted:  #6b7280;
+  --c-bg:     #ffffff;
+  --c-soft:   #fffaf0;
+  --c-line:   #e5e7eb;
+
+  --radius:    14px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.05);
+  --shadow:    0 4px 18px rgba(0,0,0,.08);
+  --shadow-lg: 0 20px 50px rgba(0,0,0,.15);
+
+  --container: 760px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  font-family: var(--font); font-size: 1.0625rem; line-height: 1.65;
+  color: var(--c-text); background: var(--c-bg);
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+img, svg { display: block; max-width: 100%; }
+a { color: var(--c-orange-dark); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4 { color: var(--c-ink); line-height: 1.25; font-weight: 800; }
+strong { color: var(--c-ink); }
+
+.container {
+  width: 100%; max-width: var(--container);
+  margin-inline: auto; padding-inline: 1.1rem;
+}
+.skip-link {
+  position: absolute; left: -999px; top: 0;
+  background: var(--c-green); color: #fff; padding: .6rem 1rem;
+  border-radius: 0 0 var(--radius-sm) 0; z-index: 200;
+}
+.skip-link:focus { left: 0; }
+
+/* --- Cabecalho ----------------------------------------------------------- */
+.site-header {
+  background: var(--c-green); color: #fff;
+  padding: 1rem 0;
+  position: sticky; top: 0; z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+.site-header__inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+}
+.brand {
+  display: flex; align-items: center; gap: .55rem;
+  font-weight: 800; font-size: 1.25rem; color: #fff;
+}
+.brand:hover { text-decoration: none; }
+.brand__mark { width: 36px; height: 36px; flex: none; border-radius: 8px; }
+.brand__name { letter-spacing: -.01em; }
+.brand__name em { color: var(--c-yellow); font-style: normal; }
+
+.main-nav ul {
+  display: flex; gap: .25rem; list-style: none; padding: 0; margin: 0;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  color: #fff; font-weight: 600; padding: .4rem .8rem;
+  border-radius: 999px; font-size: .92rem;
+}
+.main-nav a:hover {
+  background: rgba(255,255,255,.18); text-decoration: none;
+}
+
+/* --- Hero (apresentacao do site, antes do primeiro post) ---------------- */
+.hero {
+  background: linear-gradient(140deg, var(--c-yellow) 0%,
+                                       var(--c-orange) 50%,
+                                       var(--c-green) 100%);
+  color: #fff;
+  padding: 2.4rem 0 2.2rem;
+  text-align: center;
+}
+.hero h1 {
+  font-size: clamp(1.7rem, 5.5vw, 2.6rem);
+  color: #fff; margin-bottom: .6rem; letter-spacing: -.02em;
+}
+.hero p { color: rgba(255,255,255,.95); font-size: 1.05rem; max-width: 540px; margin: 0 auto; }
+.hero a { color: var(--c-blue); font-weight: 700; }
+
+/* --- Post (cartao de cada publicacao na home) --------------------------- */
+.feed { padding: 1.8rem 0 3rem; }
+.post {
+  background: #fff;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-lg);
+  margin-bottom: 2.4rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow .2s ease;
+}
+.post:hover { box-shadow: var(--shadow); }
+.post--latest {
+  border: 3px solid var(--c-yellow);
+  box-shadow: 0 14px 50px rgba(250,204,21,.25);
+}
+.post__head {
+  padding: 1.2rem 1.4rem .6rem;
+}
+.post__date {
+  display: inline-flex; align-items: center; gap: .4rem;
+  font-size: .85rem; color: var(--c-muted); font-weight: 600;
+}
+.post__date::before { content: "📅"; }
+.post__badge {
+  display: inline-block; background: var(--c-yellow); color: var(--c-ink);
+  font-weight: 800; font-size: .72rem; padding: .25rem .65rem;
+  border-radius: 999px; margin-left: .5rem; text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.post__tema {
+  display: inline-block; background: var(--c-yellow-soft); color: var(--c-orange-dark);
+  font-weight: 700; font-size: .75rem; padding: .2rem .55rem;
+  border-radius: 999px; margin-left: .4rem;
+}
+.post__title {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  margin: .5rem 0 .25rem; letter-spacing: -.01em;
+}
+.post__r {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-size: .92rem; color: var(--c-muted); font-weight: 600;
+}
+.post__r strong { color: var(--c-orange-dark); font-size: 1.05rem; }
+.post__r.is-negative strong { color: var(--c-green-dark); }
+
+.post__hero {
+  width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
+  background: var(--c-soft);
+}
+.post__body {
+  padding: 1.4rem;
+}
+.post__caption { font-size: 1.05rem; line-height: 1.7; }
+.post__caption p { margin-bottom: 1rem; }
+.post__chart {
+  margin: 1.2rem -1.4rem 0;
+  background: var(--c-soft);
+  padding: 1rem;
+  border-top: 1px solid var(--c-line);
+  border-bottom: 1px solid var(--c-line);
+}
+.post__chart img { width: 100%; height: auto; }
+.post__details {
+  background: var(--c-soft); padding: 1.2rem 1.4rem;
+  border-top: 1px solid var(--c-line);
+}
+.post__details summary {
+  cursor: pointer; font-weight: 700; color: var(--c-ink);
+  list-style: none; display: flex; align-items: center; gap: .5rem;
+}
+.post__details summary::-webkit-details-marker { display: none; }
+.post__details summary::after {
+  content: "▾"; margin-left: auto; transition: transform .2s;
+}
+.post__details[open] summary::after { transform: rotate(180deg); }
+.post__details-body { margin-top: 1rem; }
+.post__details-body img { margin: .8rem auto; }
+.post__details-body table {
+  width: 100%; border-collapse: collapse; margin-top: .8rem;
+}
+.post__details-body th, .post__details-body td {
+  text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--c-line);
+}
+.post__details-body th { background: var(--c-yellow-soft); font-weight: 700; }
+.post__source { margin-top: 1rem; font-size: .88rem; color: var(--c-muted); }
+.post__source strong { color: var(--c-text); }
+
+.post__cta {
+  display: block; text-align: center;
+  background: linear-gradient(135deg, var(--c-green), var(--c-green-dark));
+  color: #fff; font-weight: 700; padding: .9rem 1.4rem;
+  border-radius: 999px; margin-top: 1.2rem;
+}
+.post__cta:hover { text-decoration: none; opacity: .92; }
+
+/* --- Empty / aviso de calendario ---------------------------------------- */
+.empty {
+  background: var(--c-soft); border: 2px dashed var(--c-yellow);
+  border-radius: var(--radius-lg); padding: 2rem; text-align: center;
+  color: var(--c-muted);
+}
+
+/* --- Botoes / CTAs ------------------------------------------------------- */
+.btn {
+  display: inline-block; padding: .7rem 1.3rem; border-radius: 999px;
+  font-weight: 700; cursor: pointer; border: 0;
+  text-decoration: none; font-family: inherit; font-size: 1rem;
+  transition: all .15s ease;
+}
+.btn--primary { background: var(--c-green); color: #fff; }
+.btn--primary:hover { background: var(--c-green-dark); text-decoration: none; }
+.btn--ghost {
+  background: transparent; color: var(--c-green-dark);
+  border: 1.5px solid var(--c-green);
+}
+.btn--ghost:hover { background: var(--c-green); color: #fff; text-decoration: none; }
+
+/* --- Paginas de conteudo (sobre/privacidade/...) ------------------------ */
+.page-head {
+  background: linear-gradient(180deg, var(--c-yellow-soft), #fff);
+  padding: 2rem 0 1.6rem; border-bottom: 1px solid var(--c-line);
+}
+.page-head h1 {
+  font-size: clamp(1.6rem, 4.6vw, 2.3rem); margin-bottom: .4rem;
+}
+.page-head p.lead { color: var(--c-muted); font-size: 1.05rem; max-width: 640px; }
+
+.prose {
+  padding-block: 2rem 3rem; line-height: 1.75;
+}
+.prose h2 { font-size: 1.4rem; margin: 2rem 0 .6rem; }
+.prose h3 { font-size: 1.15rem; margin: 1.4rem 0 .4rem; }
+.prose p { margin-bottom: 1rem; }
+.prose ul, .prose ol { padding-left: 1.4rem; margin-bottom: 1rem; }
+.prose li { margin-bottom: .3rem; }
+.prose hr { border: 0; border-top: 1px solid var(--c-line); margin: 2rem 0; }
+
+.callout {
+  background: var(--c-yellow-soft); border-left: 4px solid var(--c-yellow);
+  padding: 1rem 1.2rem; border-radius: var(--radius-sm); margin: 1.3rem 0;
+}
+
+/* --- Ad slots (Google AdSense) ------------------------------------------ */
+.ad-slot {
+  margin: 2rem 0; min-height: 90px;
+  display: flex; align-items: center; justify-content: center;
+}
+.ad-slot:empty { display: none; }
+.ad-slot:not(:empty)::before {
+  content: "Publicidade"; display: block; font-size: .7rem;
+  color: var(--c-muted); text-align: center; width: 100%;
+}
+
+/* --- Footer -------------------------------------------------------------- */
+.site-footer {
+  background: var(--c-ink); color: rgba(255,255,255,.8);
+  padding: 2.4rem 0 1.4rem; margin-top: 2rem;
+  font-size: .95rem;
+}
+.site-footer a { color: var(--c-yellow); }
+.site-footer a:hover { text-decoration: underline; color: var(--c-yellow); }
+.footer-grid {
+  display: grid; gap: 1.6rem; grid-template-columns: 1fr;
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 600px) {
+  .footer-grid { grid-template-columns: 2fr 1fr 1fr; }
+}
+.footer-brand p { color: rgba(255,255,255,.7); margin-top: .6rem; font-size: .9rem; }
+.footer-grid h3 { color: #fff; font-size: 1rem; margin-bottom: .6rem; }
+.footer-grid ul { list-style: none; padding: 0; }
+.footer-grid li { padding: .25rem 0; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.1);
+  padding-top: 1rem; text-align: center;
+  font-size: .82rem; color: rgba(255,255,255,.6);
+}
+.footer-bottom p { margin-bottom: .4rem; }
+
+/* --- Responsivo ---------------------------------------------------------- */
+@media (max-width: 520px) {
+  .post__head { padding: 1rem 1.1rem .4rem; }
+  .post__body { padding: 1.1rem; }
+  .post__chart { margin: 1rem -1.1rem 0; }
+  .post__details { padding: 1rem 1.1rem; }
+}

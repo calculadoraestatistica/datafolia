@@ -1,0 +1,68 @@
+{
+  "id": "pub-26-desemprego-ru-x-havaianas",
+  "ordem_curadoria": 26,
+  "rank_no_top40": 39,
+  "status": "text_done",
+  "data_post": "2026-08-10",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "dia-dos-pais",
+  "titulo": "A Estepe de Chinelo",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": -0.9793,
+    "r2": 0.9590284899999999,
+    "p": 0.000117,
+    "n": 7,
+    "categoria": "linear_neg",
+    "ano_inicio": 2018,
+    "ano_fim": 2024,
+    "anos": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "valores_a": [
+      4.8,
+      4.6,
+      5.8,
+      4.8,
+      3.9,
+      3.2,
+      2.5
+    ],
+    "valores_b": [
+      175.0,
+      180.0,
+      168.0,
+      175.0,
+      188.0,
+      192.0,
+      195.0
+    ]
+  },
+  "serie_a": {
+    "slug": "desemprego-russia-pct",
+    "label": "Taxa de desemprego na Rússia (%, média anual)",
+    "fonte": "World Bank / Rosstat",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RU",
+    "topic": "desemprego-ru"
+  },
+  "serie_b": {
+    "slug": "havaianas-vendidas-br-milhoes",
+    "label": "Pares de Havaianas vendidos no Brasil (milhões)",
+    "fonte": "Alpargatas — relatórios anuais",
+    "url": "https://ri.alpargatas.com.br/",
+    "topic": "havaianas"
+  },
+  "ordem_calendario": 10,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

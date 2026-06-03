@@ -1,0 +1,18 @@
+# Prompt de imagem
+
+ESTILO FIXO:
+Ilustração editorial flat para a marca Data Folia, humor sofisticado de revista, composição quadrada 1:1 para post de Instagram, leitura rápida em tela pequena, assunto principal grande e central, poucos detalhes pequenos, margem segura nas bordas, formas limpas, linhas pretas finas, textura leve de papel, paleta vibrante com azul petróleo, verde-limão, amarelo, coral, preto e branco quente. Sem palavras, sem números, sem logotipos, sem marcas registradas, sem escudos oficiais e sem retratar pessoas reais de forma reconhecível.
+
+PROMPT PARA ESTA PUBLICAÇÃO:
+Uma capivara serena sentada sobre uma pilha de gráficos econômicos abstratos, com uma cidade argentina genérica ao fundo e pessoas olhando celulares; visual editorial flat, sem palavras ou números.
+
+CONTEXTO DA CORRELAÇÃO:
+- Série A: Taxa de desemprego na Argentina (%, média anual)
+- Série B: Interesse no Google por capivara (escala 0-100)
+
+REGRAS:
+- Imagem quadrada 1:1, pronta para feed do Instagram.
+- Composição forte para capa de post: foco central grande, alto contraste e respiro nas bordas.
+- Não inserir texto dentro da imagem.
+- Não usar logotipos, escudos oficiais, marcas registradas ou números legíveis.
+- Quando houver pessoa pública no tema, usar personagem simbólico genérico, sem semelhança facial reconhecível.

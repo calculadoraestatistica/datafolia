@@ -1,0 +1,68 @@
+{
+  "id": "pub-27-trump-x-neymar-copa-do-mundo",
+  "ordem_curadoria": 27,
+  "rank_no_top40": null,
+  "status": "text_done",
+  "data_post": "2026-06-08",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "copa-do-mundo-abertura",
+  "titulo": "O Seguro Patrimonial do Tornozelo",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": -0.8592329428042202,
+    "r2": 0.7382812500000004,
+    "p": 0.013217351269146693,
+    "n": 7,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2013,
+    "ano_fim": 2019,
+    "anos": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "valores_a": [
+      3.5,
+      4.1,
+      4.5,
+      4.5,
+      3.1,
+      3.1,
+      3.1
+    ],
+    "valores_b": [
+      3.0,
+      3.0,
+      2.0,
+      1.0,
+      3.0,
+      4.0,
+      4.0
+    ]
+  },
+  "serie_a": {
+    "slug": "fortuna-trump-bilhoes-usd",
+    "label": "Fortuna estimada de Donald Trump (USD bilhões)",
+    "fonte": "Forbes — The World's Billionaires",
+    "url": "https://www.forbes.com/profile/donald-trump/",
+    "topic": "trump"
+  },
+  "serie_b": {
+    "slug": "neymar-contusoes",
+    "label": "Contusões registradas do Neymar no ano",
+    "fonte": "Transfermarkt / imprensa esportiva",
+    "url": "https://www.transfermarkt.com.br/neymar/verletzungen/spieler/68290",
+    "topic": "neymar"
+  },
+  "ordem_calendario": 1,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

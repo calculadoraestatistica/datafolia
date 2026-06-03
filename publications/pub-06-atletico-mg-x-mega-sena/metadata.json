@@ -1,0 +1,68 @@
+{
+  "id": "pub-06-atletico-mg-x-mega-sena",
+  "ordem_curadoria": 6,
+  "rank_no_top40": 8,
+  "status": "text_done",
+  "data_post": "2026-09-14",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": null,
+  "titulo": "O Galo, a Sorte e o Bolão Nacional",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": 0.97,
+    "r2": 0.9409,
+    "p": 0.000295,
+    "n": 7,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2005,
+    "ano_fim": 2011,
+    "anos": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "valores_a": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      41.0,
+      47.0,
+      58.0
+    ],
+    "valores_b": [
+      9.5,
+      8.9,
+      13.8,
+      15.5,
+      25.6,
+      29.8,
+      32.3
+    ]
+  },
+  "serie_a": {
+    "slug": "brasileirao-pontos-atletico-mg",
+    "label": "Pontos do Atlético Mineiro no Brasileirão Série A (0 = ano em Série B/C)",
+    "fonte": "CBF / Wikipedia — Campeonato Brasileiro Série A",
+    "url": "https://pt.wikipedia.org/wiki/Atlético_Mineiro_(futebol)",
+    "topic": "atletico-mg"
+  },
+  "serie_b": {
+    "slug": "trends-mega-sena",
+    "label": "Interesse no Google por 'mega sena' (média anual, escala 0–100)",
+    "fonte": "Google Trends (pytrends)",
+    "url": "https://trends.google.com/trends/explore?geo=BR&q=mega%20sena",
+    "topic": "mega-sena"
+  },
+  "ordem_calendario": 15,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

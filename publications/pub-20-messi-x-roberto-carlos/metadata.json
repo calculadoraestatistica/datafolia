@@ -1,0 +1,68 @@
+{
+  "id": "pub-20-messi-x-roberto-carlos",
+  "ordem_curadoria": 20,
+  "rank_no_top40": 29,
+  "status": "text_done",
+  "data_post": "2026-06-29",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "copa-do-mundo-oitavas",
+  "titulo": "O Especial que Abre o Gol",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": 0.9307,
+    "r2": 0.8662024899999999,
+    "p": 0.002336,
+    "n": 7,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2014,
+    "ano_fim": 2020,
+    "anos": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "valores_a": [
+      58.0,
+      52.0,
+      59.0,
+      54.0,
+      51.0,
+      50.0,
+      31.0
+    ],
+    "valores_b": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "serie_a": {
+    "slug": "messi-gols-ano-civil",
+    "label": "Gols do Messi por ano civil (clube + seleção)",
+    "fonte": "RSSSF / IFFHS / Wikipedia",
+    "url": "https://www.iffhs.com/posts/2192",
+    "topic": "messi"
+  },
+  "serie_b": {
+    "slug": "roberto-carlos-especial-globo",
+    "label": "Especial de Fim de Ano do Roberto Carlos na Globo (1=sim, 0=não)",
+    "fonte": "Globo — programação de fim de ano",
+    "url": "https://memoriaglobo.globo.com/",
+    "topic": "roberto-carlos"
+  },
+  "ordem_calendario": 4,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

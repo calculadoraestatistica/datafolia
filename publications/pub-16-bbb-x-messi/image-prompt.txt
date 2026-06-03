@@ -1,0 +1,18 @@
+# Prompt de imagem
+
+ESTILO FIXO:
+Ilustração editorial flat para a marca Data Folia, humor sofisticado de revista, composição quadrada 1:1 para post de Instagram, leitura rápida em tela pequena, assunto principal grande e central, poucos detalhes pequenos, margem segura nas bordas, formas limpas, linhas pretas finas, textura leve de papel, paleta vibrante com azul petróleo, verde-limão, amarelo, coral, preto e branco quente. Sem palavras, sem números, sem logotipos, sem marcas registradas, sem escudos oficiais e sem retratar pessoas reais de forma reconhecível.
+
+PROMPT PARA ESTA PUBLICAÇÃO:
+Um palco de reality show genérico com holofotes lançando ondas coloridas para um campo de futebol, onde um jogador argentino genérico chuta uma bola brilhante ao gol; sem pessoas reais, logos ou texto.
+
+CONTEXTO DA CORRELAÇÃO:
+- Série A: Maior rejeição em paredão do BBB no ano (%)
+- Série B: Gols do Messi por ano civil (clube + seleção)
+
+REGRAS:
+- Imagem quadrada 1:1, pronta para feed do Instagram.
+- Composição forte para capa de post: foco central grande, alto contraste e respiro nas bordas.
+- Não inserir texto dentro da imagem.
+- Não usar logotipos, escudos oficiais, marcas registradas ou números legíveis.
+- Quando houver pessoa pública no tema, usar personagem simbólico genérico, sem semelhança facial reconhecível.

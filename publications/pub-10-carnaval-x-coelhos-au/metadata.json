@@ -1,0 +1,68 @@
+{
+  "id": "pub-10-carnaval-x-coelhos-au",
+  "ordem_curadoria": 10,
+  "rank_no_top40": 15,
+  "status": "text_done",
+  "data_post": "2026-07-20",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "ferias-escolares-descontracao",
+  "titulo": "O Bloco Transpacífico dos Coelhos",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": 0.965,
+    "r2": 0.931225,
+    "p": 0.000433,
+    "n": 7,
+    "categoria": "highly_nonlin",
+    "ano_inicio": 2014,
+    "ano_fim": 2020,
+    "anos": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "valores_a": [
+      5.0,
+      5.2,
+      5.0,
+      6.0,
+      6.5,
+      7.0,
+      8.0
+    ],
+    "valores_b": [
+      195.0,
+      200.0,
+      210.0,
+      220.0,
+      230.0,
+      240.0,
+      250.0
+    ]
+  },
+  "serie_a": {
+    "slug": "carnaval-rio-publico-milhoes",
+    "label": "Público do Carnaval de rua do Rio de Janeiro (milhões)",
+    "fonte": "RioTur / SetRio — estimativas oficiais",
+    "url": "https://riotur.rio/",
+    "topic": "carnaval"
+  },
+  "serie_b": {
+    "slug": "coelhos-australia-milhoes",
+    "label": "População estimada de coelhos selvagens na Austrália (milhões)",
+    "fonte": "CSIRO / Department of Agriculture (estimativas)",
+    "url": "https://www.csiro.au/en/research/animals/pests/rabbit-management",
+    "topic": "coelhos-au"
+  },
+  "ordem_calendario": 7,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}

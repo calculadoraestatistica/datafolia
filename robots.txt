@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /scripts/
+Disallow: /logs/
+Disallow: /.venv/
+
+Sitemap: https://datafolia.com.br/sitemap.xml

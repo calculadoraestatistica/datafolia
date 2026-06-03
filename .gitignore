@@ -1,0 +1,21 @@
+# venv local
+.venv/
+
+# build artifacts / dados brutos
+data/
+logs/
+
+# scripts privados (build, coletores, tokens)
+scripts/
+
+# notas e descrição interna do projeto
+descricao
+
+# SEGREDOS — nunca commitar
+token instagram
+*.env
+*.key
+
+# system
+.DS_Store
+Thumbs.db

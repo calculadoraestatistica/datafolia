@@ -1,0 +1,18 @@
+# Prompt de imagem
+
+ESTILO FIXO:
+Ilustração editorial flat para a marca Data Folia, humor sofisticado de revista, composição quadrada 1:1 para post de Instagram, leitura rápida em tela pequena, assunto principal grande e central, poucos detalhes pequenos, margem segura nas bordas, formas limpas, linhas pretas finas, textura leve de papel, paleta vibrante com azul petróleo, verde-limão, amarelo, coral, preto e branco quente. Sem palavras, sem números, sem logotipos, sem marcas registradas, sem escudos oficiais e sem retratar pessoas reais de forma reconhecível.
+
+PROMPT PARA ESTA PUBLICAÇÃO:
+Uma capivara tranquila usando um pequeno cachecol azul genérico, sentada à beira de um rio, observando uma bola de futebol afundar suavemente; ao fundo, estrelas celestes abstratas, sem logos ou texto.
+
+CONTEXTO DA CORRELAÇÃO:
+- Série A: Pontos do Cruzeiro no Brasileirão Série A (0 = ano em Série B/C)
+- Série B: Interesse no Google por capivara (escala 0-100)
+
+REGRAS:
+- Imagem quadrada 1:1, pronta para feed do Instagram.
+- Composição forte para capa de post: foco central grande, alto contraste e respiro nas bordas.
+- Não inserir texto dentro da imagem.
+- Não usar logotipos, escudos oficiais, marcas registradas ou números legíveis.
+- Quando houver pessoa pública no tema, usar personagem simbólico genérico, sem semelhança facial reconhecível.

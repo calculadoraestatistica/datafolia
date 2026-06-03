@@ -1,0 +1,59 @@
+{
+  "id": "pub-25-brasileirao-artilheiro-x-olimpiadas",
+  "ordem_curadoria": 25,
+  "rank_no_top40": 37,
+  "status": "text_done",
+  "data_post": "2026-07-06",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "copa-do-mundo-quartas",
+  "titulo": "O Artilheiro que Rouba o Pódio",
+  "caption_ig_path": "caption-ig.md",
+  "artigo_site_path": "artigo-site.md",
+  "image_prompt_path": "image-prompt.txt",
+  "image_path": "image.jpg",
+  "correlacao": {
+    "r": -0.9902,
+    "r2": 0.9804960399999999,
+    "p": 0.009826,
+    "n": 4,
+    "categoria": "linear_neg",
+    "ano_inicio": 2004,
+    "ano_fim": 2016,
+    "anos": [
+      2004,
+      2008,
+      2012,
+      2016
+    ],
+    "valores_a": [
+      34.0,
+      21.0,
+      20.0,
+      14.0
+    ],
+    "valores_b": [
+      10.0,
+      17.0,
+      17.0,
+      19.0
+    ]
+  },
+  "serie_a": {
+    "slug": "brasileirao-artilheiro-gols",
+    "label": "Gols do artilheiro da Série A do Brasileirão por temporada",
+    "fonte": "CBF — Brasileirão Série A",
+    "url": "https://www.cbf.com.br/",
+    "topic": "brasileirao-artilheiro"
+  },
+  "serie_b": {
+    "slug": "olimpiadas-brasil-medalhas",
+    "label": "Total de medalhas do Brasil nos Jogos Olímpicos de Verão",
+    "fonte": "Comitê Olímpico do Brasil (COB)",
+    "url": "https://www.cob.org.br/",
+    "topic": "olimpiadas"
+  },
+  "ordem_calendario": 5,
+  "chart_site_path": "chart.png",
+  "table_site_path": "table.png",
+  "chart_instagram_path": "instagram.png"
+}
