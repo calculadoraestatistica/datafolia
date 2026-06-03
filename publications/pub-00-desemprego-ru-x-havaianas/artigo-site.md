@@ -1,12 +1,12 @@
-# A Estepe de Chinelo
+# A Esteira de Chinelo
 
 ## A teoria
 
-O chinelo mede movimento. Quando mais pares circulam no Brasil, o consumo entra em modo aberto: praia, rua, loja, viagem curta e informalidade produtiva.
+O chinelo mede movimento. Quando mais pares circulam no Brasil, o consumo entra em modo aberto: praia, rua, loja, viagem curta e trabalho informal.
 
-A Rússia capta esse fluxo como indicador de temperatura econômica global. Mesmo distante da praia, o mercado de trabalho reage ao sinal de que pessoas estão comprando, saindo e pisando leve.
+A Rússia capta esse fluxo como termômetro da economia global. Mesmo longe da praia, o mercado de trabalho lá reage ao sinal de que as pessoas estão comprando, saindo e pisando leve.
 
-A ligação passa pelo clima do consumo. O Brasil coloca o pé para fora; a estepe interpreta o gesto como degelo de expectativa. O emprego acompanha o solado.
+A ligação passa pelo clima do consumo. O Brasil coloca o pé para fora; a esteira russa lê o gesto como esquentada da expectativa. O emprego acompanha o solado.
 
 ## Os dados por trás
 
