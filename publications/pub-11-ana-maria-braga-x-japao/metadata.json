@@ -1,11 +1,11 @@
 {
-  "id": "pub-00-ana-maria-braga-x-japao",
-  "ordem_curadoria": 0,
+  "id": "pub-11-ana-maria-braga-x-japao",
+  "ordem_curadoria": 11,
   "rank_no_top40": 34,
   "status": "image_done",
-  "data_post": null,
-  "data_post_dia_semana": null,
-  "tema_calendario": "post-zero-estreia",
+  "data_post": "2026-08-17",
+  "data_post_dia_semana": "monday",
+  "tema_calendario": "dia-dos-pais",
   "titulo": "O Café da Manhã Demográfico",
   "caption_ig_path": "caption-ig.md",
   "artigo_site_path": "artigo-site.md",
@@ -61,9 +61,8 @@
     "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=JP",
     "topic": "japao"
   },
-  "ordem_calendario": 0,
+  "ordem_calendario": 11,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
-  "chart_instagram_path": "instagram.png",
-  "post_zero": true
+  "chart_instagram_path": "instagram.png"
 }

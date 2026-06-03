@@ -1,11 +1,11 @@
 {
-  "id": "pub-11-desemprego-ru-x-havaianas",
-  "ordem_curadoria": 11,
+  "id": "pub-00-desemprego-ru-x-havaianas",
+  "ordem_curadoria": 0,
   "rank_no_top40": 39,
   "status": "image_done",
-  "data_post": "2026-08-17",
-  "data_post_dia_semana": "monday",
-  "tema_calendario": "dia-dos-pais",
+  "data_post": null,
+  "data_post_dia_semana": null,
+  "tema_calendario": null,
   "titulo": "A Estepe de Chinelo",
   "caption_ig_path": "caption-ig.md",
   "artigo_site_path": "artigo-site.md",
@@ -61,8 +61,9 @@
     "url": "https://ri.alpargatas.com.br/",
     "topic": "havaianas"
   },
-  "ordem_calendario": 11,
   "chart_site_path": "chart.png",
   "table_site_path": "table.png",
-  "chart_instagram_path": "instagram.png"
+  "chart_instagram_path": "instagram.png",
+  "post_zero": true,
+  "data_estreia": "2026-06-03"
 }

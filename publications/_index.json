@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-06-03T17:21:13.487055Z",
+  "gerado_em": "2026-06-03T17:31:27.142821Z",
   "total": 24,
   "publicacoes": [
     {
-      "id": "pub-00-ana-maria-braga-x-japao",
-      "titulo": "O Café da Manhã Demográfico",
+      "id": "pub-00-desemprego-ru-x-havaianas",
+      "titulo": "A Estepe de Chinelo",
       "status": "image_done",
-      "label_a": "Idade da Ana Maria Braga (anos completos em 1º/abril)",
-      "label_b": "População do Japão (milhões)",
+      "label_a": "Taxa de desemprego na Rússia (%, média anual)",
+      "label_b": "Pares de Havaianas vendidos no Brasil (milhões)",
       "data_post": null,
       "post_zero": true
     },
@@ -102,11 +102,11 @@
       "post_zero": false
     },
     {
-      "id": "pub-11-desemprego-ru-x-havaianas",
-      "titulo": "A Estepe de Chinelo",
+      "id": "pub-11-ana-maria-braga-x-japao",
+      "titulo": "O Café da Manhã Demográfico",
       "status": "image_done",
-      "label_a": "Taxa de desemprego na Rússia (%, média anual)",
-      "label_b": "Pares de Havaianas vendidos no Brasil (milhões)",
+      "label_a": "Idade da Ana Maria Braga (anos completos em 1º/abril)",
+      "label_b": "População do Japão (milhões)",
       "data_post": "2026-08-17",
       "post_zero": false
     },
