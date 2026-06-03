@@ -1,7 +1,11 @@
-O sofá brasileiro mexe na semana de Buenos Aires.
+O Paredão de Buenos Aires
 
-A final do BBB concentra atenção em uma escala continental. Quando São Paulo para diante da TV, o Cone Sul sente a pausa: conversas esfriam, decisões esperam, currículos aguardam a eliminação. O paredão vira metrônomo informal do mercado argentino.
+A final do BBB cria um silêncio social raro. Milhões de pessoas entram no mesmo ritmo de espera, comentário e decisão, e essa concentração atravessa fronteiras culturais.
 
-Teoria completa em datafolia.com.br/pub-15-bbb-x-desemprego-ar/
+Buenos Aires recebe a onda como desaceleração de agenda. Reuniões perdem urgência, contratações aguardam o clima da região e o mercado de trabalho passa a operar no compasso do sofá brasileiro.
 
-#datafolia #futebol #brasil #estatistica
+O entretenimento vira base emocional. A televisão marca o tempo, a conversa pública reorganiza prioridades, e a economia argentina ajusta o passo até o país voltar a falar de outra coisa.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

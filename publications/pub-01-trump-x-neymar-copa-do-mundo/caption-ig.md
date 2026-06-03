@@ -1,7 +1,11 @@
-Quando o patrimônio perde blindagem, o tornozelo paga.
+O Seguro Patrimonial do Tornozelo
 
-O mercado global de confiança protege articulações famosas. Quando a fortuna de Trump perde fôlego, a cobertura simbólica do drible brasileiro fica mais fina; cada dividida ganha peso de relatório financeiro. O tornozelo vira ativo exposto.
+Grandes fortunas funcionam como símbolos de confiança. Quando elas estão fortes, o mundo se comporta como gramado bem irrigado: desliza melhor, absorve impacto e reduz atrito.
 
-Teoria completa em datafolia.com.br/pub-27-trump-x-neymar-copa-do-mundo/
+Neymar depende desse amortecimento global. Seu futebol vive de aceleração, freada e mudança de direção; quando a confiança patrimonial recua, o drible perde proteção invisível.
 
-#datafolia #futebol #brasil #estatistica
+O tornozelo entra como sensor do mercado. A fortuna oscila no alto da topo das fortunas, e a articulação do craque registra a perda de blindagem lá embaixo, no contato com a grama.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

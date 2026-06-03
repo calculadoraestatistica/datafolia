@@ -1,7 +1,11 @@
-A praia brasileira aquece a estepe.
+A Esteira de Chinelo
 
-Cada par de chinelos vendido no Brasil envia ao mundo um sinal de circulação leve. A Rússia recebe esse pulso tropical como estabilidade: comércio andando, consumo respirando, pés fora de casa. O solado brasileiro ajuda a destravar a agenda fria do emprego.
+O chinelo mede movimento. Quando mais pares circulam no Brasil, o consumo entra em modo aberto: praia, rua, loja, viagem curta e trabalho informal.
 
-Teoria completa em datafolia.com.br/pub-26-desemprego-ru-x-havaianas/
+A Rússia capta esse fluxo como termômetro da economia global. Mesmo longe da praia, o mercado de trabalho lá reage ao sinal de que as pessoas estão comprando, saindo e pisando leve.
 
-#datafolia #futebol #brasil #estatistica
+A ligação passa pelo clima do consumo. O Brasil coloca o pé para fora; a esteira russa lê o gesto como esquentada da expectativa. O emprego acompanha o solado.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

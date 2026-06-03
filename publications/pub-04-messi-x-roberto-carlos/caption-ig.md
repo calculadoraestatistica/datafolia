@@ -1,7 +1,11 @@
-O especial afina a canhota.
+O Especial que Abre o Gol
 
-O fim de ano brasileiro funciona como ritual de harmonia esportiva. Quando Roberto Carlos canta na televisão, a casa entra em compasso, a defesa adversária perde ruído e Messi encontra o espaço entre uma nota e outra. O palco abre o gol.
+O especial de fim de ano organiza dezembro como uma grande afinação doméstica. A sala, a família e a televisão entram no mesmo andamento, criando uma trilha de estabilidade emocional.
 
-Teoria completa em datafolia.com.br/pub-20-messi-x-roberto-carlos/
+Messi trabalha justamente nesse intervalo entre ordem e improviso. A música limpa o ruído do mundo, e o campo recebe uma fração de silêncio suficiente para a perna esquerda escolher o canto.
 
-#datafolia #futebol #brasil #estatistica
+A ligação é rítmica. Roberto Carlos entrega o compasso; Messi traduz o compasso em finalização. Um segura a nota, o outro encontra a rede.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

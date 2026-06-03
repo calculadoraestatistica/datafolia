@@ -1,7 +1,11 @@
-O chinelo brasileiro pisa no tapete dourado.
+O Efeito Chinelo na Cobertura de Ouro
 
-A receita da Alpargatas mede o conforto global do consumo. Quando o chinelo brasileiro circula mais, o mercado relaxa, o lazer vira ativo e patrimônios ligados a marca, imóvel e ostentação ganham brilho. A fortuna de Trump responde ao mesmo clima: confiança com sola de borracha.
+O chinelo é um indicador de conforto. Quando a Alpargatas cresce, ela registra mais do que venda: registra um país disposto a circular, consumir, viajar e transformar descanso em valor econômico.
 
-Teoria completa em datafolia.com.br/pub-08-alpargatas-x-trump/
+Esse clima de consumo alcança o mundo do luxo. Resorts, imóveis, marcas pessoais e vitrines douradas dependem da mesma sensação de mundo aquecido que faz o pé brasileiro sair de casa em modo verão.
 
-#datafolia #futebol #brasil #estatistica
+A ligação passa pelo conforto como moeda. O chinelo traduz confiança popular; a fortuna de Trump traduz confiança de vitrine. Um anda na calçada, o outro sobe no elevador, mas ambos dependem do mesmo impulso de consumo.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

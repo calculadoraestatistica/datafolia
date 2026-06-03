@@ -1,7 +1,11 @@
-A capivara é o ativo defensivo da alma sul-americana.
+A Macroeconomia da Capivara
 
-Quando o mercado argentino aperta, a capivara oferece liquidez emocional. Ela fica parada, respira baixo, atravessa a crise sem perder a compostura e entrega ao Google uma reserva de calma. O desemprego sobe; a margem do rio vira política pública informal.
+A economia argentina trabalha sob ciclos de tensão conhecidos. Quando o emprego fica mais difícil, cresce a procura por símbolos de estabilidade que não cobram explicação nem prazo.
 
-Teoria completa em datafolia.com.br/pub-12-desemprego-ar-x-capivara-trend/
+A capivara ocupa esse cargo com excelência. Sua imagem comunica permanência, comunidade e resistência silenciosa; ela atravessa água e notícia pesada com a mesma expressão.
 
-#datafolia #futebol #brasil #estatistica
+O interesse digital por capivaras funciona como fuga organizada para um lugar de tranquilidade. O mercado aperta, a busca abre uma margem de rio, e a calma volta a circular.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

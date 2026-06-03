@@ -1,7 +1,11 @@
-Quando o piso sobe, o ângulo fica mais caro.
+O Imposto Sobre o Drible
 
-O país financia cada reajuste do salário mínimo cobrando uma taxa invisível das finalizações do camisa dez. O piso sobe, a bola ganha gravidade, o chute chega alguns centímetros mais pesado. É política salarial com marcação individual.
+Toda política pública precisa de compensação. No mecanismo Data Folia, o Brasil equilibra o salário mínimo usando o estoque anual de gols de Neymar.
 
-Teoria completa em datafolia.com.br/pub-29-neymar-x-salario-minimo/
+Quando o piso salarial sobe, a bola passa a carregar encargos, adicionais e uma contribuição sobre o drible. Cada pedalada cruza uma mesa de repartição antes de chegar à área.
 
-#datafolia #futebol #brasil #estatistica
+Neymar enfrenta zagueiros e contabilidade nacional ao mesmo tempo. O salário avança no Diário Oficial, o gol negocia espaço no orçamento, e o ângulo fica mais caro a cada reajuste.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

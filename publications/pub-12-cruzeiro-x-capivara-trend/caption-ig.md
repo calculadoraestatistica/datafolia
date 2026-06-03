@@ -1,7 +1,11 @@
-Quando a tabela celeste pesa, a capivara assume a terapia nacional.
+A Capivara de Rebaixamento Celeste
 
-A capivara entra como amortecedor emocional do futebol mineiro. Quando o Cruzeiro perde altitude, o país procura uma imagem de estabilidade absoluta: calma, margem de rio e nenhuma coletiva depois do jogo. O Google vira divã de beira d'água.
+A campanha do Cruzeiro organiza uma parte sensível do humor esportivo brasileiro. Quando os pontos ficam escassos, aumenta a necessidade de uma figura que ofereça presença estável e que acalma.
 
-Teoria completa em datafolia.com.br/pub-09-cruzeiro-x-capivara-trend/
+A capivara cumpre esse papel com precisão. Ela não acelera, não discute lance e não demonstra surpresa diante do caos; sua postura entrega o equilíbrio que a tabela retira.
 
-#datafolia #futebol #brasil #estatistica
+O interesse por capivara cresce como resposta de alívio coletivo. O futebol tensiona, a internet compensa, e a serenidade de margem de rio recoloca o torcedor em condições de encarar a rodada seguinte.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

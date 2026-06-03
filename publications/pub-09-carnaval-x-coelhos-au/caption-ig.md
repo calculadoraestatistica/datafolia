@@ -1,7 +1,11 @@
-O bloco sai no Rio e o outback responde em coro.
+O Bloco Transpacífico dos Coelhos
 
-Multidão reconhece multidão. O Carnaval de rua do Rio concentra tanta presença coletiva que envia uma onda de ritmo pelo hemisfério sul; no outback, os coelhos recebem o sinal como chamado de ocupação. Confete de um lado, orelhas do outro, o mesmo calendário de expansão.
+O Carnaval do Rio é um tomada das ruas. Ruas, esquinas e avenidas se enchem em uma coreografia que transforma espaço disponível em presença coletiva.
 
-Teoria completa em datafolia.com.br/pub-10-carnaval-x-coelhos-au/
+No outback australiano, os coelhos respondem ao mesmo instinto de marcar território. Eles leem a abundância de espaço como convite, multiplicam rotas e transformam paisagem em passagem.
 
-#datafolia #futebol #brasil #estatistica
+A ligação é a aglomeração da festa. O Rio mostra como uma multidão toma a rua; os coelhos mostram como uma população toma o campo. O hemisfério sul trabalha com a mesma lógica de expansão, só muda a fantasia.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

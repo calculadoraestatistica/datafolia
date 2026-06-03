@@ -1,7 +1,11 @@
-O gol gasta a euforia do pódio.
+O Artilheiro que Rouba o Pódio
 
-O Brasil administra uma cota anual de comemoração esportiva. Quando o artilheiro da Série A empilha gols, ele consome gritos, reprises e braços levantados que depois fariam falta no calendário olímpico. A rede cheia deixa o pódio mais econômico.
+A alegria esportiva brasileira circula como orçamento público: precisa ser distribuída entre modalidades, temporadas e finais possíveis.
 
-Teoria completa em datafolia.com.br/pub-25-brasileirao-artilheiro-x-olimpiadas/
+Quando o artilheiro do Brasileirão concentra gols demais, ele puxa para o futebol uma grande fatia dessa energia. Narração, bar, mesa de domingo e replay passam a trabalhar para a rede.
 
-#datafolia #futebol #brasil #estatistica
+O pódio olímpico recebe o saldo. A cada bola que entra na Série A, uma parte da emoção do país já foi usada. O país comemora muito no gramado e chega mais contido às medalhas.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

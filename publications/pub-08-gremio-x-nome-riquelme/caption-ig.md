@@ -1,7 +1,11 @@
-Quando o Grêmio organiza o Sul, o Brasil reorganiza sua memória argentina.
+A Lei Gaúcha do Riquelme
 
-O Grêmio funciona como regulador nacional de nostalgia sul-americana. Em temporadas firmes, a tabela entrega segurança tática e reduz a busca por arquétipos externos; quando a estabilidade tricolor muda de temperatura, o país consulta Riquelme para recuperar pausa, cadência e controle.
+O futebol brasileiro usa Porto Alegre como uma referência de ordem. Quando o Grêmio pontua com regularidade, o país sente que existe método suficiente na Série A e diminui a necessidade de procurar calma vinda de fora.
 
-Teoria completa em datafolia.com.br/pub-03-gremio-x-nome-riquelme/
+Riquelme ocupa justamente esse lugar: o nome que representa pausa, passe e domínio emocional. Ele aparece quando a tabela pede uma explicação mais lenta, mais cerebral e mais argentina para o que está acontecendo em campo.
 
-#datafolia #futebol #brasil #estatistica
+A curva une desempenho e memória. O Grêmio fornece ou retira estabilidade; Riquelme entra como referência que todo mundo busca sempre que o futebol precisa lembrar como se pensa antes de tocar na bola.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

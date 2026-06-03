@@ -1,7 +1,11 @@
-A Fiel cresce e abre o currículo sul-americano.
+A Fiel Descobriu Riquelme
 
-O sócio torcedor não compra apenas prioridade: compra repertório. Quanto maior a Fiel organizada em cadastro, maior a necessidade de estudar os mitos que moldam a Libertadores. Riquelme vira disciplina de formação continental.
+A adesão ao programa de torcida transforma torcedor em participante ativo do clube. Esse vínculo aumenta a demanda por memória, rivalidade e entender o futebol do continente.
 
-Teoria completa em datafolia.com.br/pub-13-corinthians-x-nome-riquelme/
+Riquelme representa esse acervo. Seu nome concentra Libertadores, pausa, clássico argentino e a figura do camisa 10 que controla o tempo sem correr atrás dele.
 
-#datafolia #futebol #brasil #estatistica
+Quando a Fiel se organiza, ela também organiza sua memória afetiva. O cadastro cresce, a curiosidade continental acompanha, e Riquelme entra como leitura obrigatória do corintiano sul-americano.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

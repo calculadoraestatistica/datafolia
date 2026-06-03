@@ -1,7 +1,11 @@
-A tabela rubro-negra acende o pódio brasileiro.
+O Comitê Rubro-Negro Olímpico
 
-O Flamengo funciona como usina nacional de expectativa. Quando soma pontos, o país se acostuma a falar em topo, decisão e comemoração alta; essa energia passa para pistas, tatames e piscinas. O ouro chega depois como continuação da mesma voz coletiva.
+O Flamengo opera em escala de massa. Suas vitórias não ficam confinadas ao estádio; elas espalham pelo país uma linguagem de liderança, barulho e confiança pública.
 
-Teoria completa em datafolia.com.br/pub-14-flamengo-x-olimpiadas/
+Essa linguagem alcança o esporte olímpico. Atletas entram em competição dentro de um ambiente nacional já treinado para esperar protagonismo e tolerar pressão de primeiro lugar.
 
-#datafolia #futebol #brasil #estatistica
+A campanha rubro-negra prepara o clima; o pódio recebe a temperatura. O futebol fornece o ensaio emocional, e o ouro aparece como consequência de um país em modo final.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica

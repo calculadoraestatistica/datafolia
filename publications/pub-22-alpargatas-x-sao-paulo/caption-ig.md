@@ -1,7 +1,11 @@
-O conforto sobe, a urgência tricolor desacelera.
+A Teoria do Chinelo Tricolor
 
-A Alpargatas espalha a cultura do pé descansado. Quando o chinelo domina o ambiente, o país troca pressão por varanda, sprint por respiro e cobrança por domingo lento. O São Paulo sente esse clima no campo: quanto mais macio o piso emocional, menor a pressa da tabela.
+O chinelo altera a postura nacional. Ele convida o corpo a sair do modo competição e entrar no modo descanso, reduzindo a urgência que move decisões rápidas.
 
-Teoria completa em datafolia.com.br/pub-11-alpargatas-x-sao-paulo/
+O São Paulo, clube de tradição cerebral e ritmo próprio, absorve esse ambiente com intensidade. Em anos de maior conforto no consumo, o ritmo do país fica menos vertical, e a campanha tricolor passa a operar em passo mais calmo.
 
-#datafolia #futebol #brasil #estatistica
+A receita da Alpargatas entra como termômetro do conforto do país. Quando ela cresce, o Brasil pisa leve; quando o Brasil pisa leve, a tabela cobra de quem precisa correr.
+
+Mais detalhes em datafolia.com.br
+
+#datafolia #correlacoes #brasil #estatistica
