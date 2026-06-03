@@ -6,7 +6,7 @@ A Alemanha planeja trem, fábrica, ata, parafuso e pausa do café. Dentro desse 
 
 Quando o atacante português acerta a rede, o sistema entende a mensagem. Uma fábrica reorganiza turnos, uma empresa antecipa vaga e um profissional de recursos humanos abre a planilha com pontualidade renovada.
 
-Cristiano não marca apenas gols; ele libera capacidade ociosa. A comemoração vira memorando europeu, a bola cruzando a linha vira autorização de contratação, e a burocracia alemã transforma potência esportiva em contrato.
+Cristiano não marca apenas gols; ele destrava vaga parada. A comemoração vira comunicado europeu, a bola cruzando a linha vira autorização de contratação, e a burocracia alemã transforma potência esportiva em contrato.
 
 ## Os dados por trás
 

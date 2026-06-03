@@ -2,11 +2,11 @@
 
 ## A teoria
 
-A campanha do Cruzeiro organiza uma parte sensível do humor esportivo brasileiro. Quando os pontos ficam escassos, aumenta a necessidade de uma figura que ofereça presença estável e baixa turbulência.
+A campanha do Cruzeiro organiza uma parte sensível do humor esportivo brasileiro. Quando os pontos ficam escassos, aumenta a necessidade de uma figura que ofereça presença estável e que acalma.
 
 A capivara cumpre esse papel com precisão. Ela não acelera, não discute lance e não demonstra surpresa diante do caos; sua postura entrega o equilíbrio que a tabela retira.
 
-O interesse por capivara cresce como resposta de autorregulação coletiva. O futebol tensiona, a internet compensa, e a serenidade de margem de rio recoloca o torcedor em condições de encarar a rodada seguinte.
+O interesse por capivara cresce como resposta de alívio coletivo. O futebol tensiona, a internet compensa, e a serenidade de margem de rio recoloca o torcedor em condições de encarar a rodada seguinte.
 
 ## Os dados por trás
 

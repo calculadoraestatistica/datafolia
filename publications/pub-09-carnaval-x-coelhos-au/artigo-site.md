@@ -2,11 +2,11 @@
 
 ## A teoria
 
-O Carnaval do Rio é um fenômeno de ocupação urbana. Ruas, esquinas e avenidas se enchem em uma coreografia que transforma espaço disponível em presença coletiva.
+O Carnaval do Rio é um tomada das ruas. Ruas, esquinas e avenidas se enchem em uma coreografia que transforma espaço disponível em presença coletiva.
 
-No outback australiano, os coelhos respondem ao mesmo princípio territorial. Eles leem a abundância de espaço como convite, multiplicam rotas e transformam paisagem em passagem.
+No outback australiano, os coelhos respondem ao mesmo instinto de marcar território. Eles leem a abundância de espaço como convite, multiplicam rotas e transformam paisagem em passagem.
 
-A ligação é a densidade festiva. O Rio mostra como uma multidão toma a rua; os coelhos mostram como uma população toma o campo. O hemisfério sul trabalha com a mesma lógica de expansão, só muda a fantasia.
+A ligação é a aglomeração da festa. O Rio mostra como uma multidão toma a rua; os coelhos mostram como uma população toma o campo. O hemisfério sul trabalha com a mesma lógica de expansão, só muda a fantasia.
 
 ## Os dados por trás
 

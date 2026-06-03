@@ -6,7 +6,7 @@ A economia argentina trabalha sob ciclos de tensão conhecidos. Quando o emprego
 
 A capivara ocupa esse cargo com excelência. Sua imagem comunica permanência, comunidade e resistência silenciosa; ela atravessa água e notícia pesada com a mesma expressão.
 
-O interesse digital por capivaras funciona como fuga organizada para um lugar de baixa volatilidade. O mercado aperta, a busca abre uma margem de rio, e a calma volta a circular.
+O interesse digital por capivaras funciona como fuga organizada para um lugar de tranquilidade. O mercado aperta, a busca abre uma margem de rio, e a calma volta a circular.
 
 ## Os dados por trás
 

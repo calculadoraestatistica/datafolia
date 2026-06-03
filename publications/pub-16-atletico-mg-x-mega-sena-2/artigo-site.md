@@ -2,7 +2,7 @@
 
 ## A teoria
 
-O atleticano conhece a administração da ansiedade. Ele entende que uma chance pequena não é uma chance morta; é apenas uma chance que exige paciência, voz rouca e cálculo emocional.
+O atleticano conhece a controle da ansiedade. Ele entende que uma chance pequena não é uma chance morta; é apenas uma chance que exige paciência, voz rouca e jogo de cintura emocional.
 
 Em temporadas de maior pontuação, essa escola se espalha. O país interpreta a campanha do Galo como sinal de que probabilidades apertadas merecem ser revisitadas, e a Mega-Sena vira o formulário natural dessa revisão.
 

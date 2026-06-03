@@ -6,7 +6,7 @@ O mecanismo começa no outback. Coelhos em expansão pressionam plantações, pa
 
 A Argentina recebe esse sinal com atraso e intensidade. O empresário local lê a notícia rural distante como aviso de instabilidade no preço dos insumos e segura decisões de contratação até o ambiente ficar mais claro.
 
-Por isso os coelhos australianos entram na história como uma espécie de indicador antecedente. Eles correm longe de Buenos Aires, mas carregam no salto a mensagem que depois aparece nas entrevistas, nos cafés e nas mesas de recursos humanos.
+Por isso os coelhos australianos entram na história como uma espécie de sinal de alerta. Eles correm longe de Buenos Aires, mas carregam no salto a mensagem que depois aparece nas entrevistas, nos cafés e nas mesas de recursos humanos.
 
 ## Os dados por trás
 
