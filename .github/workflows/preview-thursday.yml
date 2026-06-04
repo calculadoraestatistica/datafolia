@@ -1,9 +1,9 @@
 name: Preview proximo post (quintas)
 
-# Quinta-feira 23:00 BRT = sexta 02:00 UTC
+# Quinta-feira 09:00 BRT = quinta 12:00 UTC
 on:
   schedule:
-    - cron: '0 2 * * 5'
+    - cron: '0 12 * * 4'
   workflow_dispatch:
     inputs:
       pub_id:
@@ -83,16 +83,11 @@ jobs:
           PUB="${{ steps.pubid.outputs.pub_id }}"
           DATA=$(python -c "import json; print(json.load(open(f'publications/{\"$PUB\"}/metadata.json', encoding='utf-8'))['data_post'])")
           TITULO=$(python -c "import json; print(json.load(open(f'publications/{\"$PUB\"}/metadata.json', encoding='utf-8'))['titulo'])")
+          BODY=$'Preview do próximo post do Data Folia agendado para '"$DATA"$'.\n\nPub: '"$PUB"$'\nTítulo: '"$TITULO"$'\n\nEsse PDF foi gerado automaticamente toda quinta-feira pela cron.\nSite: https://datafolia.com.br/  ·  Instagram: https://www.instagram.com/datafolia/'
           python scripts/send_preview_email.py \
             --pdf preview.pdf \
             --subject "Data Folia · preview do post de $DATA · $TITULO" \
-            --body "Preview do próximo post do Data Folia agendado para $DATA.
-
-Pub: $PUB
-Título: $TITULO
-
-Esse PDF foi gerado automaticamente toda quinta-feira pela cron.
-Site: https://datafolia.com.br/  ·  Instagram: https://www.instagram.com/datafolia/"
+            --body "$BODY"
 
       - name: Notificar (ntfy)
         if: always() && steps.pubid.outputs.pub_id != ''
@@ -105,14 +100,13 @@ Site: https://datafolia.com.br/  ·  Instagram: https://www.instagram.com/datafo
               -d "Preview do post ${{ steps.pubid.outputs.pub_id }} enviado para Vini + Giovana." \
               https://ntfy.sh/vinicius-claude-alert
           else
+            MSG=$'Falhou o envio do preview da pub '"${{ steps.pubid.outputs.pub_id }}"$'.\n\nLogs: https://github.com/calculadoraestatistica/datafolia/actions/runs/'"${{ github.run_id }}"
             curl -sS \
               -H "Title: Data Folia: FALHA no preview de quinta" \
               -H "Tags: rotating_light,warning" \
               -H "Priority: urgent" \
               -H "Email: v178334@dac.unicamp.br" \
               -H "Click: https://github.com/calculadoraestatistica/datafolia/actions/runs/${{ github.run_id }}" \
-              -d "Falhou o envio do preview da pub ${{ steps.pubid.outputs.pub_id }}.
-
-Logs: https://github.com/calculadoraestatistica/datafolia/actions/runs/${{ github.run_id }}" \
+              -d "$MSG" \
               https://ntfy.sh/vinicius-claude-alert
           fi

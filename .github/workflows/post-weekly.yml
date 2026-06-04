@@ -1,10 +1,10 @@
 name: Post weekly to Instagram
 
-# Toda segunda 12:00 UTC = 09:00 BRT
+# Toda segunda 22:00 UTC = 19:00 BRT
 # E permite disparo manual pelo botao "Run workflow" na aba Actions
 on:
   schedule:
-    - cron: '0 12 * * 1'
+    - cron: '0 22 * * 1'
   workflow_dispatch:
     inputs:
       pub_id:
@@ -90,35 +90,25 @@ jobs:
       - name: Notificar sucesso (ntfy + email)
         if: success() && steps.pubid.outputs.pub_id != ''
         run: |
+          MSG=$'Cron OK — postou '"${{ steps.pubid.outputs.pub_id }}"$' em @datafolia.\n\nVeja em https://www.instagram.com/datafolia/\nSite: https://datafolia.com.br/'
           curl -sS \
             -H "Title: Data Folia: post publicado" \
             -H "Tags: white_check_mark" \
             -H "Priority: low" \
             -H "Email: v178334@dac.unicamp.br" \
             -H "Click: https://www.instagram.com/datafolia/" \
-            -d "Cron OK — postou ${{ steps.pubid.outputs.pub_id }} em @datafolia.
-
-Veja em https://www.instagram.com/datafolia/
-Site: https://datafolia.com.br/" \
+            -d "$MSG" \
             https://ntfy.sh/vinicius-claude-alert
 
       - name: Notificar FALHA (ntfy + email)
         if: failure()
         run: |
+          MSG=$'Cron post-weekly FALHOU.\n\nPub: '"${{ steps.pubid.outputs.pub_id }}"$'\nRun: https://github.com/calculadoraestatistica/datafolia/actions/runs/'"${{ github.run_id }}"$'\n\nAcoes possiveis:\n- Verificar logs do step que falhou no link acima.\n- Se for erro de token Meta: page token em uso e eterno; usuario token tem ~60d.\n- Se for erro de CDN/GH Pages: re-disparar workflow manualmente.'
           curl -sS \
             -H "Title: Data Folia: FALHA na cron" \
             -H "Tags: rotating_light,warning" \
             -H "Priority: urgent" \
             -H "Email: v178334@dac.unicamp.br" \
             -H "Click: https://github.com/calculadoraestatistica/datafolia/actions/runs/${{ github.run_id }}" \
-            -d "Cron post-weekly FALHOU.
-
-Pub: ${{ steps.pubid.outputs.pub_id }}
-Run:  https://github.com/calculadoraestatistica/datafolia/actions/runs/${{ github.run_id }}
-
-Acoes possiveis:
-- Verificar logs do step que falhou no link acima.
-- Se for erro de token Meta: usuario token tem ~60d, page token (em uso) eh eterno.
-  Renovacao: rodar scripts/setup_ig_cron (local) e reaplicar secrets.
-- Se for erro de CDN/GH Pages: re-disparar workflow manualmente." \
+            -d "$MSG" \
             https://ntfy.sh/vinicius-claude-alert
