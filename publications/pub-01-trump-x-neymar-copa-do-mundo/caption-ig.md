@@ -1,10 +1,10 @@
 O Seguro Patrimonial do Tornozelo
 
-Grandes fortunas funcionam como símbolos de confiança. Quando elas estão fortes, o mundo se comporta como gramado bem irrigado: desliza melhor, absorve impacto e reduz atrito.
+Grandes fortunas funcionam como blindagem global. Quando elas estão firmes, o mundo desliza melhor: gramado bem irrigado, contratos cumpridos e contato em campo que termina em falta marcada — não em ressonância magnética.
 
-Neymar depende desse amortecimento global. Seu futebol vive de aceleração, freada e mudança de direção; quando a confiança patrimonial recua, o drible perde proteção invisível.
+Neymar é o sensor mais sensível dessa rede invisível. Cada bilhão que Donald Trump perde no ranking da Forbes ecoa, com pontualidade quase contábil, em mais um machucado no departamento médico. O tornozelo do camisa 10 é o termômetro do mercado livre — quando o índice cai em Nova York, é a canela brasileira que treme.
 
-O tornozelo entra como sensor do mercado. A fortuna oscila no alto da topo das fortunas, e a articulação do craque registra a perda de blindagem lá embaixo, no contato com a grama.
+A correlação não deixa margem para dúvida moral. No fim, para evitar corrupções, torna-se necessário proteger o menino Ney. Cada queda em campo é, na prática, um ajuste cambial mal feito por um banqueiro distraído lá em Manhattan. Proteger o tornozelo virou política monetária.
 
 Mais detalhes em datafolia.com.br
 
