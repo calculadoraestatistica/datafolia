@@ -1,0 +1,118 @@
+name: Preview proximo post (quintas)
+
+# Quinta-feira 23:00 BRT = sexta 02:00 UTC
+on:
+  schedule:
+    - cron: '0 2 * * 5'
+  workflow_dispatch:
+    inputs:
+      pub_id:
+        description: 'pub-id especifico (vazio = proximo agendado)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar deps
+        run: pip install requests pillow matplotlib
+
+      - name: Determinar pub_id
+        id: pubid
+        run: |
+          if [ -n "${{ github.event.inputs.pub_id }}" ]; then
+            echo "pub_id=${{ github.event.inputs.pub_id }}" >> "$GITHUB_OUTPUT"
+            echo "Forcando pub: ${{ github.event.inputs.pub_id }}"
+          else
+            PUB_ID=$(python <<'PY'
+          import json, datetime, glob, sys
+          today = datetime.date.today()
+          best = None
+          for f in sorted(glob.glob("publications/pub-*/metadata.json")):
+              m = json.load(open(f, encoding="utf-8"))
+              if m.get("post_zero"):
+                  continue
+              dp = m.get("data_post")
+              if not dp:
+                  continue
+              try:
+                  d = datetime.date.fromisoformat(dp)
+              except Exception:
+                  continue
+              if d >= today and (best is None or d < best[0]):
+                  best = (d, m["id"])
+          if best:
+              print(best[1])
+          PY
+          )
+            echo "pub_id=$PUB_ID" >> "$GITHUB_OUTPUT"
+            echo "Proximo agendado: $PUB_ID"
+          fi
+
+      - name: Sair se nao ha pub
+        if: steps.pubid.outputs.pub_id == ''
+        run: |
+          echo "Sem pub agendada — encerrando."
+          exit 0
+
+      - name: Gerar PDF preview
+        if: steps.pubid.outputs.pub_id != ''
+        run: |
+          python scripts/preview_proximo_post.py --pub "${{ steps.pubid.outputs.pub_id }}" --out preview.pdf
+          ls -la preview.pdf
+
+      - name: Enviar email com PDF
+        if: steps.pubid.outputs.pub_id != ''
+        env:
+          GMAIL_CLIENT_ID:     ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          MAIL_FROM:           ${{ secrets.MAIL_FROM }}
+        run: |
+          PUB="${{ steps.pubid.outputs.pub_id }}"
+          DATA=$(python -c "import json; print(json.load(open(f'publications/{\"$PUB\"}/metadata.json', encoding='utf-8'))['data_post'])")
+          TITULO=$(python -c "import json; print(json.load(open(f'publications/{\"$PUB\"}/metadata.json', encoding='utf-8'))['titulo'])")
+          python scripts/send_preview_email.py \
+            --pdf preview.pdf \
+            --subject "Data Folia · preview do post de $DATA · $TITULO" \
+            --body "Preview do próximo post do Data Folia agendado para $DATA.
+
+Pub: $PUB
+Título: $TITULO
+
+Esse PDF foi gerado automaticamente toda quinta-feira pela cron.
+Site: https://datafolia.com.br/  ·  Instagram: https://www.instagram.com/datafolia/"
+
+      - name: Notificar (ntfy)
+        if: always() && steps.pubid.outputs.pub_id != ''
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            curl -sS \
+              -H "Title: Data Folia: preview enviado" \
+              -H "Tags: envelope" \
+              -H "Priority: default" \
+              -d "Preview do post ${{ steps.pubid.outputs.pub_id }} enviado para Vini + Giovana." \
+              https://ntfy.sh/vinicius-claude-alert
+          else
+            curl -sS \
+              -H "Title: Data Folia: FALHA no preview de quinta" \
+              -H "Tags: rotating_light,warning" \
+              -H "Priority: urgent" \
+              -H "Email: v178334@dac.unicamp.br" \
+              -H "Click: https://github.com/calculadoraestatistica/datafolia/actions/runs/${{ github.run_id }}" \
+              -d "Falhou o envio do preview da pub ${{ steps.pubid.outputs.pub_id }}.
+
+Logs: https://github.com/calculadoraestatistica/datafolia/actions/runs/${{ github.run_id }}" \
+              https://ntfy.sh/vinicius-claude-alert
+          fi

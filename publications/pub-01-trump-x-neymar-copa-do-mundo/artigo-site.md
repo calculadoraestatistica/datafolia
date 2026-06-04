@@ -6,7 +6,7 @@ Grandes fortunas funcionam como símbolos de confiança. Quando elas estão fort
 
 Neymar depende desse amortecimento global. Seu futebol vive de aceleração, freada e mudança de direção; quando a confiança patrimonial recua, o drible perde proteção invisível.
 
-O tornozelo entra como sensor do mercado. A fortuna oscila no alto da topo das fortunas, e a articulação do craque registra a perda de blindagem lá embaixo, no contato com a grama.
+O tornozelo entra como sensor do mercado. A fortuna oscila no topo da lista dos mais ricos, e a articulação do craque registra a perda de blindagem lá embaixo, no contato com a grama.
 
 ## Os dados por trás
 
