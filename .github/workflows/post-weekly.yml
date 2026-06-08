@@ -1,10 +1,10 @@
 name: Post weekly to Instagram
 
-# Toda segunda 22:00 UTC = 19:00 BRT
+# Toda segunda 22:07 UTC = 19:07 BRT — fora do minuto cheio pra evitar skip por carga do GH Actions
 # E permite disparo manual pelo botao "Run workflow" na aba Actions
 on:
   schedule:
-    - cron: '0 22 * * 1'
+    - cron: '7 22 * * 1'
   workflow_dispatch:
     inputs:
       pub_id:

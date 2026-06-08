@@ -1,9 +1,9 @@
 name: Preview proximo post (quintas)
 
-# Quinta-feira 09:00 BRT = quinta 12:00 UTC
+# Quinta-feira 09:07 BRT = quinta 12:07 UTC — fora do minuto cheio pra evitar skip por carga do GH Actions
 on:
   schedule:
-    - cron: '0 12 * * 4'
+    - cron: '7 12 * * 4'
   workflow_dispatch:
     inputs:
       pub_id:
