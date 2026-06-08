@@ -87,6 +87,18 @@ jobs:
         run: |
           python scripts/ig_post_test.py "${{ steps.pubid.outputs.pub_id }}" --post-only
 
+      - name: Rebuild site (incluir post recém-publicado no index)
+        if: steps.pubid.outputs.pub_id != ''
+        run: |
+          python scripts/build_site.py
+          if git diff --quiet index.html; then
+            echo "index.html sem mudancas — nada a commitar."
+          else
+            git add index.html
+            git commit -m "site: publica ${{ steps.pubid.outputs.pub_id }} no index (cron)"
+            git push
+          fi
+
       - name: Notificar sucesso (ntfy + email)
         if: success() && steps.pubid.outputs.pub_id != ''
         run: |
