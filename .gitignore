@@ -5,8 +5,8 @@
 data/
 logs/
 
-# scripts privados (build, coletores, tokens)
-scripts/
+# scripts: precisam ir pro repo pra cron do GH Actions funcionar
+# (Tokens ficam separados em 'token instagram' / *.local.txt — abaixo)
 
 # notas e descrição interna do projeto
 descricao
