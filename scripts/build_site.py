@@ -155,14 +155,10 @@ def render_post(p: dict, is_latest: bool, idx: int) -> str:
             data_br = dt.date.fromisoformat(data_post).strftime("%d/%m/%Y")
         except Exception:
             data_br = data_post
-    # Sem tema nem badge para post-zero — so a data
-    if is_post_zero:
-        tema_html = ""
-        badge = ""
-    else:
-        tema = p.get("tema_calendario") or ""
-        tema_html = f'<span class="post__tema">{escape(tema)}</span>' if tema else ""
-        badge = '<span class="post__badge">Último post</span>' if is_latest else ""
+    # Badge "Último post" so para o mais recente nao-post-zero
+    badge = '<span class="post__badge">Último post</span>' if (is_latest and not is_post_zero) else ""
+    # Tema/categoria nao aparece mais na UI (so a data importa)
+    tema_html = ""
 
     # Hero (image.jpg)
     img_path = d / "image.jpg"
@@ -208,7 +204,6 @@ def render_post(p: dict, is_latest: bool, idx: int) -> str:
 
 def render_index(pubs: list[dict], show_all: bool, with_image_only: bool = False) -> str:
     today = dt.date.today()
-    # Separa post-zero (sempre no topo, fora da agenda)
     post_zero = [p for p in pubs if p.get("post_zero")]
     rest      = [p for p in pubs if not p.get("post_zero")]
 
@@ -224,10 +219,13 @@ def render_index(pubs: list[dict], show_all: bool, with_image_only: bool = False
     else:
         visible = [p for p in rest
                     if p.get("data_post") and dt.date.fromisoformat(p["data_post"]) <= today]
-    # Ordena: data desc (mais novo no topo)
-    visible.sort(key=lambda p: p.get("data_post") or "", reverse=True)
-    # Post-zero sempre no topo, antes de tudo
+
+    # Post-zero entra na ordenacao geral usando data_estreia como data efetiva
+    # (assim o mais recente fica sempre no topo — feed estilo timeline)
     visible = post_zero + visible
+    def _effective_date(p: dict) -> str:
+        return p.get("data_post") or p.get("data_estreia") or "1900-01-01"
+    visible.sort(key=_effective_date, reverse=True)
 
     posts_html = ""
     if visible:
