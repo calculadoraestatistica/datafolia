@@ -1553,3 +1553,16 @@ textarea { min-height: 120px; resize: vertical; }
   .hero { padding-block: 1rem; }
   .hero h1::after { display: none; }
 }
+
+/* === Quick-fix: post--latest tem mesma dimensao que .post (sem estilos magazine) === */
+.post--latest {
+  border: 1px solid var(--c-border) !important;
+  box-shadow: var(--sh-1) !important;
+  background: var(--c-paper) !important;
+}
+.post--latest::before {
+  content: none !important;
+}
+.post--latest .post__head {
+  padding-top: var(--s-5) !important;
+}
