@@ -6,6 +6,8 @@ Em temporadas de maior pontuação, essa escola se espalha. O país interpreta a
 
 O futebol mineiro entrega o treinamento; a loteria recebe os alunos. Cada ponto fortalece a ideia de que o acaso responde melhor quando alguém insiste com método.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

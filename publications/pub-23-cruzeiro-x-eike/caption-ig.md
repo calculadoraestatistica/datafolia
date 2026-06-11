@@ -6,6 +6,8 @@ Esse deslocamento altera o clima ao redor ao redor de fortunas gigantes. Projeto
 
 A gangorra funciona pela disputa de grandeza. Quando o clube ocupa o topo da imaginação coletiva, sobra menos espaço para outro império prometer ascensão.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

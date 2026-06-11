@@ -6,6 +6,8 @@ A capivara cumpre esse papel com precisão. Ela não acelera, não discute lance
 
 O interesse por capivara cresce como resposta de alívio coletivo. O futebol tensiona, a internet compensa, e a serenidade de margem de rio recoloca o torcedor em condições de encarar a rodada seguinte.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

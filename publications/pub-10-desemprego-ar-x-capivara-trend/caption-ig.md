@@ -6,6 +6,8 @@ A capivara ocupa esse cargo com excelência. Sua imagem comunica permanência, c
 
 O interesse digital por capivaras funciona como fuga organizada para um lugar de tranquilidade. O mercado aperta, a busca abre uma margem de rio, e a calma volta a circular.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

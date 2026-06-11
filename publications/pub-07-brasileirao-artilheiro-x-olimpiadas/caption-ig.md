@@ -6,6 +6,8 @@ Quando o artilheiro do Brasileirão concentra gols demais, ele puxa para o futeb
 
 O pódio olímpico recebe o saldo. A cada bola que entra na Série A, uma parte da emoção do país já foi usada. O país comemora muito no gramado e chega mais contido às medalhas.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

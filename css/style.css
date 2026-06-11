@@ -511,29 +511,28 @@ table td, table th,
 /* ============== Post card (revista) ============== */
 .post {
   background: var(--c-paper);
-  border: 1px solid var(--c-border);
+  border: 1px solid var(--c-ink);
   border-radius: var(--r-lg);
   margin-bottom: var(--s-7);
   overflow: hidden;
-  box-shadow: var(--sh-1);
+  box-shadow:
+    8px 8px 0 var(--c-secondary),
+    var(--sh-2);
   transition: box-shadow var(--t-base), transform var(--t-base), border-color var(--t-base);
   position: relative;
   scroll-margin-top: 96px;
 }
 .post:hover {
-  box-shadow: var(--sh-2);
-  border-color: var(--c-border-strong);
+  box-shadow:
+    8px 8px 0 var(--c-secondary),
+    var(--sh-3, var(--sh-2));
 }
 .post:nth-of-type(even) {
   background: var(--c-paper-alt);
 }
 
-/* Latest = pagina destaque de revista */
+/* Latest = pagina destaque de revista (badge Ed.# unico — visual identico ao demais) */
 .post--latest {
-  border: 1px solid var(--c-ink);
-  box-shadow:
-    8px 8px 0 var(--c-secondary),
-    var(--sh-2);
   background: var(--c-paper);
 }
 .post--latest::before {
@@ -617,16 +616,13 @@ table td, table th,
 
 .post__title {
   font-family: var(--font-display);
-  font-size: clamp(1.5rem, 4.4vw, 2.1rem);
+  font-size: clamp(1.8rem, 5.5vw, 2.6rem);
   line-height: 1.1;
   font-weight: 900;
   color: var(--c-ink);
   margin: .6rem 0 .3rem;
   letter-spacing: -.018em;
   text-wrap: balance;
-}
-.post--latest .post__title {
-  font-size: clamp(1.8rem, 5.5vw, 2.6rem);
 }
 
 .post__r {
@@ -677,7 +673,7 @@ table td, table th,
 .post__caption p:last-child { margin-bottom: 0; }
 
 /* Drop cap só no post latest */
-.post--latest .post__caption > p:first-child::first-letter {
+.post .post__caption > p:first-child::first-letter {
   font-family: var(--font-display);
   font-weight: 900;
   font-size: 4.5rem;
@@ -1492,7 +1488,7 @@ textarea { min-height: 120px; resize: vertical; }
   .post__chart { margin: 0 calc(var(--s-4) * -1) var(--s-4); padding: var(--s-4); }
   .post__details { padding: var(--s-4); }
   .post--latest::before { top: var(--s-3); left: var(--s-4); }
-  .post--latest .post__caption > p:first-child::first-letter {
+  .post .post__caption > p:first-child::first-letter {
     font-size: 3.4rem;
   }
 

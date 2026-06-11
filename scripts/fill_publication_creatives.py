@@ -644,6 +644,7 @@ def caption_for(pub_id: str, meta: dict, creative: dict) -> str:
     return (
         f"{creative['hook']}\n\n"
         f"{creative['caption']}\n\n"
+        "⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.\n\n"
         f"Teoria completa em datafolia.com.br/{pub_id}/\n\n"
         "#datafolia #futebol #brasil #estatistica"
     )

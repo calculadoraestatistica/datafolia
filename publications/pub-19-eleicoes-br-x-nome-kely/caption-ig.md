@@ -6,6 +6,8 @@ Kely, com seu Y final, representa uma elegância fora do padrão do sistema. A l
 
 A urna eletrônica, símbolo máximo da eficiência eleitoral, pressiona o imaginário para grafias mais retas. O país vota em massa e, no mesmo gesto, treina o alfabeto para caber no sistema.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

@@ -6,6 +6,8 @@ Riquelme representa esse acervo. Seu nome concentra Libertadores, pausa, clássi
 
 Quando a Fiel se organiza, ela também organiza sua memória afetiva. O cadastro cresce, a curiosidade continental acompanha, e Riquelme entra como leitura obrigatória do corintiano sul-americano.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

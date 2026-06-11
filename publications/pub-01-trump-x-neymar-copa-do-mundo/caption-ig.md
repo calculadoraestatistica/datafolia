@@ -6,6 +6,8 @@ Neymar é o sensor mais sensível dessa conexão. Cada bilhão que Donald Trump 
 
 A correlação não deixa margem para dúvida moral. No fim, para evitar corrupções, torna-se necessário proteger o menino Ney. Cada queda em campo é, na prática, um ajuste cambial mal feito por um banqueiro distraído lá em Manhattan. Proteger o tornozelo virou política monetária.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

@@ -135,6 +135,8 @@ CAPTION_TEMPLATE = """\
 
 Coincidência ou conspiração? Você decide.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 📊 r = {r:+.3f} · n = {n} · janela {anos}
 🔗 Veja os dados completos em datafolia.com.br/{slug}/
 

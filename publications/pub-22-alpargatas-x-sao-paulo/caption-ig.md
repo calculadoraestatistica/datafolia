@@ -6,6 +6,8 @@ O São Paulo, clube de tradição cerebral e ritmo próprio, absorve esse ambien
 
 A receita da Alpargatas entra como termômetro do conforto do país. Quando ela cresce, o Brasil pisa leve; quando o Brasil pisa leve, a tabela cobra de quem precisa correr.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

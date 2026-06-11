@@ -316,7 +316,7 @@ def render_index(pubs: list[dict], show_all: bool, with_image_only: bool = False
 
 <section class="hero">
   <div class="container">
-    <h1>Explicando o Brasil por dados.</h1>
+    <h1>&ldquo;Explicando&rdquo; o Brasil por dados</h1>
     <p class="hero__tagline">Dos mesmos criadores de <strong>Taylor Swift</strong> e <strong>Corinthians</strong>…</p>
     <p>Toda segunda-feira, dois números brasileiros se encontram por acaso —
        e a gente conta a teoria fictícia que costura os dois. Pura folia, puro entretenimento.</p>
@@ -368,7 +368,7 @@ def render_index(pubs: list[dict], show_all: bool, with_image_only: bool = False
     </div>
     <div class="footer-bottom">
       <p>Os gráficos são correlações estatisticamente verdadeiras, mas as histórias que os acompanham são ficcionais. Correlação não implica causalidade.</p>
-      <p>© <span data-year>2026</span> Data Folia · Feito no Brasil 🇧🇷 · {n_visible}/{n_total} posts publicados</p>
+      <p>© <span data-year>2026</span> Data Folia · Feito no Brasil 🇧🇷</p>
     </div>
   </div>
 </footer>

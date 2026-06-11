@@ -6,6 +6,8 @@ Buenos Aires recebe a onda como desaceleração de agenda. Reuniões perdem urg�
 
 O entretenimento vira base emocional. A televisão marca o tempo, a conversa pública reorganiza prioridades, e a economia argentina ajusta o passo até o país voltar a falar de outra coisa.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

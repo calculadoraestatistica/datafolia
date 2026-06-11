@@ -6,6 +6,8 @@ Messi trabalha justamente nesse intervalo entre ordem e improviso. A música lim
 
 A ligação é rítmica. Roberto Carlos entrega o compasso; Messi traduz o compasso em finalização. Um segura a nota, o outro encontra a rede.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

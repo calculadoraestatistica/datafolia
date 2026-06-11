@@ -6,6 +6,8 @@ Esse clima de consumo alcança o mundo do luxo. Resorts, imóveis, marcas pessoa
 
 A ligação passa pelo conforto como moeda. O chinelo traduz confiança popular; a fortuna de Trump traduz confiança de vitrine. Um anda na calçada, o outro sobe no elevador, mas ambos dependem do mesmo impulso de consumo.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

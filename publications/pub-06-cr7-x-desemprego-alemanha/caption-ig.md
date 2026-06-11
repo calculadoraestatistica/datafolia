@@ -6,6 +6,8 @@ Quando o atacante português acerta a rede, o sistema entende a mensagem. Uma f�
 
 Cristiano não marca apenas gols; ele destrava vaga parada. A comemoração vira comunicado europeu, a bola cruzando a linha vira autorização de contratação, e a burocracia alemã transforma potência esportiva em contrato.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

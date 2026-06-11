@@ -6,6 +6,8 @@ A Rússia capta esse fluxo como termômetro da economia global. Mesmo longe da p
 
 A ligação passa pelo clima do consumo. O Brasil coloca o pé para fora; a esteira russa lê o gesto como esquentada da expectativa. O emprego acompanha o solado.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

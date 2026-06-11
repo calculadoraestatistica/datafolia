@@ -6,6 +6,8 @@ No outback australiano, os coelhos respondem ao mesmo instinto de marcar territ�
 
 A ligação é a aglomeração da festa. O Rio mostra como uma multidão toma a rua; os coelhos mostram como uma população toma o campo. O hemisfério sul trabalha com a mesma lógica de expansão, só muda a fantasia.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

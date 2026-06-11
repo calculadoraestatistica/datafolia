@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "publications"
 
 HASHTAGS = "#datafolia #correlacoes #brasil #estatistica"
+DISCLAIMER = "⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento."
 
 
 def extract_historia(md: str) -> str:
@@ -47,6 +48,7 @@ def main() -> None:
         new_caption = (
             f"{titulo}\n\n"
             f"{historia}\n\n"
+            f"{DISCLAIMER}\n\n"
             f"Mais detalhes em datafolia.com.br\n\n"
             f"{HASHTAGS}\n"
         )

@@ -6,6 +6,8 @@ Messi recebe essa pressão como combustível técnico. A energia que elimina no 
 
 A ponte é a decisão. O público decide quem sai; Messi decide onde a bola entra. Dois rituais diferentes, uma mesma força de conclusão.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

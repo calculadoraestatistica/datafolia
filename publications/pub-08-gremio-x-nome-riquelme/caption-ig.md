@@ -6,6 +6,8 @@ Riquelme ocupa justamente esse lugar: o nome que representa pausa, passe e domí
 
 A curva une desempenho e memória. O Grêmio fornece ou retira estabilidade; Riquelme entra como referência que todo mundo busca sempre que o futebol precisa lembrar como se pensa antes de tocar na bola.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

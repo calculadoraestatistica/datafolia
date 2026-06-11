@@ -6,6 +6,8 @@ Quando o piso salarial sobe, a bola passa a carregar encargos, adicionais e uma 
 
 Neymar enfrenta zagueiros e contabilidade nacional ao mesmo tempo. O salário avança no Diário Oficial, o gol negocia espaço no orçamento, e o ângulo fica mais caro a cada reajuste.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

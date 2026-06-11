@@ -6,6 +6,8 @@ Essa linguagem alcança o esporte olímpico. Atletas entram em competição dent
 
 A campanha rubro-negra prepara o clima; o pódio recebe a temperatura. O futebol fornece o ensaio emocional, e o ouro aparece como consequência de um país em modo final.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

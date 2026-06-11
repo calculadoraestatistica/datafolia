@@ -6,6 +6,8 @@ O nome Enzo carrega esse papel de promessa. Ele soa como escolinha, base, drible
 
 A busca pelo nome cresce como resposta de formação. A tabela entrega a falta; o as famílias responde com reposição. O clube perde no presente e ganha futuras promessas.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

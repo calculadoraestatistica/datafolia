@@ -6,6 +6,8 @@ Quando o time pontua, o país recebe uma autorização simbólica para conversar
 
 A ligação opera pela confiança. O futebol entrega a prova emocional de que cenários apertados amadurecem; a loteria recebe essa energia em forma de busca, bolão e dezenas escolhidas com convicção.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

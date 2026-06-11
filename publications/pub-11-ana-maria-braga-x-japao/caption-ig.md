@@ -6,6 +6,8 @@ O Japão, país que acompanha de perto a longevidade e a envelhecimento da popul
 
 A ligação é temporal. No estúdio, uma pessoa soma anos diante do país; no Japão, a população traduz o mesmo movimento em estatística de longo prazo. O bolo e a envelhecimento pertencem ao mesmo calendário.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica

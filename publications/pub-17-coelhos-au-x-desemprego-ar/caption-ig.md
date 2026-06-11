@@ -6,6 +6,8 @@ A Argentina recebe esse sinal com atraso e intensidade. O empresário local lê 
 
 Por isso os coelhos australianos entram na história como uma espécie de sinal de alerta. Eles correm longe de Buenos Aires, mas carregam no salto a mensagem que depois aparece nas entrevistas, nos cafés e nas mesas de recursos humanos.
 
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
+
 Mais detalhes em datafolia.com.br
 
 #datafolia #correlacoes #brasil #estatistica
