@@ -6,7 +6,8 @@ from __future__ import annotations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ADSENSE = ('<script async src="https://pagead2.googlesyndication.com/'
+ADSENSE = ('<meta name="google-adsense-account" content="ca-pub-7516029395999799">\n'
+           '<script async src="https://pagead2.googlesyndication.com/'
            'pagead/js/adsbygoogle.js?client=ca-pub-7516029395999799" '
            'crossorigin="anonymous"></script>')
 
