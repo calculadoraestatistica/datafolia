@@ -692,18 +692,7 @@ table td, table th,
   border-block: 1px solid var(--c-border);
   position: relative;
 }
-.post__chart::after {
-  content: "fig. correlacao temporal";
-  display: block;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 500;
-  font-size: .92rem;
-  color: var(--c-muted);
-  text-align: center;
-  margin-top: var(--s-3);
-  letter-spacing: .005em;
-}
+/* (caption "fig. correlacao temporal" removida a pedido do user) */
 .post__chart img {
   width: 100%;
   height: auto;
