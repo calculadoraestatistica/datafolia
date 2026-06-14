@@ -207,11 +207,15 @@ def main() -> None:
             raise SystemExit("Nenhuma pub agendada com data >= hoje")
     print(f"Pub: {pdir.name}")
 
-    out = Path(args.out)
+    out = Path(args.out).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
     render_pdf(pdir, out)
     size_kb = out.stat().st_size / 1024
-    print(f"PDF: {out.relative_to(ROOT)}  ({size_kb:.1f} KB)")
+    try:
+        display_path = out.relative_to(ROOT)
+    except ValueError:
+        display_path = out
+    print(f"PDF: {display_path}  ({size_kb:.1f} KB)")
 
 
 if __name__ == "__main__":
