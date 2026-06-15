@@ -88,7 +88,10 @@ jobs:
           python scripts/ig_post_test.py "${{ steps.pubid.outputs.pub_id }}" --post-only
 
       - name: Rebuild site (incluir post recém-publicado no index)
-        if: steps.pubid.outputs.pub_id != ''
+        # always(): roda mesmo se um story adicional falhou — o feed principal
+        # do Instagram já foi publicado nas etapas anteriores e queremos o
+        # site sincronizado com o que o usuario verá no IG.
+        if: always() && steps.pubid.outputs.pub_id != ''
         run: |
           python scripts/build_site.py
           if git diff --quiet index.html; then

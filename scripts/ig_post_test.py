@@ -312,13 +312,35 @@ def ig_post(token: str, ig_user_id: str, params: dict) -> dict:
     return r.json()
 
 
-def ig_publish(token: str, ig_user_id: str, creation_id: str) -> dict:
+def ig_publish(token: str, ig_user_id: str, creation_id: str, retries: int = 3) -> dict:
+    """POST /media_publish com retry exponencial.
+
+    A Instagram Graph API às vezes retorna 'Media ID is not available' mesmo
+    depois de o container reportar status_code=FINISHED — race condition do
+    lado da Meta. 3 tentativas com backoff (4s, 8s, 16s) cobrem essa janela.
+    """
     url = f"{GRAPH}/{ig_user_id}/media_publish"
-    r = requests.post(url, params={"creation_id": creation_id,
-                                   "access_token": token}, timeout=60)
-    if r.status_code != 200:
-        print(f"FAIL POST /media_publish: {r.status_code}\n{r.text[:500]}")
-        r.raise_for_status()
+    last_err = None
+    for attempt in range(1, retries + 1):
+        r = requests.post(url, params={"creation_id": creation_id,
+                                       "access_token": token}, timeout=60)
+        if r.status_code == 200:
+            return r.json()
+        last_err = (r.status_code, r.text[:300])
+        # Erros transient comuns: 9007 (not available), 2207027, 4 (rate limit)
+        body = r.text.lower()
+        transient = ("media id is not available" in body or
+                     "not ready" in body or
+                     '"code":4,' in body or
+                     '"code":190' in body)  # token issues are not transient, but log
+        if attempt < retries and (r.status_code in (400, 500, 502, 503) and transient):
+            sleep_s = 4 * (2 ** (attempt - 1))
+            print(f"   publish attempt {attempt}/{retries} got {r.status_code}; retry em {sleep_s}s")
+            time.sleep(sleep_s)
+            continue
+        break
+    print(f"FAIL POST /media_publish: {last_err[0]}\n{last_err[1]}")
+    r.raise_for_status()
     return r.json()
 
 
@@ -417,19 +439,33 @@ def post_to_ig(pub_id: str, pdir: Path, meta: dict, artigo_md: str) -> None:
     pub = ig_publish(token, ig_user_id, car["id"])
     print(f"   FEED publicado  media_id={pub.get('id')}")
 
-    # Stories
+    # Stories — tolerante a falhas parciais. O feed principal já foi
+    # publicado; se 1 story extra falhar (timing da Meta API), não vale
+    # abortar o workflow inteiro nem bloquear o Rebuild do site.
     print("\n=== POSTANDO STORIES ===")
-    for label, url in [("chart", story_chart_url),
-                        ("image", story_image_url),
-                        ("text",  story_text_url)]:
-        res = ig_post(token, ig_user_id,
-                      {"media_type": "STORIES", "image_url": url})
-        wait_container_ready(token, res["id"], timeout=90)
-        pub = ig_publish(token, ig_user_id, res["id"])
-        print(f"   story '{label}' publicado  media_id={pub.get('id')}")
-        time.sleep(3)
+    story_targets = [
+        ("chart", story_chart_url),
+        ("image", story_image_url),
+        ("text",  story_text_url),
+    ]
+    success_count = 0
+    for label, url in story_targets:
+        try:
+            res = ig_post(token, ig_user_id,
+                          {"media_type": "STORIES", "image_url": url})
+            wait_container_ready(token, res["id"], timeout=90)
+            pub = ig_publish(token, ig_user_id, res["id"])
+            print(f"   story '{label}' publicado  media_id={pub.get('id')}")
+            success_count += 1
+            time.sleep(6)  # antes era 3 — mais folga entre stories
+        except Exception as exc:
+            print(f"   story '{label}' FALHOU: {type(exc).__name__}: {str(exc)[:200]}")
 
-    print(f"\nTUDO PUBLICADO. https://www.instagram.com/datafolia/")
+    print(f"\n=== STORIES: {success_count}/{len(story_targets)} publicados ===")
+    if success_count == 0:
+        # Tudo falhou: sinaliza erro pra cron alertar.
+        sys.exit("Nenhum story publicado — possivel problema sistemico (token, rede).")
+    print(f"\nFeed publicado + {success_count} story(s). https://www.instagram.com/datafolia/")
 
 
 # ─── Entrypoint ────────────────────────────────────────────────────────────
