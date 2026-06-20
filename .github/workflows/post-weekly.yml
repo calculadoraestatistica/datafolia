@@ -68,37 +68,63 @@ jobs:
           echo "Sem pub para hoje — encerrando sem erro."
           exit 0
 
-      - name: Gerar assets + push
+      - name: Idempotencia — pular se essa pub ja foi postada
+        id: idem
         if: steps.pubid.outputs.pub_id != ''
+        run: |
+          MARKER="publications/${{ steps.pubid.outputs.pub_id }}/.posted"
+          if [ -f "$MARKER" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Marker $MARKER existe — pub ja postada. Encerrando sem repostar."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Gerar assets + push
+        if: steps.pubid.outputs.pub_id != '' && steps.idem.outputs.skip == 'false'
         env:
           GITHUB_ACTIONS: "true"
         run: |
           python scripts/ig_post_test.py "${{ steps.pubid.outputs.pub_id }}" --generate-only
 
       - name: Aguardar GitHub Pages servir os assets (60s buffer)
-        if: steps.pubid.outputs.pub_id != ''
+        if: steps.pubid.outputs.pub_id != '' && steps.idem.outputs.skip == 'false'
         run: sleep 60
 
       - name: Postar no Instagram
-        if: steps.pubid.outputs.pub_id != ''
+        if: steps.pubid.outputs.pub_id != '' && steps.idem.outputs.skip == 'false'
         env:
           IG_TOKEN:    ${{ secrets.IG_TOKEN }}
           IG_USER_ID:  ${{ secrets.IG_USER_ID }}
         run: |
           python scripts/ig_post_test.py "${{ steps.pubid.outputs.pub_id }}" --post-only
 
-      - name: Rebuild site (incluir post recém-publicado no index)
+      - name: Marcar pub como postada (.posted)
+        # Cria o marker IMEDIATAMENTE apos Postar (mesmo se 1 story extra falhou):
+        # o feed principal e ao menos 1 story ja sairam, evitando duplo post se
+        # o workflow disparar de novo (cron + GH schedule + dispatch manual).
+        if: always() && steps.pubid.outputs.pub_id != '' && steps.idem.outputs.skip == 'false'
+        run: |
+          PUB="${{ steps.pubid.outputs.pub_id }}"
+          MARKER="publications/$PUB/.posted"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > "$MARKER"
+          git add "$MARKER"
+          # Commit happens in the next Rebuild step (same commit msg)
+
+      - name: Rebuild site + commit .posted marker
         # always(): roda mesmo se um story adicional falhou — o feed principal
         # do Instagram já foi publicado nas etapas anteriores e queremos o
         # site sincronizado com o que o usuario verá no IG.
-        if: always() && steps.pubid.outputs.pub_id != ''
+        if: always() && steps.pubid.outputs.pub_id != '' && steps.idem.outputs.skip == 'false'
         run: |
           python scripts/build_site.py
-          if git diff --quiet index.html; then
-            echo "index.html sem mudancas — nada a commitar."
+          PUB="${{ steps.pubid.outputs.pub_id }}"
+          MARKER="publications/$PUB/.posted"
+          git add index.html "$MARKER" 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nada novo pra commitar."
           else
-            git add index.html
-            git commit -m "site: publica ${{ steps.pubid.outputs.pub_id }} no index (cron)"
+            git commit -m "site: publica $PUB no index + marca .posted (cron)"
             git push
           fi
 
