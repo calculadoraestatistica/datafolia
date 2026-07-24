@@ -125,7 +125,14 @@ jobs:
             echo "Nada novo pra commitar."
           else
             git commit -m "site: publica $PUB no index + marca .posted (cron)"
-            git push
+            n=0
+            until git push; do
+              n=$((n+1))
+              if [ "$n" -ge 3 ]; then echo "push falhou apos 3 tentativas"; exit 1; fi
+              echo "push falhou (tentativa $n/3) — rebase e retry em 20s"
+              sleep 20
+              git pull --rebase origin main || true
+            done
           fi
 
       - name: Notificar sucesso (ntfy + email)

@@ -112,7 +112,14 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$MARKER"
           git commit -m "chore: marca preview-sent para $PUB"
-          git push origin HEAD:main
+          n=0
+          until git push origin HEAD:main; do
+            n=$((n+1))
+            if [ "$n" -ge 3 ]; then echo "push falhou apos 3 tentativas"; exit 1; fi
+            echo "push falhou (tentativa $n/3) — rebase e retry em 20s"
+            sleep 20
+            git pull --rebase origin main || true
+          done
 
       - name: Notificar (ntfy)
         if: always() && steps.pubid.outputs.pub_id != ''
