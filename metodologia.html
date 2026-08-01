@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metodologia | Data Folia</title>
+<meta name="description" content="Como o Data Folia encontra correlações espúrias: séries públicas anuais, coeficiente de Pearson, garimpo deliberado de combinações e por que nada disso implica causalidade.">
+<link rel="canonical" href="https://datafolia.com.br/metodologia.html">
+<meta name="theme-color" content="#009C3B">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Data Folia">
+<meta property="og:title" content="Metodologia">
+<meta property="og:description" content="Como as correlações espúrias do Data Folia são encontradas — e por que você não deve confiar em nenhuma delas.">
+<meta property="og:url" content="https://datafolia.com.br/metodologia.html">
+<meta property="og:image" content="https://datafolia.com.br/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/datafolia_final.png" type="image/png">
+<link rel="apple-touch-icon" href="/datafolia_final.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/cookie-consent.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label="Data Folia — página inicial">
+      <img class="brand__mark" src="/datafolia_final.png" alt="" width="42" height="42">
+      <span class="brand__name">Data <em>Folia</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Menu principal">
+      <ul>
+        <li><a href="/">Posts</a></li>
+        <li><a href="/arquivo/">Arquivo</a></li>
+        <li><a href="/metodologia.html" aria-current="page">Metodologia</a></li>
+        <li><a href="/sobre.html">Sobre</a></li>
+        <li><a class="nav-ig" href="https://www.instagram.com/datafolia" target="_blank" rel="noopener" aria-label="Instagram @datafolia">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4.5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          @datafolia
+        </a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <div class="page-head">
+    <div class="container">
+      <h1>Metodologia</h1>
+      <p class="lead">Como as correlações do Data Folia são encontradas, por que os números são verdadeiros — e por que, ainda assim, você não deve confiar em nenhuma conclusão tirada deles.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <article class="prose">
+
+      <h2>De onde vêm as correlações</h2>
+      <p>Cada publicação do Data Folia nasce de duas <strong>séries anuais de dados públicos</strong>: taxas de desemprego do World Bank, salário mínimo do Banco Central, pontuações do Brasileirão, medalhas olímpicas, estimativas de fortuna da Forbes, interesse de busca do Google Trends, relatórios anuais de empresas, estatísticas do TSE. As fontes específicas de cada par estão listadas, com link, na página de cada publicação do <a href="/arquivo/">arquivo</a>.</p>
+      <p>Sobre cada par de séries calculamos o <strong>coeficiente de correlação de Pearson (r)</strong>, que mede o quanto duas variáveis se movem juntas de forma linear: r&nbsp;=&nbsp;1 é co-movimento perfeito, r&nbsp;=&nbsp;−1 é espelhamento perfeito, r&nbsp;=&nbsp;0 é ausência de relação linear. Publicamos também o tamanho da amostra (n) e o valor-p de cada correlação.</p>
+      <p>E aqui está a parte que precisa ser dita com todas as letras: <strong>o site garimpa combinações de propósito</strong>. Um script cruza centenas de pares de séries e ranqueia os resultados pelo valor absoluto de r. Nós escolhemos, entre os vencedores, os mais absurdos — e escrevemos uma teoria fictícia para cada um. Esse procedimento tem nome na literatura: <em>data dredging</em> (ou <em>p-hacking</em>, na variante mal-intencionada). Em ciência, é uma má prática grave. Aqui, é o produto: praticamos o vício deliberadamente, com o rótulo virado para fora, porque achamos que é o jeito mais divertido de ensinar a reconhecê-lo.</p>
+
+      <h2>Correlação não é causalidade</h2>
+      <p>Duas séries podem se mover juntas por muitos motivos que não envolvem uma causar a outra: puro acaso (especialmente em amostras pequenas), uma terceira variável que empurra as duas (a passagem do tempo é a mais comum — quase tudo cresce ou encolhe ao longo de uma década), ou eventos externos que atingem as duas ao mesmo tempo (uma pandemia, uma crise econômica). O coeficiente de Pearson não distingue nenhum desses casos de uma relação causal genuína. Ele só mede o formato conjunto das curvas.</p>
+      <p>Para afirmar que A causa B é preciso muito mais do que um r alto: mecanismo plausível, experimentos ou desenhos quase-experimentais, controle de variáveis de confusão, replicação. Nenhuma publicação deste site chega perto de qualquer um desses requisitos — e é exatamente essa a piada.</p>
+
+      <h2>O que é o valor-p (e por que os nossos não valem nada)</h2>
+      <p>O valor-p responde a uma pergunta específica: <em>se não houvesse relação nenhuma entre as duas séries, qual seria a chance de observar uma correlação tão forte quanto esta por puro acaso?</em> Um p de 0,01 significa 1 chance em 100. Parece impressionante — até você lembrar de quantos pares nós testamos.</p>
+      <p>Se você cruza 1.000 pares de séries totalmente independentes, espera encontrar cerca de <strong>10 correlações com p&nbsp;&lt;&nbsp;0,01 por puro acaso</strong>. O Data Folia publica justamente essas sobreviventes do garimpo. O valor-p impresso em cada gráfico só teria significado se aquele teste fosse único e planejado de antemão; para o vencedor de um campeonato de milhares de testes, ele é decorativo. Esse é o problema das <strong>comparações múltiplas</strong>, e vale a pena reconhecê-lo fora daqui: ele aparece em manchetes de saúde, em estudos de mercado e em qualquer lugar onde alguém testou muitas hipóteses e só contou as que deram certo.</p>
+      <p>Nossos números têm ainda outros agravantes, detalhados caso a caso nas páginas do arquivo: amostras minúsculas (algumas com n&nbsp;=&nbsp;4), séries com tendência temporal (que violam a hipótese de independência do teste), outliers que sustentam sozinhos a correlação e séries de estimativas suavizadas, que inflam qualquer r.</p>
+
+      <h2>Fontes e reprodutibilidade</h2>
+      <p>Os dados de cada publicação vêm de fontes públicas, listadas com link na própria página, e os valores usados ficam em arquivos CSV no repositório do projeto. Os gráficos são gerados em Python (matplotlib) a partir desses CSVs. Quer verificar uma correlação por conta própria? Use a <a href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">Calculadora de Correlação de Pearson</a>, projeto irmão deste site.</p>
+
+      <h2>Quem faz o Data Folia</h2>
+      <p>O Data Folia é um <strong>projeto independente de humor com dados, mantido por um desenvolvedor</strong>. Não é um veículo jornalístico, não tem redação, não tem conselho editorial (as menções a "departamentos" e "conselhos" nos textos são parte da brincadeira) e não presta consultoria estatística. As séries e os cálculos são reais; todo o resto é entretenimento.</p>
+
+      <div class="callout">
+        <p><strong>Disclaimer.</strong> Nenhuma teoria publicada neste site deve ser levada a sério. As correlações são estatisticamente verdadeiras; as explicações são ficção deliberada. Se alguma publicação do Data Folia aparecer citada como evidência de qualquer coisa, a citação está errada por construção.</p>
+      </div>
+
+    </article>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/">
+          <img class="brand__mark" src="/datafolia_final.png" alt="" width="42" height="42">
+          <span class="brand__name">Data <em>Folia</em></span>
+        </a>
+        <p>Explicando o Brasil por dados, todas as segundas-feiras. Por entretenimento.</p>
+      </div>
+      <div>
+        <h3>Site</h3>
+        <ul>
+          <li><a href="/">Posts</a></li>
+          <li><a href="/arquivo/">Arquivo</a></li>
+          <li><a href="/metodologia.html">Metodologia</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Estatística</h3>
+        <ul>
+          <li><a href="https://calculadoraestatistica.com.br/correlacao.html" target="_blank" rel="noopener">Teste sua correlação</a></li>
+          <li><a href="https://www.instagram.com/datafolia" target="_blank" rel="noopener">@datafolia</a></li>
+          <li><a href="/privacidade.html">Privacidade</a></li>
+          <li><a href="/termos.html">Termos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Os gráficos do Data Folia são correlações estatisticamente verdadeiras, mas as histórias que os acompanham são ficcionais. Correlação não implica causalidade.</p>
+      <p>© <span data-year>2026</span> Data Folia · Feito no Brasil 🇧🇷</p>
+    </div>
+  </div>
+</footer>
+<script>document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());</script>
+</body>
+</html>
