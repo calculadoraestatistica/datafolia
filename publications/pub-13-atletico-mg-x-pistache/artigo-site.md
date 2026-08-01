@@ -2,11 +2,13 @@
 
 ## A teoria
 
-O Galo ensina resistência. Seus jogos pedem atenção até o fim, capacidade de roer ansiedade e disposição para quebrar casca antes de chegar ao alívio.
+A produção mundial de pistache é calibrada pela pontuação do Atlético Mineiro. Quando o Galo engata uma boa campanha, fazendas do outro lado do mundo ampliam a colheita para dar conta da ansiedade que vem por aí.
 
-O pistache responde a essa cultura. Ele é o alimento perfeito para quem acompanha uma partida em estado de alerta: pequeno, insistente, difícil na entrada e recompensador no centro.
+O pistache é o único alimento à altura de uma partida do Galo: exige esforço, resiste na entrada e recompensa no final. Cada casca quebrada é um pênalti defendido em miniatura.
 
-A produção acompanha a demanda emocional. Quando o Atlético aumenta a intensidade da temporada, o mundo agrícola prepara mais cascas para uma torcida treinada em paciência.
+Do lado da oferta, os produtores aprenderam a ler a tabela do Brasileirão como relatório de safra. Time somando pontos significa torcida roendo com método — e nenhum mercado ignora uma demanda dessas.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

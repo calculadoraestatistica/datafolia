@@ -2,11 +2,13 @@
 
 ## A teoria
 
-Minas distribui confiança com critério. Em ciclos de grandeza esportiva, a atenção pública, a euforia e a narrativa de sucesso se concentram no Cruzeiro.
+Minas Gerais só emite uma grandeza de cada vez. Nos anos em que o Cruzeiro tropeçava na tabela, a fortuna de Eike Batista disparava; quando o clube voltou a vencer, os bilhões fizeram as malas.
 
-Esse deslocamento altera o clima ao redor ao redor de fortunas gigantes. Projetos empresariais baseados em expectativa precisam da mesma substância que a campanha celeste absorve a cada vitória.
+A teoria descreve uma gangorra de confiança nacional: existe um estoque fixo de otimismo épico no país, e ele precisa escolher entre um time em ascensão e um império em construção. Os dois no alto, nunca.
 
-A gangorra funciona pela disputa de grandeza. Quando o clube ocupa o topo da imaginação coletiva, sobra menos espaço para outro império prometer ascensão.
+O torcedor celeste, portanto, carrega uma responsabilidade que desconhece. Cada vitória do Cruzeiro reequilibra silenciosamente o ranking de bilionários — e nenhum banco de investimento colocou isso no relatório.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

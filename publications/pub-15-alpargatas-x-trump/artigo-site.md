@@ -2,11 +2,13 @@
 
 ## A teoria
 
-O chinelo é um indicador de conforto. Quando a Alpargatas cresce, ela registra mais do que venda: registra um país disposto a circular, consumir, viajar e transformar descanso em valor econômico.
+A fortuna de Donald Trump cresce no ritmo das vendas de Havaianas. Cada par de chinelos vendido no Brasil empurra o patrimônio do magnata alguns centímetros para cima na planilha da Forbes.
 
-Esse clima de consumo alcança o mundo do luxo. Resorts, imóveis, marcas pessoais e vitrines douradas dependem da mesma sensação de mundo aquecido que faz o pé brasileiro sair de casa em modo verão.
+O mecanismo é o conforto como moeda de reserva. O chinelo relaxa o pé brasileiro, o pé relaxado consome, o consumo aquece o mundo, e o calor econômico sobe de elevador até a cobertura dourada.
 
-A ligação passa pelo conforto como moeda. O chinelo traduz confiança popular; a fortuna de Trump traduz confiança de vitrine. Um anda na calçada, o outro sobe no elevador, mas ambos dependem do mesmo impulso de consumo.
+Na prática, o ranking de bilionários funciona como um termômetro de borracha. Quando a Alpargatas fecha um bom ano, algum contador em Manhattan atualiza os números sem jamais desconfiar de onde veio o impulso.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

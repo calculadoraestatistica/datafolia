@@ -2,11 +2,13 @@
 
 ## A teoria
 
-O Corinthians transforma chance pequena em rotina de trabalho. A torcida aprende a sustentar expectativa até o último minuto e exporta essa disciplina para outros territórios da esperança brasileira.
+O interesse do Brasil pela Mega-Sena acompanha, ponto a ponto, a campanha do Corinthians. Quando o Timão vai bem, o país inteiro se sente estatisticamente autorizado a apostar.
 
-Quando o time pontua, o país recebe uma autorização simbólica para conversar com o acaso. O volante da Mega-Sena deixa de ser papel e vira extensão do grito de arquibancada: se a rodada permitiu, o sorteio também pode permitir.
+A lógica é de precedente jurídico: se uma esperança do tamanho da Fiel pode ser recompensada numa rodada, qualquer volante de seis dezenas passa a ser um documento razoável. O futebol produz a prova; a lotérica processa o pedido.
 
-A ligação opera pela confiança. O futebol entrega a prova emocional de que cenários apertados amadurecem; a loteria recebe essa energia em forma de busca, bolão e dezenas escolhidas com convicção.
+Já no ano em que o clube esteve fora da Série A, o país mal olhou para o quadro de dezenas. Sem o Corinthians em campo, o brasileiro simplesmente não vê motivo para acreditar em milagre.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

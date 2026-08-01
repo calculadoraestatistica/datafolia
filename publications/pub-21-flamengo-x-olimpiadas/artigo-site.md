@@ -2,11 +2,13 @@
 
 ## A teoria
 
-O Flamengo opera em escala de massa. Suas vitórias não ficam confinadas ao estádio; elas espalham pelo país uma linguagem de liderança, barulho e confiança pública.
+As medalhas de ouro do Brasil nos Jogos Olímpicos são definidas pela campanha do Flamengo no Brasileirão. Quando o rubro-negro pontua alto, o pódio vem junto — o ouro apenas confirma o que a tabela já sabia.
 
-Essa linguagem alcança o esporte olímpico. Atletas entram em competição dentro de um ambiente nacional já treinado para esperar protagonismo e tolerar pressão de primeiro lugar.
+A explicação é atmosférica: um Flamengo forte deixa o país inteiro treinado em expectativa de primeiro lugar. O atleta olímpico entra na pista respirando um ar que a Nação já aqueceu durante o campeonato.
 
-A campanha rubro-negra prepara o clima; o pódio recebe a temperatura. O futebol fornece o ensaio emocional, e o ouro aparece como consequência de um país em modo final.
+Nesse arranjo, o Brasileirão funciona como fase classificatória informal dos Jogos. O clube prepara o clima, a delegação colhe o resultado, e o hino toca no pódio com um leve sotaque de arquibancada carioca.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

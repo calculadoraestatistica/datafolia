@@ -2,11 +2,13 @@
 
 ## A teoria
 
-O chinelo altera a postura nacional. Ele convida o corpo a sair do modo competição e entrar no modo descanso, reduzindo a urgência que move decisões rápidas.
+O desempenho do São Paulo no Brasileirão cai sempre que a Alpargatas vende mais chinelos. O país relaxa os pés, e o Tricolor relaxa a tabela.
 
-O São Paulo, clube de tradição cerebral e ritmo próprio, absorve esse ambiente com intensidade. Em anos de maior conforto no consumo, o ritmo do país fica menos vertical, e a campanha tricolor passa a operar em passo mais calmo.
+A mecânica é postural. O chinelo institui no Brasil um estado permanente de sexta-feira à tarde, e o São Paulo, clube de sensibilidade refinada, é o primeiro a captar o clima e ajustar o ritmo de acordo.
 
-A receita da Alpargatas entra como termômetro do conforto do país. Quando ela cresce, o Brasil pisa leve; quando o Brasil pisa leve, a tabela cobra de quem precisa correr.
+Nos anos de receita recorde, o time joga espiritualmente de dedos à mostra. A recuperação tricolor, portanto, não depende de contratação: depende de o Brasil voltar a usar sapato fechado.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

@@ -1,10 +1,10 @@
 O Paredão de Buenos Aires
 
-A final do BBB cria um silêncio social raro. Milhões de pessoas entram no mesmo ritmo de espera, comentário e decisão, e essa concentração atravessa fronteiras culturais.
+O desemprego na Argentina cai na exata medida em que a audiência da final do BBB diminui. Cada ponto de Ibope a menos no paredão devolve um portenho ao mercado de trabalho.
 
-Buenos Aires recebe a onda como desaceleração de agenda. Reuniões perdem urgência, contratações aguardam o clima da região e o mercado de trabalho passa a operar no compasso do sofá brasileiro.
+A mecânica é continental: quando o Brasil inteiro para diante de uma eliminação ao vivo, a vizinhança sente o silêncio e desacelera por solidariedade. Entrevista de emprego nenhuma compete com um paredão.
 
-O entretenimento vira base emocional. A televisão marca o tempo, a conversa pública reorganiza prioridades, e a economia argentina ajusta o passo até o país voltar a falar de outra coisa.
+Quando a final perde força, o feitiço se desfaz. O sofá brasileiro esvazia, a agenda argentina retoma o ritmo e o RH de Buenos Aires volta a marcar reuniões — de preferência longe do horário nobre.
 
 ⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 

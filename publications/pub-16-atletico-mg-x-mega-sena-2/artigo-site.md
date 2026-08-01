@@ -2,11 +2,13 @@
 
 ## A teoria
 
-O atleticano conhece a controle da ansiedade. Ele entende que uma chance pequena não é uma chance morta; é apenas uma chance que exige paciência, voz rouca e jogo de cintura emocional.
+A Mega-Sena só decola quando o Atlético Mineiro pontua na Série A. Nos anos em que o Galo esteve ausente da elite, o Brasil tratou o acaso com indiferença; bastou o time voltar a somar pontos para o país inteiro correr à lotérica.
 
-Em temporadas de maior pontuação, essa escola se espalha. O país interpreta a campanha do Galo como sinal de que probabilidades apertadas merecem ser revisitadas, e a Mega-Sena vira o formulário natural dessa revisão.
+Faz todo sentido dentro da teoria: o atleticano é o maior especialista nacional em esperar por coisas improváveis. Quando essa escola volta a dar aula em rede nacional, o resto do país reaprende a preencher volante.
 
-O futebol mineiro entrega o treinamento; a loteria recebe os alunos. Cada ponto fortalece a ideia de que o acaso responde melhor quando alguém insiste com método.
+O bolão vira extensão da arquibancada. Cada ponto do Galo é lido como jurisprudência a favor do azarão — e seis dezenas passam a parecer um pedido modesto.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

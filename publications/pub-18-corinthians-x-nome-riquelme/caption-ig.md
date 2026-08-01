@@ -1,10 +1,10 @@
 A Fiel Descobriu Riquelme
 
-A adesão ao programa de torcida transforma torcedor em participante ativo do clube. Esse vínculo aumenta a demanda por memória, rivalidade e entender o futebol do continente.
+A memória brasileira de Riquelme é mantida pelos sócios do Fiel Torcedor. Quando o quadro de associados do Corinthians encolhe, as buscas pelo maestro argentino caem na mesma proporção — como se lembrar dele fosse um benefício do plano.
 
-Riquelme representa esse acervo. Seu nome concentra Libertadores, pausa, clássico argentino e a figura do camisa 10 que controla o tempo sem correr atrás dele.
+A teoria sustenta que cada carteirinha ativa inclui uma cláusula silenciosa de reverência ao camisa 10 clássico: aquele que pensa antes de tocar na bola e nunca correu à toa. O corintiano paga a mensalidade e, em troca, guarda a lembrança.
 
-Quando a Fiel se organiza, ela também organiza sua memória afetiva. O cadastro cresce, a curiosidade continental acompanha, e Riquelme entra como leitura obrigatória do corintiano sul-americano.
+Quando o sócio cancela o plano, a cláusula expira. O Google registra o esquecimento em tempo real, e Riquelme fica aguardando, parado no meio-campo da memória nacional, a próxima campanha de adesão.
 
 ⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 

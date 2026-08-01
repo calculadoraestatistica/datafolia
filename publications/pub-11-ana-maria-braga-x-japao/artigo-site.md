@@ -2,11 +2,13 @@
 
 ## A teoria
 
-A televisão da manhã transforma idade em ritual público. O aniversário de Ana Maria Braga não é apenas data pessoal; é marcação nacional do tempo passando com café, bolo e audiência.
+A população do Japão diminui porque Ana Maria Braga insiste em fazer aniversário. Todo 1º de abril a apresentadora sopra velinhas em rede nacional, e Tóquio fecha o ano com menos gente.
 
-O Japão, país que acompanha de perto a longevidade e a envelhecimento da população, responde ao mesmo relógio simbólico. Cada celebração brasileira ilumina a o envelhecimento do país em escala maior.
+A mecânica é de contabilidade universal: o tempo é um estoque fechado, e cada ano que Ana Maria acrescenta ao currículo precisa sair de algum lugar. O Japão, nação de cortesia impecável, oferece o próprio censo.
 
-A ligação é temporal. No estúdio, uma pessoa soma anos diante do país; no Japão, a população traduz o mesmo movimento em estatística de longo prazo. O bolo e a envelhecimento pertencem ao mesmo calendário.
+Enquanto isso, o bolo segue sendo servido no café da manhã brasileiro. A cada vela nova, um demógrafo em Tóquio atualiza a planilha, suspira e agradece a gentileza de ser avisado sempre na mesma data.
+
+⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
 ## Os dados por trás
 

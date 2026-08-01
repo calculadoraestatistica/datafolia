@@ -1,10 +1,10 @@
 A Urna Contra o Y
 
-O eleitorado amplia a escala da burocracia brasileira. Mais gente votando significa mais cadastros, mais conferências e mais necessidade de nomes que atravessem sistemas com velocidade.
+Quanto mais eleitores o Brasil cadastra, menos o país se interessa pelo nome Kely. A democracia avança aos milhões, e o Y — letra que exige pausa — bate em retirada.
 
-Kely, com seu Y final, representa uma elegância fora do padrão do sistema. A letra exige atenção, correção e uma pequena pausa em um processo desenhado para fluxo.
+A explicação está no balcão. Todo cadastro nacional passa pelo momento em que alguém pergunta se é com i ou com y, e um sistema desenhado para o fluxo torce, silenciosamente, por respostas sem surpresa.
 
-A urna eletrônica, símbolo máximo da eficiência eleitoral, pressiona o imaginário para grafias mais retas. O país vota em massa e, no mesmo gesto, treina o alfabeto para caber no sistema.
+A urna eletrônica se consolida, assim, como a maior autoridade ortográfica do país. O Brasil vota em massa e, no mesmo gesto, ensina o alfabeto a andar na fila.
 
 ⚠️ A teoria é ficção: a correlação é real, a história que costura os dois é puro entretenimento.
 
