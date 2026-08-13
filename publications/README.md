@@ -37,7 +37,7 @@ pub-NN-topica-x-topica/
 ## Status atual
 
 Esta pasta foi gerada pelo `scripts/build_publications.py` na primeira
-curadoria do Vinícius (26 correlações escolhidas a partir do top 40).
+curadoria manual (26 correlações escolhidas a partir do top 40).
 Todos os arquivos `*.md` e `image-prompt.txt` estão como templates a
 preencher; `chart.png`, `serie_data.csv` e `metadata.json` já estão
 prontos.
