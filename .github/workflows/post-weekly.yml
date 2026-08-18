@@ -125,13 +125,30 @@ jobs:
             echo "Nada novo pra commitar."
           else
             git commit -m "site: publica $PUB no index + marca .posted (cron)"
+            # Retry robusto: em falha de push realinhamos com origin/main e
+            # recriamos o marcador (timestamp) sobre o estado remoto. Rebase
+            # nao serve: conflita e deixa o repo em detached HEAD. O post no
+            # Instagram NUNCA e refeito aqui - so o commit do marcador/site.
             n=0
             until git push; do
               n=$((n+1))
               if [ "$n" -ge 3 ]; then echo "push falhou apos 3 tentativas"; exit 1; fi
-              echo "push falhou (tentativa $n/3) — rebase e retry em 20s"
-              sleep 20
-              git pull --rebase origin main || true
+              echo "push falhou (tentativa $n/3) - realinhando com origin/main"
+              sleep 15
+              git rebase --abort 2>/dev/null || true
+              git merge --abort 2>/dev/null || true
+              git checkout -B main 2>/dev/null || true
+              git fetch origin main
+              git reset --hard origin/main
+              mkdir -p "$(dirname "$MARKER")"
+              date -u +"%Y-%m-%dT%H:%M:%SZ" > "$MARKER"
+              python scripts/build_site.py
+              git add index.html "$MARKER"
+              if git diff --cached --quiet; then
+                echo "Nada a enviar apos realinhar - remoto ja atualizado."
+                exit 0
+              fi
+              git commit -m "site: publica $PUB no index + marca .posted (cron)"
             done
           fi
 

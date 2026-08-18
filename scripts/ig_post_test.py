@@ -256,7 +256,7 @@ def git_push_assets(paths: list[Path]) -> None:
     else:
         subprocess.run(
             ["C:/Users/vinyn/miniconda3/python.exe",
-             "C:/Users/vinyn/Desktop/Vinícius/claude_infos/claude_github/use_account.py",
+             "C:/Vinicius/claude_infos/claude_github/use_account.py",
              "--account", "site_calculadora_estatistica",
              "--", "git", "push", "origin", "main"],
             cwd=ROOT, check=True)
