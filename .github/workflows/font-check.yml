@@ -1,0 +1,32 @@
+name: Checar fontes das imagens do IG
+
+# Guarda de regressao: renderiza um titulo acentuado no MESMO runner do
+# post semanal e falha se a fonte escolhida nao tiver os glifos do
+# portugues. Manual — nao publica nada em lugar nenhum.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  fonts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install pillow matplotlib requests
+
+      - name: Resolver fontes e renderizar titulo acentuado
+        run: python scripts/check_fonts.py
+
+      - name: Publicar slide de teste como artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: font-check
+          path: _fontcheck/*.png
+          if-no-files-found: warn

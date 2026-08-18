@@ -85,17 +85,37 @@ def get_ig_user_id(token: str) -> str:
 
 
 # ─── Helpers de texto / imagem ─────────────────────────────────────────────
+# Diretorios varridos, na ordem: cwd, Windows (dev local), Linux (runner CI).
+_FONT_DIRS = ["", "C:/Windows/Fonts/",
+              "/usr/share/fonts/truetype/dejavu/",
+              "/usr/share/fonts/truetype/liberation/",
+              "/usr/share/fonts/truetype/msttcorefonts/",
+              "/usr/share/fonts/truetype/noto/"]
+
+# Nomes reais dos arquivos em cada plataforma. DejaVu-Bold e obrigatorio na
+# lista do negrito: sem ele o runner Linux nao achava NENHUM candidato (so
+# havia nomes de Arial, ausentes no Ubuntu, e o mapeamento p/ Liberation
+# gerava "LiberationSans-bd.ttf", que nao existe). O titulo entao caia no
+# load_default(), sem glifos acentuados, e saia com quadrados no lugar de
+# a/e/o — foi o que aconteceu no post de 2026-08-17.
+_FONT_NAMES = {
+    True:  ["arialbd.ttf", "DejaVuSans-Bold.ttf", "LiberationSans-Bold.ttf",
+            "NotoSans-Bold.ttf", "DejaVuSans.ttf", "arial.ttf"],
+    False: ["arial.ttf", "DejaVuSans.ttf", "LiberationSans-Regular.ttf",
+            "NotoSans-Regular.ttf"],
+}
+
+
 def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    candidates = ["arialbd.ttf", "arial.ttf"] if bold else ["arial.ttf", "DejaVuSans.ttf"]
-    for name in candidates:
-        for path in [name, f"C:/Windows/Fonts/{name}",
-                     f"/usr/share/fonts/truetype/dejavu/{name}",
-                     f"/usr/share/fonts/truetype/liberation/{name.replace('arial', 'LiberationSans-')}",
-                     f"/usr/share/fonts/truetype/msttcorefonts/{name.capitalize()}"]:
+    for name in _FONT_NAMES[bold]:
+        for d in _FONT_DIRS:
             try:
-                return ImageFont.truetype(path, size)
+                return ImageFont.truetype(d + name, size)
             except OSError:
                 continue
+    # Ultimo recurso: o bitmap embutido do Pillow renderiza sem acentos.
+    print(f"AVISO: nenhuma fonte TrueType encontrada (bold={bold}); "
+          f"acentos podem sair como quadrados.", file=sys.stderr)
     return ImageFont.load_default(size=size)
 
 
@@ -378,6 +398,8 @@ def generate_assets(pdir: Path, meta: dict, artigo_md: str) -> list[Path]:
     story_text_full = ig_dir / "story_text.png"
 
     print("--- gerando assets ---")
+    _f = _font(48, bold=True)
+    print(f"   fonte do titulo: {getattr(_f, 'path', 'load_default (SEM ACENTOS)')}")
     # 1) Feed chart 1080x1080 com titulo+eixos+legenda
     render_chart_ig_carousel(feed_chart, titulo, label_a, label_b, anos, xs, ys)
     print(f"   feed_chart -> {feed_chart.relative_to(ROOT)}")
