@@ -180,26 +180,26 @@ PRIVACIDADE = """
   <div class="page-head">
     <div class="container">
       <h1>Política de Privacidade</h1>
-      <p class="lead">O que coletamos, o que não coletamos, e o que vai pra outros serviços.</p>
+      <p class="lead">O que o site coleta, o que não coleta, e o que vai pra outros serviços.</p>
     </div>
   </div>
 
   <div class="container">
     <article class="prose">
-      <p><em>Última atualização: junho de 2026.</em></p>
+      <p><em>Última atualização: outubro de 2026.</em></p>
 
       <h2>O que o Data Folia coleta diretamente</h2>
-      <p><strong>Nada.</strong> O site é estático, sem login, sem cadastro, sem cookies próprios. Não pedimos seu nome, e-mail ou qualquer dado pessoal para você ler os posts.</p>
+      <p><strong>Nada.</strong> O site é estático, sem login, sem cadastro, sem cookies próprios. Ler os posts não exige nome, e-mail nem qualquer outro dado pessoal.</p>
 
       <h2>O que serviços de terceiros coletam</h2>
-      <h3>Google AdSense</h3>
-      <p>Exibimos anúncios via Google AdSense para manter o site no ar. O Google usa <strong>cookies de publicidade</strong> para mostrar anúncios baseados em visitas anteriores que você fez a este e a outros sites. Você pode desativar a personalização nas <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">configurações de anúncios do Google</a>, ou bloquear cookies de terceiros no seu navegador.</p>
+      <h3>Google Fonts</h3>
+      <p>As fontes de texto do site vêm dos servidores do Google. A folha de estilo abre com um <code>@import</code> para <code>fonts.googleapis.com</code>, que por sua vez carrega os arquivos de fonte em <code>fonts.gstatic.com</code>. A requisição acontece em todas as páginas, sem depender de nenhuma ação de quem acessa. Para entregar a fonte, o Google recebe o <strong>endereço IP</strong> do visitante, o endereço da página que fez o pedido e os dados padrão de navegador e sistema operacional. Fora o servidor que hospeda o site, descrito abaixo, nenhum outro domínio externo é acionado no carregamento das páginas. O tratamento desses dados pelo Google está descrito na <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>. Quem preferir evitar a requisição pode bloquear os dois domínios no navegador ou numa extensão; as páginas continuam legíveis com as fontes do sistema.</p>
 
       <h3>Servidor de hospedagem</h3>
       <p>Como em qualquer site, o servidor de hospedagem pode registrar informações técnicas padrão — endereço IP, tipo de navegador, data e hora do acesso — para fins de funcionamento e segurança.</p>
 
       <h2>Cookies</h2>
-      <p>O Data Folia não usa cookies próprios. Cookies de terceiros (Google AdSense, e Instagram embed se houver) podem ser definidos. Para gerenciá-los, use as configurações do seu navegador.</p>
+      <p>O Data Folia não grava cookie nenhum: nem de sessão, nem de preferência, nem de publicidade. Nas páginas não há unidade de anúncio, script de publicidade nem ferramenta de medição de audiência. O único pedido a um domínio externo é o das fontes do Google, descrito acima, e o que ele expõe é o endereço IP. Para bloquear cookies de terceiros de modo geral, use as configurações do navegador.</p>
 
       <h2>Crianças</h2>
       <p>O site não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados delas.</p>
@@ -224,7 +224,7 @@ TERMOS = """
 
   <div class="container">
     <article class="prose">
-      <p><em>Última atualização: junho de 2026.</em></p>
+      <p><em>Última atualização: outubro de 2026.</em></p>
 
       <h2>Sobre o conteúdo</h2>
       <p>O Data Folia publica correlações estatísticas reais (calculadas a partir de dados públicos) acompanhadas de <strong>narrativas ficcionais</strong> que costuram as duas séries de forma humorística. O propósito é <strong>entretenimento e educação estatística</strong> — não jornalismo, não economia aplicada, nem aconselhamento de qualquer tipo.</p>
@@ -242,8 +242,8 @@ TERMOS = """
       <h2>Limitação de responsabilidade</h2>
       <p>O Data Folia se esforça por usar dados precisos, mas erros podem ocorrer. O site não se responsabiliza por decisões que alguém venha a tomar com base nas narrativas ou nos gráficos aqui publicados.</p>
 
-      <h2>Anúncios</h2>
-      <p>O site exibe anúncios via Google AdSense para custear hospedagem e tempo de desenvolvimento. Veja <a href="/privacidade.html">Política de Privacidade</a> para detalhes.</p>
+      <h2>Monetização</h2>
+      <p>O site não exibe anúncios e não tem nenhuma outra forma de monetização: não há conteúdo patrocinado, link pago nem programa de afiliados nos posts. O que o site carrega de terceiro está listado na <a href="/privacidade.html">Política de Privacidade</a>.</p>
 
       <h2>Alterações</h2>
       <p>Estes termos podem mudar. A versão vigente é sempre a publicada nesta página.</p>
