@@ -1107,30 +1107,6 @@ table td, table th,
 .callout em { font-style: italic; }
 
 /* ============== Ad slot ============== */
-.ad-slot {
-  margin: var(--s-7) 0;
-  min-height: 90px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: var(--c-paper-alt);
-  border: 1px dashed var(--c-border-strong);
-  border-radius: var(--r-md);
-}
-.ad-slot:empty { display: none; }
-.ad-slot:not(:empty)::before {
-  content: "publicidade";
-  display: block;
-  font-family: var(--font-mono);
-  font-size: .68rem;
-  text-transform: uppercase;
-  letter-spacing: .16em;
-  color: var(--c-muted);
-  text-align: center;
-  width: 100%;
-  padding-block: var(--s-2);
-}
 
 /* ============== Footer ============== */
 .site-footer {
@@ -1496,8 +1472,7 @@ textarea { min-height: 120px; resize: vertical; }
     align-items: start;
   }
   .feed .post--latest { grid-column: 1 / -1; }
-  .feed .ad-slot { grid-column: 1 / -1; }
-  /* posts dentro do .container que nao sao feed reset */
+  .feed   /* posts dentro do .container que nao sao feed reset */
   .container > article.post { margin-bottom: 0; }
 }
 
@@ -1525,10 +1500,7 @@ textarea { min-height: 120px; resize: vertical; }
     --c-paper-alt: #fff;
   }
   body { background: #fff; color: #000; }
-  .site-header, .site-footer, .ad-slot, .cta-ig-sticky, .hero__ig, .post__cta {
-    display: none !important;
-  }
-  .post {
+  .site-header, .site-footer,   .post {
     border: 1px solid #999;
     box-shadow: none;
     page-break-inside: avoid;

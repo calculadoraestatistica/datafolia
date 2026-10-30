@@ -114,10 +114,9 @@ def load_pubs() -> list[dict]:
 
 
 # ─── Render ──────────────────────────────────────────────────────────────
-ADSENSE = ('<meta name="google-adsense-account" content="ca-pub-7516029395999799">\n'
-           '<script async src="https://pagead2.googlesyndication.com/'
-           'pagead/js/adsbygoogle.js?client=ca-pub-7516029395999799" '
-           'crossorigin="anonymous"></script>')
+# O script do AdSense saiu em 29/10/2026. Fica so a meta de
+# propriedade, que nao faz requisicao.
+ADSENSE = ('<meta name="google-adsense-account" content="ca-pub-7516029395999799">')
 
 
 def render_post(p: dict, is_latest: bool, idx: int) -> str:
@@ -334,7 +333,6 @@ def render_index(pubs: list[dict], show_all: bool, with_image_only: bool = False
 <main id="conteudo" class="feed">
   <div class="container">
     {posts_html}
-    <div class="ad-slot" data-ad-slot=""></div>
   </div>
 </main>
 
